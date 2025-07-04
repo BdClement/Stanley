@@ -1,0 +1,6 @@
+Django==5.2.4
+djangorestframework==3.16.0
+#Pour permettre au front React de requeter mon back-end sans etre bloquer par le navigateur CORS — Cross-Origin Resource Sharing
+django-cors-headers==4.7.0
+phonenumbers==9.0.8
+django-phonenumber-field==8.1.0
