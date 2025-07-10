@@ -4,3 +4,5 @@ djangorestframework==3.16.0
 django-cors-headers==4.7.0
 phonenumbers==9.0.8
 django-phonenumber-field==8.1.0
+# mailgun==1.0.2#Envoi de mail via API
+requests==2.32.4
