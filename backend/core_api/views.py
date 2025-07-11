@@ -16,8 +16,9 @@ class QuoteRequestReceptionView(APIView):
             if response_sending_email.status_code == 200:#C'est ok
                 return Response({'message': 'Quote request received. We will get back to you shorlty'})
             else:
+                print(f"response status = {response_sending_email.status_code}")
                 return Response({
                     'message': 'An error occured while sending email',
                     'mailgun_error': response_sending_email.text,
-                    }, status=500)
+                    }, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
