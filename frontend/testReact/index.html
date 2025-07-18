@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>testReact</title>
+    </head>
+    <body>
+        <div id="root">Bonjour Stanley</div>
+        <script 
+            crossorigin src="https://unpkg.com/react@18/umd/react.development.js"
+            ></script>
+        <script 
+            crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+            ></script>
+        <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+        <script type="text/babel">
+            function TitleBanner() {
+                let title = "la maison jungle header";
+                return (<h1>{title.toUpperCase()}</h1>);
+            }
+            function DescriptionBanner() {
+                return (<p>Ici achetez toutes les plantes dont vous avez toujours revez</p>);
+            }
+            function Banner() {
+                // root.render(<div><TitleBanner /><DescriptionBanner/></div>)//Similaire a React.Fragment (2 composants doivent etre encapsuler dans un element parent)
+                return (<React.Fragment>
+                    <TitleBanner />
+                    <DescriptionBanner />
+                </React.Fragment>);
+            }
+            function Cart() {
+                let monstera_price = 8, lierre_price = 10, bouquet_price = 15;
+                return (<React.Fragment>
+                        <h3>Cart</h3>
+                        <ul>
+                            <li>Monstera : { monstera_price } $</li>
+                            <li>Lierre   : { lierre_price } $</li>
+                            <li>Bouquet  : { bouquet_price } $</li>
+                            <li>Total    : { monstera_price + lierre_price + bouquet_price } $</li>
+                        </ul>
+                    </React.Fragment>);
+            }
+            const root = ReactDOM.createRoot(document.getElementById('root'))
+            // root.render(<div><TitleBanner /><DescriptionBanner/></div>)//Similaire a React.Fragment (2 composants doivent etre encapsuler dans un element parent)
+            root.render(<React.Fragment>
+                            <Banner />
+                            <Cart />
+                        </React.Fragment>)
+            // root.render(<Cart />)
+            // console.log(<Banner />)
+        </script>
+    </body>
+</html>
