@@ -1,12 +1,12 @@
 import '../styles/App.css';
 // import React from 'react';
-import Header from './Header';
+import Header from './Header/Header';
 import Content from './Content';
 import Footer from './Footer';
 
 function App() {
   return (
-    <div className='flex flex-col min-h-screen bg-beige bg-opacity-90'>
+    <div className='flex flex-col min-h-screen bg-opacity-90'>
       <Header />
       <Content />
       <Footer />
