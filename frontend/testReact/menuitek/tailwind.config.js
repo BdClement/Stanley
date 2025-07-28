@@ -6,10 +6,9 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'beige-main': '#e6ccb2',//Mon texte
+        'beige-main': '#e6ccb2',
         'beige-contrast': '#f3e9dcff',
-        // 'grey-custom': '#6c757d',
-        'grey-main': '#212529',//Mon fond => Un contrast entre les 2 BRUN ?
+        'grey-main': '#212529',
         'brun-contrast': '#9d6b53',
       },
       fontFamily: {
