@@ -4,27 +4,27 @@ function Devis() {
             <ul className="w-1/2 2xl:w-1/3 flex flex-col border-2 border-stone-700 rounded-t-lg xl:gap-2 p-2 md:p-4 lg:p-6 xl:p-12">
                 <li className="flex flex-col lg:gap-2 2xl:gap-4">
                     <label for="name">Nom</label>
-                    <input type="text" id="name" name="user_name" className="bg-beige-main text-grey-main rounded"></input>
+                    <input type="text" id="name" name="user_name" className="bg-beige-contrast text-grey-main rounded"></input>
                 </li>
                 <li className="flex flex-col lg:gap-2 2xl:gap-4">
                     <label for="first_name">Prenom</label>
-                    <input type="text" id="first_name" name="user_first_name" className="bg-beige-main text-grey-main rounded"></input>
+                    <input type="text" id="first_name" name="user_first_name" className="bg-beige-contrast text-grey-main rounded"></input>
                 </li>
                 <li className="flex flex-col lg:gap-2 2xl:gap-4">
                     <label for="society">Nom d'entreprise</label>
-                    <input type="text" id="society" name="user_society" className="bg-beige-main text-grey-main rounded"></input>
+                    <input type="text" id="society" name="user_society" className="bg-beige-contrast text-grey-main rounded"></input>
                 </li>
                 <li className="flex flex-col lg:gap-2 2xl:gap-4">
                     <label for="tel"> Numero de telephone</label>
-                    <input type="tel" id="tel" name="tel" className="bg-beige-main text-grey-main rounded"></input>
+                    <input type="tel" id="tel" name="tel" className="bg-beige-contrast text-grey-main rounded"></input>
                 </li>
                 <li className="flex flex-col lg:gap-2 2xl:gap-4">
                     <label for="email">E-mail</label>
-                    <input type="email" id="email" name="email" className="bg-beige-main text-grey-main rounded"></input>
+                    <input type="email" id="email" name="email" className="bg-beige-contrast text-grey-main rounded"></input>
                 </li>
                 <li className="flex flex-col lg:gap-2 2xl:gap-4">
                     <label for="project">Decrivez-nous vos besoins ou vos envies</label>
-                    <textarea id="project" name="user_project" cols="50" rows="10" className="bg-beige-main text-grey-main rounded"></textarea>
+                    <textarea id="project" name="user_project" cols="50" rows="10" className="bg-beige-contrast text-grey-main rounded"></textarea>
                 </li>
             </ul>
             <div className="flex items-center justify-center">
