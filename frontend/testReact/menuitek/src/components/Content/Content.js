@@ -3,7 +3,7 @@ import Formulaire from './Formulaire/Formulaire';
 
 function Content() {
     return (
-        <main className='flex-1 min-h-screen items-center justify-center'>
+        <main className='flex-1 items-center justify-center'>
             {/* <p>Ceci est mon contenu.</p> */}
             <Formulaire />
         </main>
