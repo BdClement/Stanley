@@ -21,3 +21,7 @@ class QuoteRequestSerializer(serializers.Serializer):
         if not company and not (first and last):
             raise serializers.ValidationError("You must inform a complete name (last name + first name), or a company name.")
         return data
+    
+# validation a ajouter:
+    # Pas de nombre pour last_name,first_name
+    

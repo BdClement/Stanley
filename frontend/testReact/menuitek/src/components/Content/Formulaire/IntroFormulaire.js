@@ -7,7 +7,7 @@ function IntroFormulaire() {
     return (
         <div className="w-full h-full flex flex-col items-center">
             <div className="flex flex-col items-center opacity-0 animate-slide-in-right">
-                <h2 className="my-4 md:my-6 lg:my-8 sm:text-lg lg:text-2xl">Menuitek est ravi de vous accompagner dans votre projet !</h2>
+                <h2 className="text-center my-4 md:my-6 lg:my-8 sm:text-lg lg:text-2xl">Menuitek est ravi de vous accompagner dans votre projet !</h2>
                 <p className="my-2 md:my-6 lg:my-8 text-sm sm:text-base md:text-lg lg:text-xl">Pour cela, rien de plus simple :</p>
             </div>
             <div className="my-2 md:my-6 lg:my-8 flex flex-row w-full h-full items-center justify-evenly opacity-0 animate-slide-in-right" style={{ animationDelay: '400ms' }}>

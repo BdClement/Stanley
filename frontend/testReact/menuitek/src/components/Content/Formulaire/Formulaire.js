@@ -3,7 +3,7 @@ import Devis from "./Devis"
 
 function Formulaire() {
     return (
-        <div className="flex flex-col items-center justify-center border-2 border-white">
+        <div className="flex flex-col items-center justify-center">
             <IntroFormulaire />
             <Devis />
             <p className="m-4 p-4">Mettre des exemples d'avis clients statisfait par ce processus</p>
