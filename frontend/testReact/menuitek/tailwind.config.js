@@ -19,6 +19,7 @@ module.exports = {
         'zoom-in': 'zoomIn 0.5s ease-out forwards',
         'slide-in-down': 'slideInDown 0.8s ease-out forwards',
         'slide-in-right': 'slideInRight 1s ease-out forwards',
+        'slide-in-right-quick': 'slideInRight 0.3s ease-out forwards',
       },
       keyframes: {
         fadeIn: {

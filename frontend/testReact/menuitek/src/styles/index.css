@@ -11,6 +11,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   @apply bg-grey-main;
   @apply text-beige-main;
+  /* @apply font-comforta; */
 }
 
 code {
