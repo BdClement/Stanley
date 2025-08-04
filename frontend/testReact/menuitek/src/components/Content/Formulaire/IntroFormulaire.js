@@ -1,9 +1,7 @@
 import { PiPhoneCallFill } from "react-icons/pi";
 import { IoDocumentText } from "react-icons/io5";
 import { BiSearchAlt } from "react-icons/bi";
-// import logoPremium from "../../../assets/Premium.png"
 import logoValide from "../../../assets/Valide.png"
-// import imgProject from "../../../assets/Project.png"
 
 function IntroFormulaire() {
     return (
@@ -13,7 +11,6 @@ function IntroFormulaire() {
                 <p className="my-2 md:my-6 lg:my-8 text-sm sm:text-base md:text-lg lg:text-xl 2xl:text-2xl">Pour cela, rien de plus simple :</p>
             </div>
             <div className="my-2 md:my-6 lg:my-8 flex w-full h-full items-center justify-evenly opacity-0 animate-slide-in-right" style={{ animationDelay: '400ms' }}>
-                {/* <div className="border-2 border-beige-main size-20">Logo</div> */}
                 <div className="flex flex-col">
                     <ol className="flex flex-col gap-2 lg:gap-4 p-2 lg:p-4 border-2 border-stone-700 rounded-t-lg text-sm sm:text-base md:text-lg lg:text-xl 2xl:text-2xl">
                         <li className="flex flex-row gap-2 lg:gap-4">
@@ -31,7 +28,6 @@ function IntroFormulaire() {
                         </li>
                     </ol>
                     <div className="flex flex-row justify-center">
-                        {/* <img src={logoPremium} alt="Logo Premium" className="size-20 md:size-24 lg:size-32 xl:size-40 rounded"></img> */}
                         <img src={logoValide} alt="Logo Valide" className="size-20 md:size-24 lg:size-32 xl:size-40 rounded"></img>
                         <img src={logoValide} alt="Logo Valide" className="size-20 md:size-24 lg:size-32 xl:size-40 rounded"></img>
                         <img src={logoValide} alt="Logo Valide" className="size-20 md:size-24 lg:size-32 xl:size-40 rounded"></img>
