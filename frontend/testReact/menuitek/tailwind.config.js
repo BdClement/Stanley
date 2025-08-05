@@ -9,6 +9,7 @@ module.exports = {
         'beige-main': '#e6ccb2',
         'beige-contrast': '#f3e9dcff',
         'grey-main': '#212529',
+        'grey-contrast': '#495057',
         'brun-contrast': '#9d6b53',
       },
       fontFamily: {

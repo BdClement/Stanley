@@ -23,7 +23,7 @@ function Navbar() {
             </ul>
             <ul className="flex flex-row w-full sm:w-[25%] md:w-[25%] h-full items-center justify-center">
                 <li className="relative group p-2">
-                    <span className="px-3 py-1 sm:py-2 lg:py-2 rounded-md bg-brun-contrast text-beige-contrast hover:bg-beige-contrast hover:text-grey-main hover:border-2 hover:border-brun-contrast transition duration:300">Demandez un devis</span>
+                    <span className="px-3 py-1 sm:py-2 lg:py-2 rounded-full bg-brun-contrast text-beige-contrast hover:bg-beige-contrast hover:text-grey-main hover:border-2 hover:border-brun-contrast transition duration:300">Demandez un devis</span>
                 </li>
             </ul>
         </nav>

@@ -8,8 +8,6 @@ function Formulaire() {
         <div className="flex flex-col items-center justify-center py-20 border-2 border-red-900">
             <IntroFormulaire />
             <BodyFormulaire />
-            {/* <Devis /> */}
-            {/* <AvisFormulaire /> */}
         </div>
     )
 }

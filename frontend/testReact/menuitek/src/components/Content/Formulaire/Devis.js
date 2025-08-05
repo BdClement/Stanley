@@ -1,7 +1,7 @@
 import { useForm } from 'react-hook-form';
 import { getEmailValidation, getNameValidation, getNumberValidation } from "./validationRules"
 
-function Devis1({ setSubmissionStatus, type, setType, initialReader, setInitialReader }) {
+function Devis({ setSubmissionStatus, type, setType, initialReader, setInitialReader }) {
     const {register, handleSubmit, formState: { errors },} = useForm();
 
     const onSubmit = (data) => {
@@ -89,4 +89,4 @@ function Devis1({ setSubmissionStatus, type, setType, initialReader, setInitialR
     )
 }
 
-export default Devis1;
+export default Devis;
