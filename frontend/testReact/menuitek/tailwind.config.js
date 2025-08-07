@@ -20,6 +20,7 @@ module.exports = {
         'zoom-in': 'zoomIn 0.5s ease-out forwards',
         'slide-in-down': 'slideInDown 0.8s ease-out forwards',
         'slide-in-right': 'slideInRight 1s ease-out forwards',
+        'slide-in-left': 'slideInLeft 1s ease-out forwards',
         'slide-in-right-quick': 'slideInRight 0.3s ease-out forwards',
       },
       keyframes: {
@@ -37,6 +38,10 @@ module.exports = {
         },
         slideInRight: {
           '0%': { transform: 'translateX(6rem)', opacity: '0' },
+          '100%': { transform: 'translateX(0)', opacity: '1' },
+        },
+        slideInLeft: {
+          '0%': { transform: 'translateX(-6rem)', opacity: '0' },
           '100%': { transform: 'translateX(0)', opacity: '1' },
         },
       },
