@@ -18,12 +18,6 @@ function Accueil() {
 
 export default Accueil;
 
-//Premiere page un peu pub Ce qu'est Menuitek Reellement "Menuitek vous accompagne dans tout vos projets" => Animation a faire
-// NOS PRODUITS
-// LES AVANTAGES MENUITEK
-// Les avis
-// Initations a agir => Lien Devis
-
 //Styles degrade de couleur
 // Forme des bordure en curve
 // box shadow
@@ -36,5 +30,4 @@ export default Accueil;
 
 // Check reutilisation des memes classes !
 // Check animation scroll
-// Check animation Avis
 // Check espacement supplementaires 

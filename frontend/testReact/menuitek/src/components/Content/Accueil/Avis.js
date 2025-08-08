@@ -46,7 +46,7 @@ function Avis() {
     }
 
     return (
-        <div className='flex flex-col gap-4 lg:gap-8 xl:gap-12 py-[5vh] xl:py-[10vh] 2xl:py[15vh] px-[5vw] xl:px-[8vw] text-xs md:text-sm lg:text-base xl:text-xl 2xl:text-2xl overflow-x-hidden'>
+        <div className='flex flex-col gap-4 lg:gap-8 xl:gap-12 py-[5vh] xl:py-[10vh] 2xl:py[15vh] px-[5vw] xl:px-[8vw] overflow-x-hidden'>
             <p className='font-semibold text-brun-contrast'>AVIS</p>
             <div key={index} className={'flex flex-col py-[2vh] xl:py-[6vh] 2xl:py[10vh] items-center opacity-0 ' + (animationRight ? 'animate-slide-in-right' : 'animate-slide-in-left')}>
                 <BiSolidQuoteAltRight className='text-brun-contrast size-16 md:size-24 lg:size-28 xl:size-36'/>

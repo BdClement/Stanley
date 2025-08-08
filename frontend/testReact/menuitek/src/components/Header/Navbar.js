@@ -3,11 +3,11 @@ function Navbar() {
         <nav className='w-full opacity-0 animate-slide-in-down flex flex-col sm:flex-row lg:text-lg 2xl:text-xl flex-wrap sticky top-0 z-50 sm:h-[3vh] lg:h-[8vh] 2xl:h-[6vh] min-h-[6vh] bg-beige-main text-grey-main shadow'>
             <ul className="flex flex-row w-full sm:w-[40%] md:w-[37%] h-full items-center justify-evenly">
                 <li className="relative group p-2">
-                    <span>Nos produits</span>
+                    <span>Accueil</span>
                     <span className="absolute bottom-[0.3rem] sm:bottom-0 left-1/2 transform -translate-x-1/2 h-[2px] w-0 bg-brun-contrast transition-all duration-300 group-hover:w-full"></span>
                 </li>
                 <li className="relative group p-2">
-                    <span>Avis clients</span>
+                    <span>Nos produits</span>
                     <span className="absolute bottom-[0.3rem] sm:bottom-0 left-1/2 transform -translate-x-1/2 h-[2px] w-0 bg-brun-contrast transition-all duration-300 group-hover:w-full"></span>
                 </li>
             </ul>

@@ -9,7 +9,7 @@ import { FaClipboardCheck } from "react-icons/fa";
 function Avantages() {
     return (
         // Faire ANIMATION au scroll => check npm install framer-motion 
-        <div className='flex flex-col gap-4 lg:gap-8 xl:gap-12 min-h-[70vh] py-[5vh] xl:py-[10vh] 2xl:py[15vh] px-[5vw] xl:px-[8vw] rounded-[0%_0%_50%_50%_/_25%_25%_5%_5%] bg-gradient-to-b from-grey-main to-grey-contrast/30 border-t border-beige-main/30 text-xs md:text-sm lg:text-base xl:text-xl 2xl:text-2xl'>
+        <div className='flex flex-col gap-4 lg:gap-8 xl:gap-12 min-h-[70vh] py-[5vh] xl:py-[10vh] 2xl:py[15vh] px-[5vw] xl:px-[8vw] rounded-[0%_0%_50%_50%_/_25%_25%_5%_5%] bg-gradient-to-b from-grey-main to-grey-contrast/30 border-t border-beige-main/30'>
             <p className='font-semibold text-brun-contrast'>LES AVANTAGES MENUITEK</p>
             <ul className='flex flex-wrap justify-between gap-4 lg:gap-8 2xl:gap-12 py-4 lg:py-8 2xl:py-20'>
                 <li className='flex flex-col justify-evenly items-center w-full sm:w-[48%] lg:w-[30%] min-h-[12vh] md:min-h-[18vh] lg:min-h-[24vh] xl:min-h-[28vh]'>

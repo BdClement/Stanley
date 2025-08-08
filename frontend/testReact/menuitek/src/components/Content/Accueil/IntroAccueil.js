@@ -2,7 +2,7 @@ import FenetreImg from '../../../assets/Fenetre.jpg'
 
 function IntroAccueil() {
     return (
-        <div className='flex flex-row gap-4 xl:gap-0 py-[5vh] xl:py-[10vh] 2xl:py[15vh] px-[5vw] xl:px-[8vw] text-xs md:text-sm lg:text-base xl:text-xl 2xl:text-2xl opacity-0 animate-zoom-in'>
+        <div className='flex flex-row gap-4 xl:gap-0 py-[5vh] xl:py-[10vh] 2xl:py[15vh] px-[5vw] xl:px-[8vw] opacity-0 animate-zoom-in'>
             <div className='flex flex-col justify-between gap-2 md:gap-6 lg:gap-12 xl:gap-20 w-1/2 h-auto'>
                 <p className='flex 2xl:items-center h-[50%] 2xl:h-[75%] text-xl sm:text-2xl md:text-4xl lg:text-6xl xl:text-6xl 2xl:text-8xl pb-4 border-2 2xl:border-4 border-grey-main border-b-beige-main/80'>
                     Menuitek,<br/>l'excellence de la menuiserie à votre portée
