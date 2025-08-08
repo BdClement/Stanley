@@ -80,3 +80,5 @@ function Avis() {
 }
 
 export default Avis;
+
+// Gerer le changement de taille de l'element qui fait "poussent" les autres elements 
