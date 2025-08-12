@@ -1,6 +1,7 @@
 import FenetrePVC from '../assets/FenetrePVC.webp'
 import FenetreAlu from '../assets/FenetreAlu.png'
 import FenetreBois from '../assets/FenetreBois.webp'
+import Fenetres from '../components/Content/Produits/Fenetres/Fenetres'
 
 // categories.get(categoriesMap.get(key))
 export const categoriesMap = {

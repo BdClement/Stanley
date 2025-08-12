@@ -14,8 +14,8 @@ function Categorie({ categorieName }) {
 
     return (
         <div className="flex flex-col gap-4 lg:gap-8 xl:gap-12 min-h-[70vh] py-[5vh] xl:py-[10vh] 2xl:py[15vh] px-[5vw] xl:px-[8vw]">
-            {/* <Fenetres /> */}
-            <div className='flex flex-col gap-6 md:gap-10 xl-gap-14'>
+            <Fenetres />
+            {/* <div className='flex flex-col gap-6 md:gap-10 xl-gap-14'>
                 <h1 className=" text-center xl:pb-6 text-xl sm:text-2xl md:text-4xl lg:text-6xl xl:text-6xl 2xl:text-8xl font-bold">{categorieObject.title}</h1>
                 <div className=''>
                     <p className="p-6 md:p-10 xl:p-16 text-justify border-y border-brun-contrast/60 whitespace-pre-line">{categorieObject.intro}</p>
@@ -39,7 +39,7 @@ function Categorie({ categorieName }) {
                     </div>
                     <p className="pt-6 md:pt-10 xl:pt-16 text-justify whitespace-pre-line">{categorieObject.conclusion}</p>
                 </div>
-            </div>
+            </div> */}
         </div>
         
     )
