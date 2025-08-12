@@ -1,14 +1,19 @@
 import '../../styles/Content.css'
-import Formulaire from './Formulaire/Formulaire';
-import Accueil from './Accueil/Accueil';
-import Presentation from './Presentation/Presentation';
+// import Accueil from './Accueil/Accueil';
+// import Formulaire from './Formulaire/Formulaire';
+// import Presentation from './Presentation/Presentation';
+import Categorie from './Produits/Categories'
 
 function Content() {
     return (
         <main className='flex-1 items-center justify-center text-xs md:text-sm lg:text-base xl:text-xl 2xl:text-2xl'>
-            <Accueil />
-            <Presentation />
-            <Formulaire />
+            {/* <Accueil /> */}
+            {/* <Presentation />
+            <Formulaire /> */}
+            <Categorie categorieName={"fenetres"}/>
+            {/* <Categorie categorieName={"volets"}/>
+            <Categorie categorieName={"stores"}/>
+            <Categorie categorieName={"portes"}/> */}
         </main>
     )
 }
