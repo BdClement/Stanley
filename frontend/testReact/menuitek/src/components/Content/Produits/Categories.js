@@ -47,16 +47,10 @@ export default Categorie;
         // Une prenstation breve de l'avantage de cette sous categorie
         // Un bouton de lien vers la page en questions
 
-// Fenetres PVC contenu:
-
-// La gamme de fenêtre proposé par Menuitek est un des Categories phare du catalogue.
-
-// Chaque fenêtre qui entre dans le catalogue préparé pour les clients est une solution éprouvée, entièrement préparée pour faire face parfaitement aux situations pour lesquelles elle a été prévue.
-// Menuitek s'efforce de proposé une gamme large pour permettre d'avoir des produits répondant a vos besoins.
-
-// fenêtres en plastique avec des performances et des propriétés exceptionnels.
-// d'atteindre un faible niveau de coefficient de transfert thermique tout en maintenant des prix abordables
-// conformité aux normes en vigueur.
-// écliner en différentes couleurs et textures
-
-// Design - Isolante 
+// Pages Produits qui presentes les produits d'une sous categories:
+        // Titre du modele
+        // Photo du modele
+        // Phrase de presentation
+        // Caracteristiques techniques
+        // Phrase laissant entrevoir les differentes possibilites (a faire pour chaque produit ou une fois si les produits ont tous les meme possibilites sur demande)
+    
