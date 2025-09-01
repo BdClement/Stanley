@@ -1,17 +1,20 @@
 import FenetrePVC from '../assets/FenetrePVC.webp'
 import FenetreAlu from '../assets/FenetreAlu.png'
 import FenetreBois from '../assets/FenetreBois.webp'
-import PortesEntreePVC from '../assets/PortesEntreesPVC.png'
-import PortesEntreeBois from '../assets/PortesBois.png'
-// import PortesInterieuresAcier from '../assets/PortesInterieuresAcier.png'
-// import Fenetres from '../components/Content/Produits/Fenetres/Fenetres'
+
+import PortesEntreePVC from '../assets/PortesEntreePVC.png'
+import PortesEntreeBois from '../assets/PortesEntreeBois.png'
+import PortesEntreeAlu from '../assets/PortesEntreeAlu.png'
+import PortesEntreeAcier from '../assets/PortesEntreeAcier.png'
+import PortesInterieuresAcier from '../assets/PortesInterieuresAcier.png'
+
 
 // categories.get(categoriesMap.get(key))
 export const categoriesMap = {
   "fenetres": 0,
   "portes": 1,
-  "volets": 2,
-  "stores": 3,
+  "volets": 2,// A supprimer
+  "stores": 3,// A supprimer
 }
 
 export const categories = [
@@ -48,33 +51,33 @@ export const categories = [
   {
     title: "Portes",
     // eslint-disable-next-line no-multi-str
-    intro: "Les portes modernes sont la pièce maîtresse de chaque bureau, appartement ou maison. \
-            Les portes d’entrée sont un élément essentiel de la menuiserie, co-responsable de l'efficacité énergétique de l'ensemble du bâtiment. \
+    intro: "Les portes modernes sont la pièce maîtresse de chaque bureau, appartement ou maison.\n\
+            Les portes d’entrée sont un élément essentiel de la menuiserie, co-responsable de l'efficacité énergétique de l'ensemble du bâtiment.\n\
             Les portes d’intérieur sont essentielles pour une utilisation ergonomique de l'espace.\n\
             Nous proposons une large gamme de portes extérieures et intérieures fabriquées dans différents matériaux, dont le PVC.\n ",
     items : [
       {
         image: PortesEntreePVC,
-        title: "Portes d'entrées en PVC",
+        title: "Portes d'entrée en PVC",
         description: "Les portes en PVC se distinguent par leur esthétique et leur qualité au plus haut niveau."
       },
       {
-        image: FenetreAlu,
-        title: "Portes d'entrées en aluminium",
+        image: PortesEntreeAlu,
+        title: "Portes d'entrée en aluminium",
         description: "Les portes en aluminium se caractérisent par une fonctionnalité et une durabilité exceptionnelles."
       },
       {
         image: PortesEntreeBois,
-        title: "Portes d'entrées en bois",
+        title: "Portes d'entrée en bois",
         description: "Les portes en bois sont fabriquées à partir des meilleurs matériaux, spécialement sélectionnés."
       },
       {
-        image: FenetreAlu,
-        title: "Portes d'entrées en acier",
+        image: PortesEntreeAcier,
+        title: "Portes d'entrée en acier",
         description: "Les portes en acier sont une combinaison de modernité, de solidité et d'élégance."
       },
       {
-        image: FenetreAlu,
+        image: PortesInterieuresAcier,
         title: "Portes intérieures en acier",
         description: "Associez le confort à un design remarquable dans vos intérieurs."
       },
@@ -82,8 +85,7 @@ export const categories = [
     advantage: "Design, performance et durabilité",
     // eslint-disable-next-line no-multi-str
     conclusion: "Des performances supérieures à la moyenne, l'isolation thermique et acoustique et la résistance aux agents nocifs créent des produits qui offrent des avantages polyvalents.\n\
-                Une large gamme de couleurs, des designs variés et un grand choix de quincaillerie permettent de sélectionner la bonne porte pour chaque utilisation."
+                Une large gamme de couleurs, des designs variés et un grand choix de quincaillerie permettent de sélectionner la bonne porte pour chaque utilisation.\n\
+                Conçues pour résister au temps, nos portes conservent leur beauté et leur fonctionnalité pendant de nombreuses années. Un investissement durable qui associe innovation et fiabilité."
   },
 ]
-
-// Interogation sur la lourdeur du projet avec toutes les photos

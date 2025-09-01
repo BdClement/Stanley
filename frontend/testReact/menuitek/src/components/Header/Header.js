@@ -18,7 +18,7 @@ function Header() {
                 />
                 <ProductsMenu 
                     isOpen={isOpen}
-                    setIsOpen={setIsOpen}
+                    // setIsOpen={setIsOpen}
                 />
             </div>
         </React.Fragment>
