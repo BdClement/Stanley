@@ -1,14 +1,17 @@
 import FenetrePVC from '../assets/FenetrePVC.webp'
 import FenetreAlu from '../assets/FenetreAlu.png'
 import FenetreBois from '../assets/FenetreBois.webp'
-import Fenetres from '../components/Content/Produits/Fenetres/Fenetres'
+import PortesEntreePVC from '../assets/PortesEntreesPVC.png'
+import PortesEntreeBois from '../assets/PortesBois.png'
+// import PortesInterieuresAcier from '../assets/PortesInterieuresAcier.png'
+// import Fenetres from '../components/Content/Produits/Fenetres/Fenetres'
 
 // categories.get(categoriesMap.get(key))
 export const categoriesMap = {
   "fenetres": 0,
-  "volets": 1,
-  "stores": 2,
-  "portes": 3
+  "portes": 1,
+  "volets": 2,
+  "stores": 3,
 }
 
 export const categories = [
@@ -43,74 +46,44 @@ export const categories = [
                         Choisir nos fenêtres isolantes, équipées de joints de fenêtre impeccables peut signifier une réduction des pertes de chaleur allant jusqu'à plusieurs dizaines de pour cent, ce qui réduit considérablement les coûts de chauffage."
   },
   {
-    title: "Volets",
-    intro: "",
-    items : [
-      {
-        image: FenetrePVC,
-        title: "Volets en PVC",
-        description: ""
-      },
-      {
-        image: FenetreAlu,
-        title: "Volets en aluminium",
-        description: ""
-      },
-      {
-        image: FenetreBois,
-        title: "Volets en Bois",
-        description: ""
-      }
-    ],
-    advantage: "",
-    conclusion: ""
-  },
-  {
-    title: "Stores",
-    intro: "",
-    items : [
-      {
-        image: FenetrePVC,
-        title: "Stores en PVC",
-        description: ""
-      },
-      {
-        image: FenetreAlu,
-        title: "Stores en aluminium",
-        description: ""
-      },
-      {
-        image: FenetreBois,
-        title: "Stores en Bois",
-        description: ""
-      }
-    ],
-    advantage: "",
-    conclusion: ""
-  },
-  {
     title: "Portes",
-    intro: "",
+    // eslint-disable-next-line no-multi-str
+    intro: "Les portes modernes sont la pièce maîtresse de chaque bureau, appartement ou maison. \
+            Les portes d’entrée sont un élément essentiel de la menuiserie, co-responsable de l'efficacité énergétique de l'ensemble du bâtiment. \
+            Les portes d’intérieur sont essentielles pour une utilisation ergonomique de l'espace.\n\
+            Nous proposons une large gamme de portes extérieures et intérieures fabriquées dans différents matériaux, dont le PVC.\n ",
     items : [
       {
-        image: FenetrePVC,
-        title: "Portes en PVC",
-        description: ""
+        image: PortesEntreePVC,
+        title: "Portes d'entrées en PVC",
+        description: "Les portes en PVC se distinguent par leur esthétique et leur qualité au plus haut niveau."
       },
       {
         image: FenetreAlu,
-        title: "Portes en aluminium",
-        description: ""
+        title: "Portes d'entrées en aluminium",
+        description: "Les portes en aluminium se caractérisent par une fonctionnalité et une durabilité exceptionnelles."
       },
       {
-        image: FenetreBois,
-        title: "Portes en Bois",
-        description: ""
-      }
+        image: PortesEntreeBois,
+        title: "Portes d'entrées en bois",
+        description: "Les portes en bois sont fabriquées à partir des meilleurs matériaux, spécialement sélectionnés."
+      },
+      {
+        image: FenetreAlu,
+        title: "Portes d'entrées en acier",
+        description: "Les portes en acier sont une combinaison de modernité, de solidité et d'élégance."
+      },
+      {
+        image: FenetreAlu,
+        title: "Portes intérieures en acier",
+        description: "Associez le confort à un design remarquable dans vos intérieurs."
+      },
     ],
-    advantage: "",
-    conclusion: ""
-  }
+    advantage: "Design, performance et durabilité",
+    // eslint-disable-next-line no-multi-str
+    conclusion: "Des performances supérieures à la moyenne, l'isolation thermique et acoustique et la résistance aux agents nocifs créent des produits qui offrent des avantages polyvalents.\n\
+                Une large gamme de couleurs, des designs variés et un grand choix de quincaillerie permettent de sélectionner la bonne porte pour chaque utilisation."
+  },
 ]
 
 // Interogation sur la lourdeur du projet avec toutes les photos

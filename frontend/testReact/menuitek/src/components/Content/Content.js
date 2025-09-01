@@ -8,12 +8,12 @@ function Content() {
     return (
         <main className='flex-1 items-center justify-center text-xs md:text-sm lg:text-base xl:text-xl 2xl:text-2xl'>
             {/* <Accueil /> */}
-            {/* <Presentation />
-            <Formulaire /> */}
+            {/* <Presentation /> */}
+            {/* <Formulaire /> */}
             <Categorie categorieName={"fenetres"}/>
-            {/* <Categorie categorieName={"volets"}/>
-            <Categorie categorieName={"stores"}/>
-            <Categorie categorieName={"portes"}/> */}
+            {/* <Categorie categorieName={"volets"}/> */}
+            {/* <Categorie categorieName={"stores"}/> */}
+            <Categorie categorieName={"portes"}/>
         </main>
     )
 }
