@@ -1,14 +1,14 @@
-import FenetrePVC from '../assets/FenetrePVC.webp'
-import FenetreAlu from '../assets/FenetreAlu.png'
-import FenetreBois from '../assets/FenetreBois.webp'
+import FenetrePVC from '../assets/Fenetres/FenetresPVC/FenetrePVC.webp'
+import FenetreAlu from '../assets/Fenetres/FenetresAlu/FenetreAlu.png'
+import FenetreBois from '../assets/Fenetres/FenetresBois/FenetreBois.webp'
 
-import PortesEntreePVC from '../assets/PortesEntreePVC.png'
-import PortesEntreeBois from '../assets/PortesEntreeBois.png'
-import PortesEntreeAlu from '../assets/PortesEntreeAlu.png'
+import PortesEntreePVC from '../assets/Portes/PortesPVC/PortesEntreePVC.png'
+import PortesEntreeBois from '../assets/Portes/PortesBois/PortesEntreeBois.png'
+import PortesEntreeAlu from '../assets/Portes/PortesAlu/PortesEntreeAlu.png'
 
-import VoletsRoulants from '../assets/VoletsRoulants.webp'
-import VoletsBattantsBois from '../assets/VoletsBattantsBois.png'
-import VoletsBattantsAlu from '../assets/VoletsBattantsAlu.png'
+import VoletsRoulants from '../assets/Volets/VoletsRoulants/VoletsRoulants.webp'
+import VoletsBattantsBois from '../assets/Volets/VoletsBattantsBois/VoletsBattantsBois.png'
+import VoletsBattantsAlu from '../assets/Volets/VoletsBattantsAlu/VoletsBattantsAlu.png'
 
 
 // import PortesEntreeAcier from '../assets/PortesEntreeAcier.png'

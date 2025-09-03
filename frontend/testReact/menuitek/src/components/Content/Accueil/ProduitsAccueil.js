@@ -1,7 +1,7 @@
-import window from '../../../assets/Fenetre1.jpeg'
-import volets from '../../../assets/Volets.jpg'
-import stores from '../../../assets/stores.jpg'
-import porte from '../../../assets/Porte.jpg'
+import window from '../../../assets/Fenetres/Fenetre1.jpeg'
+import volets from '../../../assets/Volets/Volets.jpg'
+import stores from '../../../assets/StoresMoustiquaires/stores.jpg'
+import porte from '../../../assets/Portes/Porte.jpg'
 
 function ProduitsAccueil() {
     return (

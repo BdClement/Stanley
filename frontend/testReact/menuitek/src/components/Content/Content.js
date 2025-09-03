@@ -3,6 +3,7 @@ import '../../styles/Content.css'
 // import Formulaire from './Formulaire/Formulaire';
 // import Presentation from './Presentation/Presentation';
 import Categorie from './Produits/Categories'
+import Fenetres from './Produits/Fenetres/Fenetres'
 
 function Content() {
     return (
@@ -10,10 +11,10 @@ function Content() {
             {/* <Accueil /> */}
             {/* <Presentation /> */}
             {/* <Formulaire /> */}
-            <Categorie categorieName={"fenetres"}/>
-            {/* <Categorie categorieName={"stores"}/> */}
-            <Categorie categorieName={"portes"}/>
+            {/* <Categorie categorieName={"fenetres"}/> */}
+            {/* <Categorie categorieName={"portes"}/> */}
             <Categorie categorieName={"volets"}/>
+            <Fenetres fenetreType={"fenetresPVC"}/>
         </main>
     )
 }

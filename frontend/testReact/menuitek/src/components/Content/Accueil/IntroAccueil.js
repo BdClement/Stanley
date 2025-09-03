@@ -1,4 +1,4 @@
-import FenetreImg from '../../../assets/Fenetre.jpg'
+import FenetreImg from '../../../assets/Fenetres/Fenetre.jpg'
 
 function IntroAccueil() {
     return (
