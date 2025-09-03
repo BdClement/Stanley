@@ -11,9 +11,9 @@ function Content() {
             {/* <Presentation /> */}
             {/* <Formulaire /> */}
             <Categorie categorieName={"fenetres"}/>
-            {/* <Categorie categorieName={"volets"}/> */}
             {/* <Categorie categorieName={"stores"}/> */}
             <Categorie categorieName={"portes"}/>
+            <Categorie categorieName={"volets"}/>
         </main>
     )
 }

@@ -39,14 +39,14 @@ function ProductsMenu({ isOpen }) {
                         <span>Portes d'entrée en bois</span>
                         <span className="absolute bottom-[0.3rem] sm:bottom-0 left-1/2 transform -translate-x-1/2 sm:h-[2px] w-0 bg-brun-contrast transition-all duration-300 group-hover:w-full"></span>
                     </li>
-                    <li className="relative group self-start">
+                    {/* <li className="relative group self-start">
                         <span>Portes d'entrée en acier</span>
                         <span className="absolute bottom-[0.3rem] sm:bottom-0 left-1/2 transform -translate-x-1/2 sm:h-[2px] w-0 bg-brun-contrast transition-all duration-300 group-hover:w-full"></span>
                     </li>
                     <li className="relative group self-start">
                         <span>Portes intérieures en acier</span>
                         <span className="absolute bottom-[0.3rem] sm:bottom-0 left-1/2 transform -translate-x-1/2 sm:h-[2px] w-0 bg-brun-contrast transition-all duration-300 group-hover:w-full"></span>
-                    </li>
+                    </li> */}
                 </ul>
             </div>
             <div className='flex flex-col gap-2 2xl:gap-6'>
@@ -56,11 +56,15 @@ function ProductsMenu({ isOpen }) {
                 </div>
                 <ul className='flex flex-col gap-2 2xl:gap-4 border-t border-beige-contrast md:border-none py-1'>
                     <li className="relative group self-start">
-                        <span>Sous section Volets 1</span>
+                        <span>Volets roulants</span>
                         <span className="absolute bottom-[0.3rem] sm:bottom-0 left-1/2 transform -translate-x-1/2 sm:h-[2px] w-0 bg-brun-contrast transition-all duration-300 group-hover:w-full"></span>
                     </li>
                     <li className="relative group self-start">
-                        <span>Sous section Volets 2</span>
+                        <span>Volets battants en bois</span>
+                        <span className="absolute bottom-[0.3rem] sm:bottom-0 left-1/2 transform -translate-x-1/2 sm:h-[2px] w-0 bg-brun-contrast transition-all duration-300 group-hover:w-full"></span>
+                    </li>
+                    <li className="relative group self-start">
+                        <span>Volets battants en aluminium</span>
                         <span className="absolute bottom-[0.3rem] sm:bottom-0 left-1/2 transform -translate-x-1/2 sm:h-[2px] w-0 bg-brun-contrast transition-all duration-300 group-hover:w-full"></span>
                     </li>
                 </ul>
@@ -72,7 +76,7 @@ function ProductsMenu({ isOpen }) {
                 </div>
                 <ul className='flex flex-col gap-2 2xl:gap-4 border-t border-beige-contrast md:border-none py-1'>
                     <li className="relative group self-start">
-                        <span>Pas de sous section</span>
+                        <span>Tout voir</span>
                         <span className="absolute bottom-[0.3rem] sm:bottom-0 left-1/2 transform -translate-x-1/2 sm:h-[2px] w-0 bg-brun-contrast transition-all duration-300 group-hover:w-full"></span>
                     </li>
                 </ul>

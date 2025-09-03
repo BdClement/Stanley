@@ -5,20 +5,17 @@ import FenetreBois from '../assets/FenetreBois.webp'
 import PortesEntreePVC from '../assets/PortesEntreePVC.png'
 import PortesEntreeBois from '../assets/PortesEntreeBois.png'
 import PortesEntreeAlu from '../assets/PortesEntreeAlu.png'
-import PortesEntreeAcier from '../assets/PortesEntreeAcier.png'
-import PortesInterieuresAcier from '../assets/PortesInterieuresAcier.png'
+
+import VoletsRoulants from '../assets/VoletsRoulants.webp'
+import VoletsBattantsBois from '../assets/VoletsBattantsBois.png'
+import VoletsBattantsAlu from '../assets/VoletsBattantsAlu.png'
 
 
-// categories.get(categoriesMap.get(key))
-export const categoriesMap = {
-  "fenetres": 0,
-  "portes": 1,
-  "volets": 2,// A supprimer
-  "stores": 3,// A supprimer
-}
+// import PortesEntreeAcier from '../assets/PortesEntreeAcier.png'
+// import PortesInterieuresAcier from '../assets/PortesInterieuresAcier.png'
 
-export const categories = [
-  {
+export const categories = {
+  fenetres: {
     title: "Fenêtres",
     // eslint-disable-next-line no-multi-str
     intro: "La gamme de fenêtre proposé par Menuitek est un des produits phare du catalogue.\n\
@@ -48,7 +45,7 @@ export const categories = [
                         Vous pouvez également compter sur une protection efficace contre le bruit, les rafales de vent et l'eau.\n\
                         Choisir nos fenêtres isolantes, équipées de joints de fenêtre impeccables peut signifier une réduction des pertes de chaleur allant jusqu'à plusieurs dizaines de pour cent, ce qui réduit considérablement les coûts de chauffage."
   },
-  {
+  portes: {
     title: "Portes",
     // eslint-disable-next-line no-multi-str
     intro: "Les portes modernes sont la pièce maîtresse de chaque bureau, appartement ou maison.\n\
@@ -71,16 +68,16 @@ export const categories = [
         title: "Portes d'entrée en bois",
         description: "Les portes en bois sont fabriquées à partir des meilleurs matériaux, spécialement sélectionnés."
       },
-      {
-        image: PortesEntreeAcier,
-        title: "Portes d'entrée en acier",
-        description: "Les portes en acier sont une combinaison de modernité, de solidité et d'élégance."
-      },
-      {
-        image: PortesInterieuresAcier,
-        title: "Portes intérieures en acier",
-        description: "Associez le confort à un design remarquable dans vos intérieurs."
-      },
+      // {
+      //   image: PortesEntreeAcier,
+      //   title: "Portes d'entrée en acier",
+      //   description: "Les portes en acier sont une combinaison de modernité, de solidité et d'élégance."
+      // },
+      // {
+      //   image: PortesInterieuresAcier,
+      //   title: "Portes intérieures en acier",
+      //   description: "Associez le confort à un design remarquable dans vos intérieurs."
+      // },
     ],
     advantage: "Design, performance et durabilité",
     // eslint-disable-next-line no-multi-str
@@ -88,4 +85,36 @@ export const categories = [
                 Une large gamme de couleurs, des designs variés et un grand choix de quincaillerie permettent de sélectionner la bonne porte pour chaque utilisation.\n\
                 Conçues pour résister au temps, nos portes conservent leur beauté et leur fonctionnalité pendant de nombreuses années. Un investissement durable qui associe innovation et fiabilité."
   },
-]
+  volets: {
+    title: "Volets",
+    // eslint-disable-next-line no-multi-str
+    intro: "Les volets proposés par Menuitek sont le complément idéal des menuiseries. Leur utilisation est conseillée pour tous les projets et vise avant tout à contrôler la lumière et la chaleur et à protéger du bruit. \
+    Bien configurés, ils constituent aussi une solution de protection efficace contre les intrusions non désirées.",
+    items : [
+      {
+        image: VoletsRoulants,
+        title: "Volets roulants",
+        description: "Principal moyen de protéger les intérieurs de l'excès de lumière et de chaleur, les volets roulants peuvent être installés à l'intérieur d'un bâtiment ou sur la façade. Un large choix d'options vous permet de choisir une solution parfaitement adaptée."
+      },
+      {
+        image: VoletsBattantsBois,
+        title: "Volets battants en bois",
+        description: "Les volets battants en bois constituent un complément original aux fenêtres, permettant de contrôler la quantité de lumière et de chaleur entrant dans l'intérieur. Cette solution qui assure l'intimité peut transformer totalement n'importe quelle façade."
+      },
+      {
+        image: VoletsBattantsAlu,
+        title: "Volets battants en aluminium",
+        description: "Les volets extérieurs en aluminium sont un produit moderne inspiré par le style traditionnel. Ces protections de fenêtres, montées sur la façade du bâtiment, offrent une excellente fonctionnalité, permettent de contrôler la quantité de lumière et de chaleur à l'intérieur tout en garantissant l'intimité. En même temps, ils constituent un ajout remarquable à toute façade, lui conférant un caractère unique."
+      },
+    ],
+    advantage: "Maîtrise de la chaleur et occultation de fenêtres",
+    // eslint-disable-next-line no-multi-str
+    conclusion: "Les occultations de fenêtres comprennent une longue liste de solutions diverses qui permettent d'atteindre les mêmes objectifs de différentes manières et à des différents degrés. \n\nCe sont avant tout :\n\n\
+                - contrôler la quantité de chaleur qui entre dans le bâtiment \n\
+                - contrôler la quantité de lumière qui pénètre à l’intérieur des pièces \n\
+                - réduire le bruit extérieur \n\
+                - protéger les fenêtres des intempéries \n\
+                - protéger les occupants contre les intrus.\n\n\
+                Le choix des occultations de fenêtres signifie des possibilités supplémentaires et une amélioration de toutes les performances des fenêtres. C'est également un élément esthétique des façades qui peut embellir les maisons, les appartements et les bâtiments publics."
+  }
+}

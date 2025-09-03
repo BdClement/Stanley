@@ -1,11 +1,11 @@
-import { categories, categoriesMap } from "../../../datas/categories"
+import { categories } from "../../../datas/categories"
 import { FaCheckCircle } from "react-icons/fa";
 
 function Categorie({ categorieName }) {
-    const categorieId = categoriesMap[categorieName] ?? -1;
-    const categorieObject = categories[categorieId];
+    // const categorieId = categoriesMap[categorieName] ?? -1;
+    const categorieObject = categories[categorieName];
     
-    if (!categorieObject) return <p>Categorie Introuvable {categorieId} {categorieName}</p>
+    if (!categorieObject) return <p>Categorie Introuvable {categorieName}</p>
 
     return (
         <div className="flex flex-col gap-4 lg:gap-8 xl:gap-12 min-h-[70vh] py-[5vh] xl:py-[10vh] 2xl:py[15vh] px-[5vw] xl:px-[8vw]">
