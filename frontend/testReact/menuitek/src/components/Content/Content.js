@@ -2,7 +2,7 @@ import '../../styles/Content.css'
 // import Accueil from './Accueil/Accueil';
 // import Formulaire from './Formulaire/Formulaire';
 // import Presentation from './Presentation/Presentation';
-import Categorie from './Produits/Categories'
+// import Categorie from './Produits/Categories'
 import Fenetres from './Produits/Fenetres/Fenetres'
 
 function Content() {
@@ -11,10 +11,11 @@ function Content() {
             {/* <Accueil /> */}
             {/* <Presentation /> */}
             {/* <Formulaire /> */}
-            <Categorie categorieName={"fenetres"}/>
-            <Categorie categorieName={"portes"}/>
-            <Categorie categorieName={"volets"}/>
+            {/* <Categorie categorieName={"fenetres"}/> */}
+            {/* <Categorie categorieName={"portes"}/> */}
+            {/* <Categorie categorieName={"volets"}/> */}
             <Fenetres fenetreType={"fenetresPVC"}/>
+            <Fenetres fenetreType={"fenetresBois"}/>
         </main>
     )
 }

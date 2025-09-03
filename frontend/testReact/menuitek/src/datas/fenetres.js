@@ -1,11 +1,17 @@
 // import des images
-import Ideal4000 from '../assets/Fenetres/FenetresAlu/Ideal4000Small.png'
-import Ideal5000 from '../assets/Fenetres/FenetresAlu/Ideal5000.png'
-import Ideal8000 from '../assets/Fenetres/FenetresAlu/Ideal8000.png'
-import EasySlide from '../assets/Fenetres/FenetresAlu/EasySlide.png'
-import MultiSlide from '../assets/Fenetres/FenetresAlu/MultiSlide.png'
-import SmartSlide from '../assets/Fenetres/FenetresAlu/SmartSlide.png'
-import HST85 from '../assets/Fenetres/FenetresAlu/HST85.png'
+import Ideal4000 from '../assets/Fenetres/FenetresPVC/Ideal4000Small.png'
+import Ideal5000 from '../assets/Fenetres/FenetresPVC/Ideal5000.png'
+import Ideal8000 from '../assets/Fenetres/FenetresPVC/Ideal8000.png'
+import EasySlide from '../assets/Fenetres/FenetresPVC/EasySlide.png'
+import MultiSlide from '../assets/Fenetres/FenetresPVC/MultiSlide.png'
+import SmartSlide from '../assets/Fenetres/FenetresPVC/SmartSlide.png'
+import HST85 from '../assets/Fenetres/FenetresPVC/HST85.png'
+
+import Naturo68 from '../assets/Fenetres/FenetresBois/Naturo68.png'
+import Naturo80 from '../assets/Fenetres/FenetresBois/Naturo80.png'
+import Naturo92 from '../assets/Fenetres/FenetresBois/Naturo92.png'
+import Naturo68HST from '../assets/Fenetres/FenetresBois/Naturo68HST.png'
+import Naturo80HST from '../assets/Fenetres/FenetresBois/Naturo80HST.png'
 
 export const fenetres = {
     fenetresPVC: {
@@ -78,8 +84,188 @@ export const fenetres = {
                 prix: "Fourchette de prix à partir de..."
             },
         ],
+        avantage: "Performance et durabilité",
         // eslint-disable-next-line no-multi-str
         conclusion: "Choisir une fenêtre en PVC, c’est faire le choix d’un produit fiable, performant et durable. Grâce à une isolation thermique de haut niveau, ces fenêtres permettent de réaliser des économies d’énergie significatives, tout en maintenant un confort optimal en toute saison.\
         Leur conception soignée assure également une excellente isolation phonique, un entretien réduit et une grande longévité. C’est une solution idéale pour tous ceux qui recherchent une menuiserie efficace, esthétique et accessible."
+    },
+    fenetresAlu: {
+        titre: "Fenêtres en aluminium",
+        // eslint-disable-next-line no-multi-str
+        intro: "L’alliance parfaite entre esthétique contemporaine et robustesse. Les fenêtres en aluminium séduisent de plus en plus grâce à leur style épuré, \
+        leur excellente tenue dans le temps et leur adaptabilité aux projets les plus exigeants. Idéales pour les architectures modernes, elles permettent la création de larges surfaces vitrées qui baignent les intérieurs de lumière naturelle, tout en garantissant une isolation thermique de haut niveau.",
+        items: [
+           {
+                titre: "Aliplast Ecofutural",
+                image: Naturo68,
+                // eslint-disable-next-line no-multi-str
+                presentation: "Système à rupture de pont thermique à trois chambres, idéal pour fenêtres à la française, oscillo-battantes, ouvrant vers l’intérieur, portes à un ou deux vantaux et fenêtres monoblocs. Conçu pour répondre aux normes exigeantes d’isolation thermique.",
+                caracteristiques:  "3 chambres - Profondeur dormant 65mm - epaisseur vitrage 14 - 61mm",
+                infos: "Disponible en deux versions : Ecofutural (isolation autour du vitrage) et Ecofutural i+ (isolation renforcée avec remplissage des espaces entre intercalaires).",
+                prix: "Fourchette de prix à partir de..."
+            },
+           {
+                titre: "Aliplast Superial",
+                image: Naturo68,
+                // eslint-disable-next-line no-multi-str
+                presentation: "Polyvalent, il permet de réaliser fenêtres, vitrines extérieures, oscillo-battantes, à soufflet, oscillo-coulissantes, ainsi que portes ouvrant vers l’intérieur. Compatible avec les façades vitrées. Offre d’excellentes performances thermiques grâce à des inserts spécifiques placés autour du vitrage et entre les intercalaires. Utilisable en résidentiel comme en bâtiment public.",
+                caracteristiques:  "Profondeur du dormant 75mm - epaisseur vitrage 14 - 61mm",
+                infos: "Disponible en versions Superial i (isolation renforcée) et Superial i+ (isolation renforcée optimale).",
+                prix: "Fourchette de prix à partir de..."
+            },
+           {
+                titre: "Aliplast Maxlight",
+                image: Naturo68,
+                // eslint-disable-next-line no-multi-str
+                presentation: "Synonyme de modernité, ce système donne à la structure un caractère industriel et moderne, tout cela grâce à la visibilité minimale de la largeur du profilé. Robuste, esthétique et performant, MaxLight allie durabilité et design pour s’adapter à tous les styles architecturaux.",
+                caracteristiques:  "Profondeur du dormant 75mm - epaisseur vitrage ",
+                infos: "TBD",
+                prix: "Fourchette de prix à partir de..."
+            },
+           {
+                titre: "Aliplast ModernSlide",
+                image: Naturo68,
+                // eslint-disable-next-line no-multi-str
+                presentation: "Le système Modernslide allie performance thermique et design moderne. Grâce à ses rails multiples et sa capacité à intégrer de grands vantaux, il offre luminosité et élégance à vos espaces. Avec l’option galandage, les vantaux disparaissent dans le mur, libérant totalement l’ouverture et créant une transition fluide entre intérieur et extérieur.",
+                caracteristiques:  "profondeur dormant 73 - 196 (monobloc) - 2 - 3 ou 4 rails - epaisseur vitrage 24 - 28 ou 32mm",
+                infos: "TBD",
+                prix: "Fourchette de prix à partir de..."
+            },
+           {
+                titre: "Aliplast Visoglide",
+                image: Naturo68,
+                // eslint-disable-next-line no-multi-str
+                presentation: "Le système coulissant à profilés trois chambres isolés allie confort thermique et praticité. Idéal pour les ouvertures vers terrasses, balcons ou jardins, il peut accueillir jusqu’à six éléments sur plusieurs rails. Grâce à ses chariots spéciaux et à son poteau central ultra-fin, il garantit une ouverture fluide et une esthétique moderne.",
+                caracteristiques:  "Profondeur dormant (standard / spécial / monorail) 117,7 - 125,4 - 141,6 / 2 ou 3 rails / epaisseur vitrage 6 - 36mm",
+                infos: "Disponible avec différents appuis de fenêtre et profilés d’angle pour s’adapter à chaque projet.",
+                prix: "Fourchette de prix à partir de..."
+            },
+           {
+                titre: "Aliplast Ultraglide",
+                image: Naturo68,
+                // eslint-disable-next-line no-multi-str
+                presentation: "Le système levante-coulissant permet de réaliser de grandes baies vitrées alliant isolation thermique renforcée, sécurité et design moderne. Disponible en version à seuil bas ou angle 90°, il accepte le double ou triple vitrage et permet de créer de larges surfaces vitrées, apportant un maximum de lumière naturelle tout en restant stable, fonctionnel et élégant.",
+                caracteristiques:  "Profondeur du dormant 153 – 239mm / epaisseur vitrage 14 – 52mm",
+                infos: "TBD",
+                prix: "Fourchette de prix à partir de..."
+            },
+           {
+                titre: "Aliplast Ultraglide MaxLight Monorail",
+                image: Naturo68,
+                // eslint-disable-next-line no-multi-str
+                presentation: "Le système Ultraglide MAX Light Monorail est un coulissant haut de gamme à rupture de pont thermique, idéal pour les grandes surfaces vitrées. Ses profilés fins maximisent l’apport de lumière et offrent une esthétique moderne et élégante. Avec une excellente isolation thermique et acoustique, il s’adapte aussi bien aux bâtiments résidentiels qu’aux projets publics.",
+                caracteristiques:  "Profondeur du dormant 176 mm - epaisseur vitrage 15 - 51 mm",
+                infos: "Disponible dans toutes les couleurs RAL.",
+                prix: "Fourchette de prix à partir de..."
+            },
+           {
+                titre: "Aliplast Slide Glass",
+                image: Naturo68,
+                // eslint-disable-next-line no-multi-str
+                presentation: "Slide Glass est un système coulissant intérieur au design minimaliste, idéal pour laisser entrer un maximum de lumière naturelle. Conçu avec du verre trempé de 10 mm et des profilés fins, il assure sécurité et élégance. \
+                Utilisable aussi bien dans les intérieurs modernes que pour des pergolas, il permet de créer des parois vitrées fixes ou modulables, et même de diviser de grands espaces (comme des bureaux) en zones indépendantes grâce à ses configurations en labyrinthe.",
+                caracteristiques:  "Epaisseur du dormant  71,1-  115,5 mm / epaisseur du vitrage 10mm",
+                infos: "TBD",
+                prix: "Fourchette de prix à partir de..."
+            },
+           {
+                titre: "Cortizo 70 HO",
+                image: Naturo68,
+                // eslint-disable-next-line no-multi-str
+                presentation: "Fenêtres aluminium à ouvrant caché, le système COR 70 HO en aluminium se distingue par ses profilés extrêmement fins et solides, offrant jusqu’à 85 % de surface vitrée pour un apport maximal de lumière naturelle.\
+                Son ouvrant caché crée une façade lisse et moderne, où les parties fixes et mobiles se fondent visuellement pour un rendu élégant et uniforme. Le design raffiné du COR 70 HO permet d’intégrer des poignées centrées ou discrètement décentrées et encastrées, presque invisibles à l’œil nu.",
+                caracteristiques:  "Epaisseur du dormant 70 mm / epaisseur vitrage 26 - 40mm / Uw ≥ 0,85",
+                infos: "Pour un style encore plus épuré, les charnières peuvent être entièrement dissimulées. Avec le ferrage approprié, il est possible de réaliser des ouvrants jusqu’à 3,5 mètres de hauteur, alliant esthétique, performance et modernité.",
+                prix: "Fourchette de prix à partir de..."
+            },
+           {
+                titre: "Cor Vision",
+                image: Naturo68,
+                // eslint-disable-next-line no-multi-str
+                presentation: "Coulissant minimaliste haut de gamme, le système COR Vision, au design italien raffiné, réduit la présence visible des profilés à seulement 9 % de la structure pour offrir un maximum de surface vitrée et une esthétique d’exception. Les cadres inférieur, supérieur et latéral peuvent être encastrés pour un rendu encore plus épuré.\
+                Particularité notable : l’assemblage à 90° des ouvrants se fait sans poteau d’angle, renforçant la continuité visuelle. En version simple rail, le rail peut être dissimulé dans la zone fixe. Grâce à ses cadres renforcés, le COR Vision accueille des ouvrants jusqu’à 320 kg, tout en offrant de bonnes performances thermiques avec un Uw de 1,3 W/m²K.",
+                caracteristiques:  "Epaisseur dormant 116 - 182mm / epaisseur vitrage 36 - 54mm - Uw 1,3",
+                infos: "TBD",
+                prix: "Fourchette de prix à partir de..."
+            },
+           {
+                titre: "Cor Vision Plus",
+                image: Naturo68,
+                // eslint-disable-next-line no-multi-str
+                presentation: "Coulissant XXL minimaliste. Version haut de gamme du COR Vision, le COR Vision Plus est conçu pour accueillir de très grands vitrages, offrant jusqu’à 94 % de surface vitrée pour un apport maximal de lumière naturelle. \
+                Ses lignes fines et élégantes, associées à un vitrage performant, permettent d’atteindre un Uw exceptionnel de 0,9 W/m²K. \
+                Le cadre peut être totalement dissimulé sur tout le périmètre, ne laissant visible qu’un battement central de 25 mm. Compatible avec des vitrages jusqu’à 54 mm d’épaisseur, le système optimise isolation thermique et acoustique. Chaque vantail peut mesurer jusqu’à 4 000 mm de haut, avec un poids maximal de 700 kg (400 kg en ouverture manuelle).",
+                caracteristiques:  "Epaisseur dormant 116 - 182mm / epaisseur vitrage 36 - 54mm - Uw 1,3",
+                infos: "TBD",
+                prix: "Fourchette de prix à partir de..."
+            },
+           {
+                titre: "Cor Vision Galandage",
+                image: Naturo68,
+                // eslint-disable-next-line no-multi-str
+                presentation: "Ouverture totale et espace libéré. Fini les portes encombrantes : le COR Vision Galandage permet de faire disparaître complètement un, deux ou trois vantaux dans les cloisons, libérant l’espace et offrant une ouverture sans aucun obstacle. Les cadres représentent moins de 10 % de la structure et peuvent être encastrés pour un rendu minimaliste et élégant.\
+                Grâce à son rail inox renforcé, le système accepte des vantaux plus grands et plus lourds, tout en assurant une bonne isolation thermique et acoustique avec des vitrages jusqu’à 30 mm d’épaisseur. Facile à installer, il se décline dans plusieurs options pour s’adapter à tous les styles, alliant espace, confort et design contemporain.",
+                caracteristiques:  "Pas de Caracteristiques",
+                infos: "TBD",
+                prix: "Fourchette de prix à partir de..."
+            },
+        ],
+        avantage: "Fiabilité, esthetisme et durabilité",
+        conclusion: "Grâce à la solidité naturelle de l’aluminium, les profilés sont fins et élégants. Avec leur design épuré, leurs performances énergétiques et leur longévité, les fenêtres en aluminium coche toutes les cases : modernité, efficacité et fiabilité. Que vous construisiez une maison contemporaine ou que vous rénoviez un bâtiment, elles apportent une valeur ajoutée certaine à votre projet."
+    },
+    fenetresBois: {
+        titre: "Fenêtres en bois",
+        // eslint-disable-next-line no-multi-str
+        intro: "Les fenêtres en bois offrent un charme naturel incomparable, alliant tradition et innovation. Le bois véritable apporte chaleur, élégance et authenticité à votre habitat. Grâce aux avancées technologiques, nos fenêtres en bois bénéficient désormais d’une robustesse et d’une isolation thermique à la hauteur des meilleures alternatives modernes.\
+        Chaque fenêtre est composée de trois à quatre couches de bois soigneusement préparées, puis protégées par quatre couches de vernis. Ce processus assure une résistance accrue à l’humidité, aux chocs et aux déformations. Le bois utilisé (pin, chêne, méranti) est issu de forêts gérées durablement, garantissant un produit à la fois fiable et respectueux de l’environnement.",
+        items: [
+            {
+                titre: "Naturo 68",
+                image: Naturo68,
+                // eslint-disable-next-line no-multi-str
+                presentation: "Élégance fine et résistance renforcée – Avec sa profondeur d’encastrement réduite, le Naturo 68 offre un design élancé et raffiné. Disponible en version standard ou avec capots aluminium Reno Line pour une meilleure protection contre les chocs et les UV, il allie charme du bois et touche moderne.",
+                caracteristiques:  "Profondeur 68mm / 2 joints / Uw 1,2",
+                infos: "Plusieurs configurations sont possibles : profils belges ou hollandais, ouverture vers l’extérieur, version rénovation ou monobloc, des capots en aluminium présents sur la face extérieure des profilés pour s’adapter à chaque projet avec style et durabilité.",
+                prix: "Fourchette de prix à partir de..."
+            },
+            {
+                titre: "Naturo 80",
+                image: Naturo80,
+                // eslint-disable-next-line no-multi-str
+                presentation: "Conçu pour la construction à haute efficacité énergétique, le Naturo 80 combine la chaleur du bois à d’excellentes performances thermiques et acoustiques grâce à ses profils isolants et à un vitrage pouvant atteindre 45 mm d’épaisseur.",
+                caracteristiques:  "Profondeur 80 / 2 joints / Uw 0,81",
+                infos: "Disponible en versions standard, belge, hollandaise, rénovation ou monobloc, avec option d’ouverture vers l’extérieur ou encore un capots en aluminium présents sur la face extérieure des profilés, il s'adapte à tous les styles tout en garantissant confort et économie d’énergie.",
+                prix: "Fourchette de prix à partir de..."
+            },
+            {
+                titre: "Naturo 92",
+                image: Naturo92,
+                // eslint-disable-next-line no-multi-str
+                presentation: "Il s'agit d'un système en bois offrant les meilleures performances thermiques et acoustiques, permettant l'utilisation des vitrages les plus efficaces. Le choix de Naturo 92 est, comme pour d'autres systèmes en bois, un investissement à long terme, en particulier dans la construction passive.",
+                caracteristiques:  "Profondeur 92 / 2 joints / Uw 0,77",
+                infos: "Disponible en versions standard, belge, hollandaise, rénovation ou monobloc, avec option d’ouverture vers l’extérieur ou encore un capots en aluminium présents sur la face extérieure des profilés, il s'adapte à tous les styles tout en garantissant confort et économie d’énergie.",
+                prix: "Fourchette de prix à partir de..."
+            },
+            {
+                titre: "Naturo 68 HST",
+                image: Naturo68HST,
+                // eslint-disable-next-line no-multi-str
+                presentation: "Léger et peu encombrant pour sa catégorie, le Naturo 68 HST permet de manipuler aisément de grandes surfaces vitrées. Sa faible profondeur d’encastrement et son design soigné s’intègrent parfaitement aux tendances actuelles, tandis que son seuil bas assure un passage fluide entre l’intérieur et l’extérieur.",
+                caracteristiques:  "Hauteur construction 2,8 / Profondeur 164 / 1-2 rails ",
+                infos: "TBD",
+                prix: "Fourchette de prix à partir de..."
+            },
+            {
+                titre: "Naturo 80 HST",
+                image: Naturo80HST,
+                // eslint-disable-next-line no-multi-str
+                presentation: "Avec ses vantaux puissants et résistants, le Naturo 80 HST combine grandes dimensions et élégance visuelle. Son poids renforce l’étanchéité en position fermée, tandis que son design polyvalent sublime aussi bien la chaleur naturelle du bois que des finitions unies et contemporaines ou encore un capots en aluminium présents sur la face extérieure des profilés.",
+                caracteristiques:  "Hauteur construction 2,8 / Profondeur 188 / rails 1-2",
+                infos: "TBD",
+                prix: "Fourchette de prix à partir de..."
+            }
+        ],
+        avantage: "Fiabilité, authenticité et durabilité",
+        conclusion: "Opter pour des fenêtres en bois, c’est faire un geste pour la planète tout en ajoutant une valeur esthétique et patrimoniale à votre maison. Naturel, recyclable, facile à entretenir et réparable en cas de choc, le bois reste un choix premium qui séduit les amateurs d’authenticité et de durabilité."
     }
 }

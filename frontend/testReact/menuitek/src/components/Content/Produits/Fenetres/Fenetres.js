@@ -34,7 +34,7 @@ function Fenetres({ fenetreType }) {
                 <div className="p-6 md:p-10 xl:p-16 border-t border-brun-contrast/60">
                     <div className="flex gap-2 md:gap-4 xl-gap-8 items-center text-brun-contrast justify-center">
                         <FaCheckCircle/>
-                        <h3 className="font-semibold text-brun-contrast uppercase">TBD</h3>
+                        <h3 className="font-semibold text-brun-contrast uppercase">{fenetresContentType.avantage}</h3>
                     </div>
                     <p className="pt-6 md:pt-10 xl:pt-16 text-justify ">
                         {fenetresContentType.conclusion}
@@ -46,7 +46,3 @@ function Fenetres({ fenetreType }) {
 }
 
 export default Fenetres;
-
-// Epaisseur de vitrage ?
-// Couleur disponible 
-// 2 points anti effraction par vantail
