@@ -13,6 +13,20 @@ import Naturo92 from '../assets/Fenetres/FenetresBois/Naturo92.png'
 import Naturo68HST from '../assets/Fenetres/FenetresBois/Naturo68HST.png'
 import Naturo80HST from '../assets/Fenetres/FenetresBois/Naturo80HST.png'
 
+import Cortizo70HO from '../assets/Fenetres/FenetresAlu/Cortizo70HO.webp'
+import CorVision from '../assets/Fenetres/FenetresAlu/CorVision.png'
+import CorVisionGalandage from '../assets/Fenetres/FenetresAlu/CorVisionGalandage.png'
+import CorVisionPlus from '../assets/Fenetres/FenetresAlu/CorVisionPlus.png'
+import Ecofutural from '../assets/Fenetres/FenetresAlu/Ecofutural.png'
+import MaxLight from '../assets/Fenetres/FenetresAlu/MaxLight.png'
+import ModernSlide from '../assets/Fenetres/FenetresAlu/ModernSlide.png'
+import SlideGlass from '../assets/Fenetres/FenetresAlu/SlideGlass.png'
+import Superial from '../assets/Fenetres/FenetresAlu/Superial.png'
+import UltraGlide from '../assets/Fenetres/FenetresAlu/UltraGlide.png'
+import VisoGlide from '../assets/Fenetres/FenetresAlu/VisoGlide.png'
+// import Cortizo70HO from '../assets/Fenetres/FenetresAlu/Cortizo70HO.png'
+
+
 export const fenetres = {
     fenetresPVC: {
         titre: "Fenêtres en PVC",
@@ -97,7 +111,7 @@ export const fenetres = {
         items: [
            {
                 titre: "Aliplast Ecofutural",
-                image: Naturo68,
+                image: Ecofutural,
                 // eslint-disable-next-line no-multi-str
                 presentation: "Système à rupture de pont thermique à trois chambres, idéal pour fenêtres à la française, oscillo-battantes, ouvrant vers l’intérieur, portes à un ou deux vantaux et fenêtres monoblocs. Conçu pour répondre aux normes exigeantes d’isolation thermique.",
                 caracteristiques:  "3 chambres - Profondeur dormant 65mm - epaisseur vitrage 14 - 61mm",
@@ -106,7 +120,7 @@ export const fenetres = {
             },
            {
                 titre: "Aliplast Superial",
-                image: Naturo68,
+                image: Superial,
                 // eslint-disable-next-line no-multi-str
                 presentation: "Polyvalent, il permet de réaliser fenêtres, vitrines extérieures, oscillo-battantes, à soufflet, oscillo-coulissantes, ainsi que portes ouvrant vers l’intérieur. Compatible avec les façades vitrées. Offre d’excellentes performances thermiques grâce à des inserts spécifiques placés autour du vitrage et entre les intercalaires. Utilisable en résidentiel comme en bâtiment public.",
                 caracteristiques:  "Profondeur du dormant 75mm - epaisseur vitrage 14 - 61mm",
@@ -115,7 +129,7 @@ export const fenetres = {
             },
            {
                 titre: "Aliplast Maxlight",
-                image: Naturo68,
+                image: MaxLight,
                 // eslint-disable-next-line no-multi-str
                 presentation: "Synonyme de modernité, ce système donne à la structure un caractère industriel et moderne, tout cela grâce à la visibilité minimale de la largeur du profilé. Robuste, esthétique et performant, MaxLight allie durabilité et design pour s’adapter à tous les styles architecturaux.",
                 caracteristiques:  "Profondeur du dormant 75mm - epaisseur vitrage ",
@@ -124,7 +138,7 @@ export const fenetres = {
             },
            {
                 titre: "Aliplast ModernSlide",
-                image: Naturo68,
+                image: ModernSlide,
                 // eslint-disable-next-line no-multi-str
                 presentation: "Le système Modernslide allie performance thermique et design moderne. Grâce à ses rails multiples et sa capacité à intégrer de grands vantaux, il offre luminosité et élégance à vos espaces. Avec l’option galandage, les vantaux disparaissent dans le mur, libérant totalement l’ouverture et créant une transition fluide entre intérieur et extérieur.",
                 caracteristiques:  "profondeur dormant 73 - 196 (monobloc) - 2 - 3 ou 4 rails - epaisseur vitrage 24 - 28 ou 32mm",
@@ -133,7 +147,7 @@ export const fenetres = {
             },
            {
                 titre: "Aliplast Visoglide",
-                image: Naturo68,
+                image: VisoGlide,
                 // eslint-disable-next-line no-multi-str
                 presentation: "Le système coulissant à profilés trois chambres isolés allie confort thermique et praticité. Idéal pour les ouvertures vers terrasses, balcons ou jardins, il peut accueillir jusqu’à six éléments sur plusieurs rails. Grâce à ses chariots spéciaux et à son poteau central ultra-fin, il garantit une ouverture fluide et une esthétique moderne.",
                 caracteristiques:  "Profondeur dormant (standard / spécial / monorail) 117,7 - 125,4 - 141,6 / 2 ou 3 rails / epaisseur vitrage 6 - 36mm",
@@ -142,7 +156,7 @@ export const fenetres = {
             },
            {
                 titre: "Aliplast Ultraglide",
-                image: Naturo68,
+                image: UltraGlide,
                 // eslint-disable-next-line no-multi-str
                 presentation: "Le système levante-coulissant permet de réaliser de grandes baies vitrées alliant isolation thermique renforcée, sécurité et design moderne. Disponible en version à seuil bas ou angle 90°, il accepte le double ou triple vitrage et permet de créer de larges surfaces vitrées, apportant un maximum de lumière naturelle tout en restant stable, fonctionnel et élégant.",
                 caracteristiques:  "Profondeur du dormant 153 – 239mm / epaisseur vitrage 14 – 52mm",
@@ -160,7 +174,7 @@ export const fenetres = {
             },
            {
                 titre: "Aliplast Slide Glass",
-                image: Naturo68,
+                image: SlideGlass,
                 // eslint-disable-next-line no-multi-str
                 presentation: "Slide Glass est un système coulissant intérieur au design minimaliste, idéal pour laisser entrer un maximum de lumière naturelle. Conçu avec du verre trempé de 10 mm et des profilés fins, il assure sécurité et élégance. \
                 Utilisable aussi bien dans les intérieurs modernes que pour des pergolas, il permet de créer des parois vitrées fixes ou modulables, et même de diviser de grands espaces (comme des bureaux) en zones indépendantes grâce à ses configurations en labyrinthe.",
@@ -170,7 +184,7 @@ export const fenetres = {
             },
            {
                 titre: "Cortizo 70 HO",
-                image: Naturo68,
+                image: Cortizo70HO,
                 // eslint-disable-next-line no-multi-str
                 presentation: "Fenêtres aluminium à ouvrant caché, le système COR 70 HO en aluminium se distingue par ses profilés extrêmement fins et solides, offrant jusqu’à 85 % de surface vitrée pour un apport maximal de lumière naturelle.\
                 Son ouvrant caché crée une façade lisse et moderne, où les parties fixes et mobiles se fondent visuellement pour un rendu élégant et uniforme. Le design raffiné du COR 70 HO permet d’intégrer des poignées centrées ou discrètement décentrées et encastrées, presque invisibles à l’œil nu.",
@@ -180,7 +194,7 @@ export const fenetres = {
             },
            {
                 titre: "Cor Vision",
-                image: Naturo68,
+                image: CorVision,
                 // eslint-disable-next-line no-multi-str
                 presentation: "Coulissant minimaliste haut de gamme, le système COR Vision, au design italien raffiné, réduit la présence visible des profilés à seulement 9 % de la structure pour offrir un maximum de surface vitrée et une esthétique d’exception. Les cadres inférieur, supérieur et latéral peuvent être encastrés pour un rendu encore plus épuré.\
                 Particularité notable : l’assemblage à 90° des ouvrants se fait sans poteau d’angle, renforçant la continuité visuelle. En version simple rail, le rail peut être dissimulé dans la zone fixe. Grâce à ses cadres renforcés, le COR Vision accueille des ouvrants jusqu’à 320 kg, tout en offrant de bonnes performances thermiques avec un Uw de 1,3 W/m²K.",
@@ -190,7 +204,7 @@ export const fenetres = {
             },
            {
                 titre: "Cor Vision Plus",
-                image: Naturo68,
+                image: CorVisionPlus,
                 // eslint-disable-next-line no-multi-str
                 presentation: "Coulissant XXL minimaliste. Version haut de gamme du COR Vision, le COR Vision Plus est conçu pour accueillir de très grands vitrages, offrant jusqu’à 94 % de surface vitrée pour un apport maximal de lumière naturelle. \
                 Ses lignes fines et élégantes, associées à un vitrage performant, permettent d’atteindre un Uw exceptionnel de 0,9 W/m²K. \
@@ -201,7 +215,7 @@ export const fenetres = {
             },
            {
                 titre: "Cor Vision Galandage",
-                image: Naturo68,
+                image: CorVisionGalandage,
                 // eslint-disable-next-line no-multi-str
                 presentation: "Ouverture totale et espace libéré. Fini les portes encombrantes : le COR Vision Galandage permet de faire disparaître complètement un, deux ou trois vantaux dans les cloisons, libérant l’espace et offrant une ouverture sans aucun obstacle. Les cadres représentent moins de 10 % de la structure et peuvent être encastrés pour un rendu minimaliste et élégant.\
                 Grâce à son rail inox renforcé, le système accepte des vantaux plus grands et plus lourds, tout en assurant une bonne isolation thermique et acoustique avec des vitrages jusqu’à 30 mm d’épaisseur. Facile à installer, il se décline dans plusieurs options pour s’adapter à tous les styles, alliant espace, confort et design contemporain.",
@@ -210,7 +224,7 @@ export const fenetres = {
                 prix: "Fourchette de prix à partir de..."
             },
         ],
-        avantage: "Fiabilité, esthetisme et durabilité",
+        avantage: "Fiabilité, esthétisme et durabilité",
         conclusion: "Grâce à la solidité naturelle de l’aluminium, les profilés sont fins et élégants. Avec leur design épuré, leurs performances énergétiques et leur longévité, les fenêtres en aluminium coche toutes les cases : modernité, efficacité et fiabilité. Que vous construisiez une maison contemporaine ou que vous rénoviez un bâtiment, elles apportent une valeur ajoutée certaine à votre projet."
     },
     fenetresBois: {

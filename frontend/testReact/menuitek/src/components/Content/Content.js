@@ -16,6 +16,7 @@ function Content() {
             {/* <Categorie categorieName={"volets"}/> */}
             <Fenetres fenetreType={"fenetresPVC"}/>
             <Fenetres fenetreType={"fenetresBois"}/>
+            <Fenetres fenetreType={"fenetresAlu"}/>
         </main>
     )
 }
