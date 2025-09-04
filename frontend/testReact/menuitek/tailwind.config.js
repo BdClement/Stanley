@@ -10,6 +10,7 @@ module.exports = {
         'beige-contrast': '#f3e9dcff',
         'grey-main': '#212529',
         'grey-contrast': '#495057',
+        'grey-contrast-xxl': '#d7dce6ff',
         'brun-contrast': '#9d6b53',
       },
       fontFamily: {

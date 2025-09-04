@@ -1,5 +1,6 @@
 import { fenetres } from "../../../../datas/fenetres"
 import { FaCheckCircle } from "react-icons/fa";
+import { MdDownloadForOffline } from "react-icons/md";
 
 function Fenetres({ fenetreType }) {
     const fenetresContentType = fenetres[fenetreType];
@@ -17,16 +18,37 @@ function Fenetres({ fenetreType }) {
                 </div>
                 <div className='flex flex-col gap-[6vh] xl:gap-[8vh] 2xl:gap-[10vh] py-10 xl:py-20'>
                     {fenetresContentType.items.map((item, index) => 
-                        <div key={index} className="py-2 md:py-4 flex flex-col lg:flex-row gap-2 md:gap-4 xl-gap-8 bg-white rounded text-grey-contrast">
-                            <div className="w-full lg:w-1/3 py-2 md:py-4 flex flex-col items-center">
+                        <div key={index} className="flex flex-col lg:flex-row gap-2 md:gap-4 xl-gap-8 bg-white rounded text-grey-contrast">
+                            <div className="w-full lg:w-1/3 py-4 md:py-6 flex flex-col items-center">
                                 <h2 className="font-semibold uppercase">{item.titre}</h2>
                                 <img src={item.image} alt={item.titre} className=' object-contain rounded'></img>
                             </div>
-                            <div className="w-full lg:w-2/3 py-2 md:py-4 flex flex-col gap-4 md:gap-6 xl-gap-10">
-                                <div>{item.presentation}</div>
-                                <div>{item.caracteristiques}</div>
-                                <div>{item.infos}</div>
-                                <div>{item.prix}</div>
+                            <div className="w-full lg:w-2/3 py-4 md:py-6 flex flex-col gap-4 md:gap-6 xl:gap-10 px-4 text-justify bg-grey-contrast-xxl">
+                                <div className="flex flex-col gap-4 md:gap-6 xl:gap-10 pb-6 border-b-2">
+                                    <div className="px-6">{item.presentation}</div>
+                                    {/* <div className=" px-6 italic">{item.caracteristiques}</div>  
+                                     - 1Uw*/}
+                                    {item.caracteristiques && (
+                                        <ul className=" px-8 italic list-disc list-inside">
+                                            {item.caracteristiques.map((carac, index) => (
+                                                <li key={index}>{carac}</li>
+                                            ))}
+                                            {/* <li>5 chambres</li>
+                                            <li>2 joints d’étanchéité</li>
+                                            <li>70mm de profondeur</li>
+                                            <li>1Uw</li> */}
+                                        </ul>                
+                                    )}
+                                    <div className=" px-6 ">{item.infos}</div>
+                                </div>
+                                <div className="flex flex-col gap-4 md:gap-6 xl:gap-10 items-end">
+                                    {item.fiche && (
+                                        <a className="p-4 w-full lg:w-1/2 flex items-center justify-center gap-4 border-grey-contrast rounded-md bg-grey-contrast text-white hover:bg-grey-main transition duration:300" href={item.fiche} download>
+                                            Télécharger la fiche Produit <MdDownloadForOffline/>
+                                        </a>
+                                    )}
+                                    <div className="w-full lg:w-1/2 text-end font-semibold">{item.prix}</div>
+                                </div>
                             </div>
                         </div>
                     )}

@@ -38,24 +38,42 @@ export const fenetres = {
                 titre: "Aluplast Ideal 4000",
                 image: Ideal4000,
                 presentation: "Il s’agit d’un système polyvalent qui convient parfaitement à l’architecture moderne des habitations individuelles et collectives ainsi qu’à la rénovation.",
-                caracteristiques:  "5 chambres - 2 joints d’étanchéité - 70mm de profondeur - 1Uw",
+                caracteristiques: [
+                    "5 chambres",
+                    "2 joints d’étanchéité",
+                    "70mm de profondeur",
+                    "1Uw"
+                ],
                 infos: "Informations complémentaires (ce produit est disponible en 4 variantes etc.)",
+                fiche: "pdfs/FicheProduits/FenetresPVC/ideal-4000.pdf",
                 prix: "Fourchette de prix à partir de..."
             },
             {
                 titre: "Aluplast Ideal 5000",
                 image: Ideal5000,
                 presentation: "Des fenêtres alliant un design moderne à de très bonnes performances. Système à triple étanchéité.",
-                caracteristiques:  "5 chambres - 3 joints d'étanchéité - 70mm de profondeur - 0,94Uw",
+                caracteristiques: [
+                    "5 chambres",
+                    "3 joints d’étanchéité",
+                    "70mm de profondeur",
+                    "0,94Uw"
+                ],
                 infos: "Également disponible dans une version avec un cadre plus fin qui permettra d’éclairer facilement toutes les pièces.",
+                fiche: "pdfs/FicheProduits/FenetresPVC/ideal-5000.pdf",
                 prix: "Fourchette de prix à partir de..."
             },
             {
                 titre: "Aluplast Ideal 8000",
                 image: Ideal8000,
                 presentation: "Les fenêtres de dernière génération. En les choisissant, vous optez pour la chaleur, le silence et l’esthétique. Les fenêtres basées sur le système Ideal 8000 assurent l’isolation thermique et acoustique au plus haut niveau. Recommandées pour les maisons passives.",
-                caracteristiques:  "6 chambres - 3 joints d'étanchéité - 85mm de profondeur - 0,74Uw",
+                caracteristiques: [
+                    "6 chambres",
+                    "3 joints d’étanchéité",
+                    "85mm de profondeur",
+                    "0,74Uw"
+                ], 
                 infos: "Informations complémentaires (ce produit est disponible en 4 variantes etc.)",
+                fiche: "pdfs/FicheProduits/FenetresPVC/ideal-8000.pdf",
                 prix: "Fourchette de prix à partir de..."
             },
             {
@@ -64,8 +82,13 @@ export const fenetres = {
                 // eslint-disable-next-line no-multi-str
                 presentation: "Le système Easy Slide est une solution de base pour baies vitrées coulissantes, offrant un design fin et élégant avec un déplacement sur deux rails. Équipé de chariots robustes avec patins de nivellement et renforts latéraux, il assure un fonctionnement fluide et durable. \
                 Compatible avec un vitrage jusqu’à 20 mm (simple ou double, y compris verre de sécurité), il supporte jusqu’à 60 kg par vantail. Des joints à brosse assurent l’étanchéité, et une large palette de couleurs Aluplast permet de personnaliser l’esthétique des baies.",
-                caracteristiques:  "1,5 Uw - 2 rails - 60mm de profondeur",
+                caracteristiques: [
+                    "2 rails",
+                    "60mm de profondeur",
+                    "1,5Uw"
+                ],
                 infos: "Informations complémentaires (ce produit est disponible en 4 variantes etc.)",
+                fiche: "pdfs/FicheProduits/FenetresPVC/easy-slide.pdf",
                 prix: "Fourchette de prix à partir de..."
             },
             {
@@ -74,8 +97,13 @@ export const fenetres = {
                 // eslint-disable-next-line no-multi-str
                 presentation: "Le système Multi Slide est une solution économique idéale pour les petites pièces où l’ouverture intérieure des portes-fenêtres est impossible par manque d’espace. \
                 Il permet de réaliser des baies vitrées coulissantes jusqu’à 7,25 m², avec une option à trois rails offrant un effet similaire à une baie accordéon pour un passage dégagé. Des joints à brosse assurent l’étanchéité entre le dormant et les vantaux.",
-                caracteristiques:  "1,4 Uw - 2 ou 3 rails - 170 de profondeur",
+                caracteristiques: [
+                    "2 ou 3 rails",
+                    "170mm de profondeur",
+                    "1,4Uw"
+                ],
                 infos: "Informations complémentaires (ce produit est disponible en 4 variantes etc.)",
+                fiche: "pdfs/FicheProduits/FenetresPVC/multi-slide.pdf",
                 prix: "Fourchette de prix à partir de..."
             },
             {
@@ -83,8 +111,13 @@ export const fenetres = {
                 image: SmartSlide,
                 // eslint-disable-next-line no-multi-str
                 presentation: "Le système Smart Slide est une baie coulissante dotée d’un mécanisme de fermeture innovant, simple et intuitif, similaire à celui des portes levantes-coulissantes. Il permet la réalisation de grandes structures jusqu’à 1,5 x 2,3 m, avec une profondeur d’installation de 140 mm et des vitrages allant jusqu’à 42 mm, offrant ainsi de bonnes performances thermiques.",
-                caracteristiques:  "0,92 Uw - 2 rails - 140mm de profondeur",
+                caracteristiques: [
+                    "2 rails",
+                    "140mm de profondeur",
+                    "0,92Uw"
+                ],
                 infos: "Des options comme les grilles de ventilation et une large gamme de finitions lisses ou imitation bois permettent d’adapter la baie à tout type d’intérieur ou de façade.",
+                fiche: "pdfs/FicheProduits/FenetresPVC/smart-slide.pdf",
                 prix: "Fourchette de prix à partir de..."
             },
             {
@@ -93,8 +126,13 @@ export const fenetres = {
                 // eslint-disable-next-line no-multi-str
                 presentation: "Le système HST 85 est une baie levante-coulissante à hautes performances thermiques, idéale pour les grandes surfaces vitrées tout en offrant une excellente isolation. \
                 Le système permet de réaliser des baies jusqu’à 6,7 m de largeur, avec des vantaux allant jusqu’à 3 x 2,5 m.",
-                caracteristiques:  "Uw 0.85 - 2 rails - 19mm de profondeur",
+                caracteristiques: [
+                    "2 rails",
+                    "19mm de profondeur",
+                    "0,85Uw"
+                ],
                 infos: "Disponible en trois versions – Basic, Standard et Premium – il s’adapte aux besoins, la variante Premium étant conçue pour les bâtiments à faible consommation d’énergie et pouvant être associée à un capotage aluminium Aluskin pour une finition élégante. Les profilés sont proposés avec différents cœurs (blanc, marron, crème ou anthracite) pour une couleur harmonieuse après plaxage.",
+                fiche: "pdfs/FicheProduits/FenetresPVC/hst-85.pdf",
                 prix: "Fourchette de prix à partir de..."
             },
         ],
@@ -114,8 +152,13 @@ export const fenetres = {
                 image: Ecofutural,
                 // eslint-disable-next-line no-multi-str
                 presentation: "Système à rupture de pont thermique à trois chambres, idéal pour fenêtres à la française, oscillo-battantes, ouvrant vers l’intérieur, portes à un ou deux vantaux et fenêtres monoblocs. Conçu pour répondre aux normes exigeantes d’isolation thermique.",
-                caracteristiques:  "3 chambres - Profondeur dormant 65mm - epaisseur vitrage 14 - 61mm",
+                caracteristiques: [
+                    "3 chambres",
+                    "épaisseur vitrage 14 - 61mm",
+                    "profondeur dormant 65mm",
+                ],
                 infos: "Disponible en deux versions : Ecofutural (isolation autour du vitrage) et Ecofutural i+ (isolation renforcée avec remplissage des espaces entre intercalaires).",
+                fiche: "pdfs/FicheProduits/FenetresAlu/ecofutural.pdf",
                 prix: "Fourchette de prix à partir de..."
             },
            {
@@ -123,8 +166,12 @@ export const fenetres = {
                 image: Superial,
                 // eslint-disable-next-line no-multi-str
                 presentation: "Polyvalent, il permet de réaliser fenêtres, vitrines extérieures, oscillo-battantes, à soufflet, oscillo-coulissantes, ainsi que portes ouvrant vers l’intérieur. Compatible avec les façades vitrées. Offre d’excellentes performances thermiques grâce à des inserts spécifiques placés autour du vitrage et entre les intercalaires. Utilisable en résidentiel comme en bâtiment public.",
-                caracteristiques:  "Profondeur du dormant 75mm - epaisseur vitrage 14 - 61mm",
+                caracteristiques: [
+                    "épaisseur vitrage 14 - 61mm",
+                    "profondeur dormant 75mm",
+                ],
                 infos: "Disponible en versions Superial i (isolation renforcée) et Superial i+ (isolation renforcée optimale).",
+                fiche: "pdfs/FicheProduits/FenetresAlu/superial.pdf",
                 prix: "Fourchette de prix à partir de..."
             },
            {
@@ -132,8 +179,13 @@ export const fenetres = {
                 image: MaxLight,
                 // eslint-disable-next-line no-multi-str
                 presentation: "Synonyme de modernité, ce système donne à la structure un caractère industriel et moderne, tout cela grâce à la visibilité minimale de la largeur du profilé. Robuste, esthétique et performant, MaxLight allie durabilité et design pour s’adapter à tous les styles architecturaux.",
-                caracteristiques:  "Profondeur du dormant 75mm - epaisseur vitrage ",
+                caracteristiques: [
+                    "3 chambres",
+                    "épaisseur vitrage 59 - 68mm",
+                    "profondeur dormant 75mm",
+                ],
                 infos: "TBD",
+                fiche: "pdfs/FicheProduits/FenetresAlu/maxlight.pdf",
                 prix: "Fourchette de prix à partir de..."
             },
            {
@@ -141,8 +193,13 @@ export const fenetres = {
                 image: ModernSlide,
                 // eslint-disable-next-line no-multi-str
                 presentation: "Le système Modernslide allie performance thermique et design moderne. Grâce à ses rails multiples et sa capacité à intégrer de grands vantaux, il offre luminosité et élégance à vos espaces. Avec l’option galandage, les vantaux disparaissent dans le mur, libérant totalement l’ouverture et créant une transition fluide entre intérieur et extérieur.",
-                caracteristiques:  "profondeur dormant 73 - 196 (monobloc) - 2 - 3 ou 4 rails - epaisseur vitrage 24 - 28 ou 32mm",
+                caracteristiques: [
+                    "profondeur dormant 73 - 196 (monobloc)",
+                    "2 - 3 ou 4 rails",
+                    "épaisseur vitrage 24 - 28 ou 32mm",
+                ],
                 infos: "TBD",
+                fiche: "pdfs/FicheProduits/FenetresAlu/modern-slide.pdf",
                 prix: "Fourchette de prix à partir de..."
             },
            {
@@ -150,8 +207,13 @@ export const fenetres = {
                 image: VisoGlide,
                 // eslint-disable-next-line no-multi-str
                 presentation: "Le système coulissant à profilés trois chambres isolés allie confort thermique et praticité. Idéal pour les ouvertures vers terrasses, balcons ou jardins, il peut accueillir jusqu’à six éléments sur plusieurs rails. Grâce à ses chariots spéciaux et à son poteau central ultra-fin, il garantit une ouverture fluide et une esthétique moderne.",
-                caracteristiques:  "Profondeur dormant (standard / spécial / monorail) 117,7 - 125,4 - 141,6 / 2 ou 3 rails / epaisseur vitrage 6 - 36mm",
+                caracteristiques: [
+                    "profondeur dormant (standard / spécial / monorail) 117,7 - 125,4 - 141,6",
+                    "2 ou 3 rails",
+                    "épaisseur vitrage 6 - 36mm",
+                ],
                 infos: "Disponible avec différents appuis de fenêtre et profilés d’angle pour s’adapter à chaque projet.",
+                fiche: "pdfs/FicheProduits/FenetresAlu/visoglide.pdf",
                 prix: "Fourchette de prix à partir de..."
             },
            {
@@ -159,8 +221,12 @@ export const fenetres = {
                 image: UltraGlide,
                 // eslint-disable-next-line no-multi-str
                 presentation: "Le système levante-coulissant permet de réaliser de grandes baies vitrées alliant isolation thermique renforcée, sécurité et design moderne. Disponible en version à seuil bas ou angle 90°, il accepte le double ou triple vitrage et permet de créer de larges surfaces vitrées, apportant un maximum de lumière naturelle tout en restant stable, fonctionnel et élégant.",
-                caracteristiques:  "Profondeur du dormant 153 – 239mm / epaisseur vitrage 14 – 52mm",
+                caracteristiques: [
+                    "profondeur du dormant 153 – 239mm",
+                    "épaisseur vitrage 14 – 52mm",
+                ],
                 infos: "TBD",
+                fiche: "pdfs/FicheProduits/FenetresAlu/ultraglide.pdf",
                 prix: "Fourchette de prix à partir de..."
             },
            {
@@ -168,8 +234,12 @@ export const fenetres = {
                 image: Naturo68,
                 // eslint-disable-next-line no-multi-str
                 presentation: "Le système Ultraglide MAX Light Monorail est un coulissant haut de gamme à rupture de pont thermique, idéal pour les grandes surfaces vitrées. Ses profilés fins maximisent l’apport de lumière et offrent une esthétique moderne et élégante. Avec une excellente isolation thermique et acoustique, il s’adapte aussi bien aux bâtiments résidentiels qu’aux projets publics.",
-                caracteristiques:  "Profondeur du dormant 176 mm - epaisseur vitrage 15 - 51 mm",
+                caracteristiques: [
+                    "profondeur du dormant 176mm",
+                    "épaisseur vitrage 15 – 51mm",
+                ],
                 infos: "Disponible dans toutes les couleurs RAL.",
+                fiche: "pdfs/FicheProduits/FenetresAlu/ecofutural.pdf",
                 prix: "Fourchette de prix à partir de..."
             },
            {
@@ -178,8 +248,12 @@ export const fenetres = {
                 // eslint-disable-next-line no-multi-str
                 presentation: "Slide Glass est un système coulissant intérieur au design minimaliste, idéal pour laisser entrer un maximum de lumière naturelle. Conçu avec du verre trempé de 10 mm et des profilés fins, il assure sécurité et élégance. \
                 Utilisable aussi bien dans les intérieurs modernes que pour des pergolas, il permet de créer des parois vitrées fixes ou modulables, et même de diviser de grands espaces (comme des bureaux) en zones indépendantes grâce à ses configurations en labyrinthe.",
-                caracteristiques:  "Epaisseur du dormant  71,1-  115,5 mm / epaisseur du vitrage 10mm",
+                caracteristiques: [
+                    "Profondeur du dormant 153 – 239mm",
+                    "épaisseur du vitrage 10mm",
+                ],
                 infos: "TBD",
+                fiche: "pdfs/FicheProduits/FenetresAlu/slide-glass.pdf",
                 prix: "Fourchette de prix à partir de..."
             },
            {
@@ -188,8 +262,13 @@ export const fenetres = {
                 // eslint-disable-next-line no-multi-str
                 presentation: "Fenêtres aluminium à ouvrant caché, le système COR 70 HO en aluminium se distingue par ses profilés extrêmement fins et solides, offrant jusqu’à 85 % de surface vitrée pour un apport maximal de lumière naturelle.\
                 Son ouvrant caché crée une façade lisse et moderne, où les parties fixes et mobiles se fondent visuellement pour un rendu élégant et uniforme. Le design raffiné du COR 70 HO permet d’intégrer des poignées centrées ou discrètement décentrées et encastrées, presque invisibles à l’œil nu.",
-                caracteristiques:  "Epaisseur du dormant 70 mm / epaisseur vitrage 26 - 40mm / Uw ≥ 0,85",
+                caracteristiques: [
+                    "profondeur du dormant 70mm",
+                    "épaisseur vitrage 26 - 40 mm",
+                    "Uw ≥ 0,85"
+                ],
                 infos: "Pour un style encore plus épuré, les charnières peuvent être entièrement dissimulées. Avec le ferrage approprié, il est possible de réaliser des ouvrants jusqu’à 3,5 mètres de hauteur, alliant esthétique, performance et modernité.",
+                fiche: "pdfs/FicheProduits/FenetresAlu/cortizo-70-ho.pdf",
                 prix: "Fourchette de prix à partir de..."
             },
            {
@@ -198,8 +277,13 @@ export const fenetres = {
                 // eslint-disable-next-line no-multi-str
                 presentation: "Coulissant minimaliste haut de gamme, le système COR Vision, au design italien raffiné, réduit la présence visible des profilés à seulement 9 % de la structure pour offrir un maximum de surface vitrée et une esthétique d’exception. Les cadres inférieur, supérieur et latéral peuvent être encastrés pour un rendu encore plus épuré.\
                 Particularité notable : l’assemblage à 90° des ouvrants se fait sans poteau d’angle, renforçant la continuité visuelle. En version simple rail, le rail peut être dissimulé dans la zone fixe. Grâce à ses cadres renforcés, le COR Vision accueille des ouvrants jusqu’à 320 kg, tout en offrant de bonnes performances thermiques avec un Uw de 1,3 W/m²K.",
-                caracteristiques:  "Epaisseur dormant 116 - 182mm / epaisseur vitrage 36 - 54mm - Uw 1,3",
+                caracteristiques: [
+                    "épaisseur dormant 116 - 182mm",
+                    "epaisseur vitrage 36 - 54mm",
+                    "Uw 1,3"
+                ],
                 infos: "TBD",
+                fiche: "pdfs/FicheProduits/FenetresAlu/cor-vision.pdf",
                 prix: "Fourchette de prix à partir de..."
             },
            {
@@ -209,8 +293,13 @@ export const fenetres = {
                 presentation: "Coulissant XXL minimaliste. Version haut de gamme du COR Vision, le COR Vision Plus est conçu pour accueillir de très grands vitrages, offrant jusqu’à 94 % de surface vitrée pour un apport maximal de lumière naturelle. \
                 Ses lignes fines et élégantes, associées à un vitrage performant, permettent d’atteindre un Uw exceptionnel de 0,9 W/m²K. \
                 Le cadre peut être totalement dissimulé sur tout le périmètre, ne laissant visible qu’un battement central de 25 mm. Compatible avec des vitrages jusqu’à 54 mm d’épaisseur, le système optimise isolation thermique et acoustique. Chaque vantail peut mesurer jusqu’à 4 000 mm de haut, avec un poids maximal de 700 kg (400 kg en ouverture manuelle).",
-                caracteristiques:  "Epaisseur dormant 116 - 182mm / epaisseur vitrage 36 - 54mm - Uw 1,3",
+                caracteristiques: [
+                    "épaisseur dormant 116 - 182mm",
+                    "epaisseur vitrage 36 - 54mm",
+                    "Uw 1,3"
+                ],  
                 infos: "TBD",
+                fiche: "pdfs/FicheProduits/FenetresAlu/cor-vision-plus.pdf",
                 prix: "Fourchette de prix à partir de..."
             },
            {
@@ -219,8 +308,11 @@ export const fenetres = {
                 // eslint-disable-next-line no-multi-str
                 presentation: "Ouverture totale et espace libéré. Fini les portes encombrantes : le COR Vision Galandage permet de faire disparaître complètement un, deux ou trois vantaux dans les cloisons, libérant l’espace et offrant une ouverture sans aucun obstacle. Les cadres représentent moins de 10 % de la structure et peuvent être encastrés pour un rendu minimaliste et élégant.\
                 Grâce à son rail inox renforcé, le système accepte des vantaux plus grands et plus lourds, tout en assurant une bonne isolation thermique et acoustique avec des vitrages jusqu’à 30 mm d’épaisseur. Facile à installer, il se décline dans plusieurs options pour s’adapter à tous les styles, alliant espace, confort et design contemporain.",
-                caracteristiques:  "Pas de Caracteristiques",
+                caracteristiques: [
+                    "Pas de caractéristiques"
+                ],
                 infos: "TBD",
+                fiche: "pdfs/FicheProduits/FenetresAlu/cor-vision-galandage.pdf",
                 prix: "Fourchette de prix à partir de..."
             },
         ],
@@ -238,8 +330,13 @@ export const fenetres = {
                 image: Naturo68,
                 // eslint-disable-next-line no-multi-str
                 presentation: "Élégance fine et résistance renforcée – Avec sa profondeur d’encastrement réduite, le Naturo 68 offre un design élancé et raffiné. Disponible en version standard ou avec capots aluminium Reno Line pour une meilleure protection contre les chocs et les UV, il allie charme du bois et touche moderne.",
-                caracteristiques:  "Profondeur 68mm / 2 joints / Uw 1,2",
+                caracteristiques: [
+                    "profondeur 68mm",
+                    "2 joints",
+                    "Uw 1,2"
+                ],
                 infos: "Plusieurs configurations sont possibles : profils belges ou hollandais, ouverture vers l’extérieur, version rénovation ou monobloc, des capots en aluminium présents sur la face extérieure des profilés pour s’adapter à chaque projet avec style et durabilité.",
+                fiche: "pdfs/FicheProduits/FenetresBois/naturo.pdf",
                 prix: "Fourchette de prix à partir de..."
             },
             {
@@ -247,8 +344,13 @@ export const fenetres = {
                 image: Naturo80,
                 // eslint-disable-next-line no-multi-str
                 presentation: "Conçu pour la construction à haute efficacité énergétique, le Naturo 80 combine la chaleur du bois à d’excellentes performances thermiques et acoustiques grâce à ses profils isolants et à un vitrage pouvant atteindre 45 mm d’épaisseur.",
-                caracteristiques:  "Profondeur 80 / 2 joints / Uw 0,81",
+                caracteristiques: [
+                    "profondeur 80mm",
+                    "2 joints",
+                    "Uw 0,81"
+                ],
                 infos: "Disponible en versions standard, belge, hollandaise, rénovation ou monobloc, avec option d’ouverture vers l’extérieur ou encore un capots en aluminium présents sur la face extérieure des profilés, il s'adapte à tous les styles tout en garantissant confort et économie d’énergie.",
+                fiche: "pdfs/FicheProduits/FenetresBois/naturo.pdf",
                 prix: "Fourchette de prix à partir de..."
             },
             {
@@ -256,8 +358,13 @@ export const fenetres = {
                 image: Naturo92,
                 // eslint-disable-next-line no-multi-str
                 presentation: "Il s'agit d'un système en bois offrant les meilleures performances thermiques et acoustiques, permettant l'utilisation des vitrages les plus efficaces. Le choix de Naturo 92 est, comme pour d'autres systèmes en bois, un investissement à long terme, en particulier dans la construction passive.",
-                caracteristiques:  "Profondeur 92 / 2 joints / Uw 0,77",
+                caracteristiques: [
+                    "profondeur 92mm",
+                    "2 joints",
+                    "Uw 0,77"
+                ],
                 infos: "Disponible en versions standard, belge, hollandaise, rénovation ou monobloc, avec option d’ouverture vers l’extérieur ou encore un capots en aluminium présents sur la face extérieure des profilés, il s'adapte à tous les styles tout en garantissant confort et économie d’énergie.",
+                fiche: "pdfs/FicheProduits/FenetresBois/naturo.pdf",
                 prix: "Fourchette de prix à partir de..."
             },
             {
@@ -265,8 +372,13 @@ export const fenetres = {
                 image: Naturo68HST,
                 // eslint-disable-next-line no-multi-str
                 presentation: "Léger et peu encombrant pour sa catégorie, le Naturo 68 HST permet de manipuler aisément de grandes surfaces vitrées. Sa faible profondeur d’encastrement et son design soigné s’intègrent parfaitement aux tendances actuelles, tandis que son seuil bas assure un passage fluide entre l’intérieur et l’extérieur.",
-                caracteristiques:  "Hauteur construction 2,8 / Profondeur 164 / 1-2 rails ",
+                caracteristiques: [
+                    "profondeur 164mm",
+                    "1-2 rails",
+                    "hauteur construction 2,8"
+                ],
                 infos: "TBD",
+                fiche: null,
                 prix: "Fourchette de prix à partir de..."
             },
             {
@@ -274,8 +386,13 @@ export const fenetres = {
                 image: Naturo80HST,
                 // eslint-disable-next-line no-multi-str
                 presentation: "Avec ses vantaux puissants et résistants, le Naturo 80 HST combine grandes dimensions et élégance visuelle. Son poids renforce l’étanchéité en position fermée, tandis que son design polyvalent sublime aussi bien la chaleur naturelle du bois que des finitions unies et contemporaines ou encore un capots en aluminium présents sur la face extérieure des profilés.",
-                caracteristiques:  "Hauteur construction 2,8 / Profondeur 188 / rails 1-2",
+                caracteristiques: [
+                    "profondeur 188mm",
+                    "1-2 rails",
+                    "hauteur construction 2,8"
+                ],
                 infos: "TBD",
+                fiche: null,
                 prix: "Fourchette de prix à partir de..."
             }
         ],
