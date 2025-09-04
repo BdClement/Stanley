@@ -21,7 +21,7 @@ function Fenetres({ fenetreType }) {
                         <div key={index} className="flex flex-col lg:flex-row gap-2 md:gap-4 xl-gap-8 bg-white rounded text-grey-contrast">
                             <div className="w-full lg:w-1/3 py-4 md:py-6 flex flex-col items-center">
                                 <h2 className="font-semibold uppercase">{item.titre}</h2>
-                                <img src={item.image} alt={item.titre} className=' object-contain rounded'></img>
+                                <img src={item.image} alt={item.titre} className=' object-contain rounded my-auto'></img>
                             </div>
                             <div className="w-full lg:w-2/3 py-4 md:py-6 flex flex-col gap-4 md:gap-6 xl:gap-10 px-4 text-justify bg-grey-contrast-xxl">
                                 <div className="flex flex-col gap-4 md:gap-6 xl:gap-10 pb-6 border-b-2">
