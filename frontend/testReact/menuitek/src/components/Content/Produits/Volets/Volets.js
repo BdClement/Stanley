@@ -1,23 +1,23 @@
-import { fenetres } from "../../../../datas/fenetres"
+import { volets } from "../../../../datas/volets"
 import { FaCheckCircle } from "react-icons/fa";
 import { MdDownloadForOffline } from "react-icons/md";
 
-function Fenetres({ fenetreType }) {
-    const fenetresContentType = fenetres[fenetreType];
+function Volets({ voletsType }) {
+    const voletsContentType = volets[voletsType];
 
-    if (!fenetresContentType) return <p>Type de fenetres introuvable {fenetreType}</p>
+    if (!voletsContentType) return <p>Type de volets introuvable {voletsType}</p>
 
     return (
-        <div className="flex flex-col gap-4 lg:gap-8 xl:gap-12 min-h-[70vh] py-[5vh] xl:py-[10vh] 2xl:py[15vh] px-[5vw] xl:px-[8vw]">
+ <div className="flex flex-col gap-4 lg:gap-8 xl:gap-12 min-h-[70vh] py-[5vh] xl:py-[10vh] 2xl:py[15vh] px-[5vw] xl:px-[8vw]">
             <div className='flex flex-col gap-6 md:gap-10 xl-gap-14'>
-                <h1 className=" text-center xl:pb-6 text-xl sm:text-2xl md:text-4xl lg:text-6xl xl:text-6xl 2xl:text-8xl font-bold">{fenetresContentType.titre}</h1>
+                <h1 className=" text-center xl:pb-6 text-xl sm:text-2xl md:text-4xl lg:text-6xl xl:text-6xl 2xl:text-8xl font-bold">{voletsContentType.titre}</h1>
                 <div className=''>
                     <p className="p-6 md:p-10 xl:p-16 text-justify border-y border-brun-contrast/60">
-                        {fenetresContentType.intro}
+                        {voletsContentType.intro}
                     </p>
                 </div>
                 <div className='flex flex-col gap-[10vh] xl:gap-[14vh] 2xl:gap-[16vh] py-10 xl:py-20'>
-                    {fenetresContentType.items.map((item, index) => 
+                    {voletsContentType.items.map((item, index) => 
                         <div key={index} className="flex flex-col lg:flex-row gap-2 md:gap-4 xl-gap-8 bg-white rounded text-grey-contrast">
                             <div className="w-full lg:w-1/3 py-4 md:py-6 flex flex-col items-center">
                                 <h2 className="font-semibold uppercase">{item.titre}</h2>
@@ -50,10 +50,10 @@ function Fenetres({ fenetreType }) {
                 <div className="p-6 md:p-10 xl:p-16 border-t border-brun-contrast/60">
                     <div className="flex gap-2 md:gap-4 xl-gap-8 items-center text-brun-contrast justify-center">
                         <FaCheckCircle/>
-                        <h3 className="font-semibold text-brun-contrast uppercase">{fenetresContentType.avantage}</h3>
+                        <h3 className="font-semibold text-brun-contrast uppercase">{voletsContentType.avantage}</h3>
                     </div>
                     <p className="pt-6 md:pt-10 xl:pt-16 text-justify ">
-                        {fenetresContentType.conclusion}
+                        {voletsContentType.conclusion}
                     </p>
                 </div>
             </div>
@@ -61,4 +61,4 @@ function Fenetres({ fenetreType }) {
     )
 }
 
-export default Fenetres;
+export default Volets;

@@ -3,8 +3,9 @@
 // import Formulaire from './Formulaire/Formulaire';
 // import Presentation from './Presentation/Presentation';
 // import Categorie from './Produits/Categories'
-// import Fenetres from './Produits/Fenetres/Fenetres'
-import Portes from  './Produits/Portes/Portes'
+import Fenetres from './Produits/Fenetres/Fenetres'
+import Portes from './Produits/Portes/Portes'
+import Volets from './Produits/Volets/Volets'
 
 function Content() {
     return (
@@ -15,12 +16,15 @@ function Content() {
             {/* <Categorie categorieName={"fenetres"}/> */}
             {/* <Categorie categorieName={"portes"}/> */}
             {/* <Categorie categorieName={"volets"}/> */}
-            {/* <Fenetres fenetreType={"fenetresPVC"}/> */}
-            {/* <Fenetres fenetreType={"fenetresBois"}/> */}
-            {/* <Fenetres fenetreType={"fenetresAlu"}/> */}
+            <Fenetres fenetreType={"fenetresPVC"}/>
+            <Fenetres fenetreType={"fenetresBois"}/>
+            <Fenetres fenetreType={"fenetresAlu"}/>
             <Portes portesType={"portesPVC"}/>
             <Portes portesType={"portesAlu"}/>
             <Portes portesType={"portesBois"}/>
+            <Volets voletsType={"voletsRoulant"}/>
+            <Volets voletsType={"voletsBattantsBois"}/>
+            <Volets voletsType={"voletsBattantsAlu"}/>
         </main>
     )
 }

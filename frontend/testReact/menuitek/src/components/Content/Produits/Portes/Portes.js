@@ -16,7 +16,7 @@ function Portes({ portesType }) {
                         {portesContentType.intro}
                     </p>
                 </div>
-                <div className='flex flex-col gap-[6vh] xl:gap-[8vh] 2xl:gap-[10vh] py-10 xl:py-20'>
+                <div className='flex flex-col gap-[10vh] xl:gap-[14vh] 2xl:gap-[16vh] py-10 xl:py-20'>
                     {portesContentType.items.map((item, index) => 
                         <div key={index} className="flex flex-col lg:flex-row gap-2 md:gap-4 xl-gap-8 bg-white rounded text-grey-contrast">
                             <div className="w-full lg:w-1/3 py-4 md:py-6 flex flex-col items-center">
