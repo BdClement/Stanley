@@ -2,6 +2,7 @@
 import Ideal4000 from '../assets/Fenetres/FenetresPVC/Ideal4000Small.png'
 import Ideal5000 from '../assets/Fenetres/FenetresPVC/Ideal5000.png'
 import Ideal8000 from '../assets/Fenetres/FenetresPVC/Ideal8000.png'
+import IdealNeo from '../assets/Fenetres/FenetresPVC/IdealNeo.webp'
 import EasySlide from '../assets/Fenetres/FenetresPVC/EasySlide.png'
 import MultiSlide from '../assets/Fenetres/FenetresPVC/MultiSlide.png'
 import SmartSlide from '../assets/Fenetres/FenetresPVC/SmartSlide.png'
@@ -74,6 +75,21 @@ export const fenetres = {
                 ], 
                 infos: "Informations complémentaires (ce produit est disponible en 4 variantes etc.)",
                 fiche: "pdfs/FicheProduits/FenetresPVC/ideal-8000.pdf",
+                prix: "Fourchette de prix à partir de..."
+            },
+            {
+                titre: "Aluplast Ideal Neo",
+                image: IdealNeo,
+                // eslint-disable-next-line no-multi-str
+                presentation: "Ideal Neo est un système de fenêtres au design moderne avec des profilés affinés, parfait pour la construction neuve comme pour la rénovation. Grâce à la technologie innovante Bonding Inside, le vitrage est collé en permanence au cadre, ce qui améliore la stabilité,\
+                 les performances thermiques et la durabilité. Une solution élégante et fiable, conçue pour durer dans le temps.",
+                caracteristiques: [
+                    "5-6 chambres",
+                    "2 joints d’étanchéité",
+                    "0,8Uw"
+                ], 
+                infos: "Disponible en rénovation,  monobloc et ouvrant caché",
+                fiche: "pdfs/FicheProduits/FenetresPVC/ideal-neo.pdf",
                 prix: "Fourchette de prix à partir de..."
             },
             {
