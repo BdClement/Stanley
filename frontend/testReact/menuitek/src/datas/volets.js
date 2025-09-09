@@ -4,7 +4,7 @@ import VoletsBattantsBois from '../assets/Volets/VoletsBattantsBois/VoletsBattan
 import VoletsBattantsAluminium from '../assets/Volets/VoletsBattantsAlu/VoletsBattantsAluminium.png'
 
 export const volets = {
-    voletsRoulant: {
+    voletsRoulants: {
         titre: "Volets roulants",
         // eslint-disable-next-line no-multi-str
         intro: "Principal moyen de protéger les intérieurs de l'excès de lumière et de chaleur, les volets roulants peuvent être installés à l'intérieur d'un bâtiment ou sur la façade. \
@@ -22,7 +22,7 @@ export const volets = {
                     "largeur minimale du caisson 400mm",
                 ],
                 infos: "Disponible en version économique SK45 Railing.",
-                fiche: "pdfs/FicheProduits/VoletsRoulants/sk45.pdf",
+                fiche: "/pdfs/FicheProduits/VoletsRoulants/sk45.pdf",
                 prix: "Fourchette de prix à partir de..."
             },
         ],
@@ -47,7 +47,7 @@ export const volets = {
                     "lames fixes",
                 ],
                 infos: "Disponible sur mesure.",
-                fiche: "pdfs/FicheProduits/VoletsBattantsBois/volets-battants-en-bois.pdf",
+                fiche: "/pdfs/FicheProduits/VoletsBattantsBois/volets-battants-en-bois.pdf",
                 prix: "Fourchette de prix à partir de..."
             },
         ],
@@ -71,7 +71,7 @@ export const volets = {
                     "Pas de caractéristiques"
                 ],
                 infos: "Disponibles avec des lamelles fixes ou orientables et en différentes couleurs.",
-                fiche: "pdfs/FicheProduits/VoletsBattantsAlu/volets-battants-alu.pdf",
+                fiche: "/pdfs/FicheProduits/VoletsBattantsAlu/volets-battants-alu.pdf",
                 prix: "Fourchette de prix à partir de..."
             },
         ],

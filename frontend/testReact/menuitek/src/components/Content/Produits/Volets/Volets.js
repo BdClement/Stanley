@@ -1,8 +1,10 @@
 import { volets } from "../../../../datas/volets"
 import { FaCheckCircle } from "react-icons/fa";
 import { MdDownloadForOffline } from "react-icons/md";
+import { useParams } from "react-router-dom";
 
-function Volets({ voletsType }) {
+function Volets() {
+    const { voletsType } = useParams();
     const voletsContentType = volets[voletsType];
 
     if (!voletsContentType) return <p>Type de volets introuvable {voletsType}</p>

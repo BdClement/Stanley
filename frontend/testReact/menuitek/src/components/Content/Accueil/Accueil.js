@@ -17,17 +17,3 @@ function Accueil() {
 }
 
 export default Accueil;
-
-//Styles degrade de couleur
-// Forme des bordure en curve
-// box shadow
-// mix-blend
-// mask-clip image
-// mask-image
-// mask-radial
-// rotate
-// rounded-[0%_0%_50%_50%_/_25%_25%_5%_5%]
-
-// Check reutilisation des memes classes !
-// Check animation scroll
-// Check espacement supplementaires 

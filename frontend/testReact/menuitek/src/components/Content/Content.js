@@ -3,33 +3,19 @@
 // import Formulaire from './Formulaire/Formulaire';
 // import Presentation from './Presentation/Presentation';
 // import Categorie from './Produits/Categories'
-import Fenetres from './Produits/Fenetres/Fenetres'
-import Portes from './Produits/Portes/Portes'
-import Volets from './Produits/Volets/Volets'
+// import Fenetres from './Produits/Fenetres/Fenetres'
+// import Portes from './Produits/Portes/Portes'
+// import Volets from './Produits/Volets/Volets'
 
-function Content() {
-    return (
-        <main className='flex-1 items-center justify-center text-xs md:text-sm lg:text-base xl:text-xl 2xl:text-2xl'>
-            {/* <Accueil /> */}
-            {/* <Presentation /> */}
-            {/* <Formulaire /> */}
-            {/* <Categorie categorieName={"fenetres"}/> */}
-            {/* <Categorie categorieName={"portes"}/> */}
-            {/* <Categorie categorieName={"volets"}/> */}
-            <Fenetres fenetreType={"fenetresPVC"}/>
-            <Fenetres fenetreType={"fenetresBois"}/>
-            <Fenetres fenetreType={"fenetresAlu"}/>
-            <Portes portesType={"portesPVC"}/>
-            <Portes portesType={"portesAlu"}/>
-            <Portes portesType={"portesBois"}/>
-            <Volets voletsType={"voletsRoulant"}/>
-            <Volets voletsType={"voletsBattantsBois"}/>
-            <Volets voletsType={"voletsBattantsAlu"}/>
-        </main>
-    )
-}
+// function Content() {
+//     return (
+//         <main className='flex-1 items-center justify-center text-xs md:text-sm lg:text-base xl:text-xl 2xl:text-2xl'>
+//             <Accueil/>
+//         </main>
+//     )
+// }
 
-export default Content;
+// export default Content;
 
 // Page Produits
     // Au survol du bouton Nos Produits => un element proposent d'un coup les categories et les sous categories
@@ -38,15 +24,11 @@ export default Content;
 
 
 // Contenu a faire :
-    // - Element au survol (UX)
-    // - Page categories qui presntent les sous categories avec :
-            // Une photo 
-            // Une prenstation breve de l'avantage de cette sous categorie
-            // Un bouton de lien vers la page en questions
-    // - Page de sous categories avec :
-            // Une photo
-            // Un visuel presentant partiellement ou integralement els variantes
-            // Un visuel similaire avec les couleurs possibles
-            // Une estimation de prix (a partir de)
-            // Informations diverses (autres variantes dispos et autres possibilites)
-            // Un bouton en lien pour contacter a propos de ce prodtuis (Devis)
+    // Liste produit : harmoniser le placement des elements
+    // Gerer le scrollToTop
+    // Ameliorer UX 
+    // Page Stores et moutiquaires
+    // Ajouter les prix aux produits
+    // Ajouter les PDF manquants
+    // Faire routage du Footer
+    // Faire une navitation a nous contacter sur les pages produits

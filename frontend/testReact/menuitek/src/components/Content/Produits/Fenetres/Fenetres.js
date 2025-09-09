@@ -1,8 +1,10 @@
 import { fenetres } from "../../../../datas/fenetres"
 import { FaCheckCircle } from "react-icons/fa";
 import { MdDownloadForOffline } from "react-icons/md";
+import { useParams } from "react-router-dom";
 
-function Fenetres({ fenetreType }) {
+function Fenetres() {
+    const { fenetreType } = useParams();
     const fenetresContentType = fenetres[fenetreType];
 
     if (!fenetresContentType) return <p>Type de fenetres introuvable {fenetreType}</p>

@@ -1,8 +1,10 @@
 import { portes } from "../../../../datas/portes"
 import { FaCheckCircle } from "react-icons/fa";
 import { MdDownloadForOffline } from "react-icons/md";
+import { useParams } from "react-router-dom";
 
-function Portes({ portesType }) {
+function Portes() {
+    const { portesType } = useParams();
     const portesContentType = portes[portesType];
 
     if (!portesContentType) return <p>Type de portes introuvable {portesType}</p>

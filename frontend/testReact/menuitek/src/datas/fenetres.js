@@ -45,8 +45,8 @@ export const fenetres = {
                     "70mm de profondeur",
                     "1Uw"
                 ],
-                infos: "Informations complémentaires (ce produit est disponible en 4 variantes etc.)",
-                fiche: "pdfs/FicheProduits/FenetresPVC/ideal-4000.pdf",
+                infos: "Également disponible en version rénovation, monobloc et capotage aluminium.",
+                fiche: "/pdfs/FicheProduits/FenetresPVC/ideal-4000.pdf",
                 prix: "Fourchette de prix à partir de..."
             },
             {
@@ -60,7 +60,7 @@ export const fenetres = {
                     "0,94Uw"
                 ],
                 infos: "Également disponible dans une version avec un cadre plus fin qui permettra d’éclairer facilement toutes les pièces.",
-                fiche: "pdfs/FicheProduits/FenetresPVC/ideal-5000.pdf",
+                fiche: "/pdfs/FicheProduits/FenetresPVC/ideal-5000.pdf",
                 prix: "Fourchette de prix à partir de..."
             },
             {
@@ -74,7 +74,7 @@ export const fenetres = {
                     "0,74Uw"
                 ], 
                 infos: "Informations complémentaires (ce produit est disponible en 4 variantes etc.)",
-                fiche: "pdfs/FicheProduits/FenetresPVC/ideal-8000.pdf",
+                fiche: "/pdfs/FicheProduits/FenetresPVC/ideal-8000.pdf",
                 prix: "Fourchette de prix à partir de..."
             },
             {
@@ -89,7 +89,7 @@ export const fenetres = {
                     "0,8Uw"
                 ], 
                 infos: "Disponible en rénovation,  monobloc et ouvrant caché",
-                fiche: "pdfs/FicheProduits/FenetresPVC/ideal-neo.pdf",
+                fiche: "/pdfs/FicheProduits/FenetresPVC/ideal-neo.pdf",
                 prix: "Fourchette de prix à partir de..."
             },
             {
@@ -104,7 +104,7 @@ export const fenetres = {
                     "1,5Uw"
                 ],
                 infos: "Informations complémentaires (ce produit est disponible en 4 variantes etc.)",
-                fiche: "pdfs/FicheProduits/FenetresPVC/easy-slide.pdf",
+                fiche: "/pdfs/FicheProduits/FenetresPVC/easy-slide.pdf",
                 prix: "Fourchette de prix à partir de..."
             },
             {
@@ -119,7 +119,7 @@ export const fenetres = {
                     "1,4Uw"
                 ],
                 infos: "Informations complémentaires (ce produit est disponible en 4 variantes etc.)",
-                fiche: "pdfs/FicheProduits/FenetresPVC/multi-slide.pdf",
+                fiche: "/pdfs/FicheProduits/FenetresPVC/multi-slide.pdf",
                 prix: "Fourchette de prix à partir de..."
             },
             {
@@ -133,7 +133,7 @@ export const fenetres = {
                     "0,92Uw"
                 ],
                 infos: "Des options comme les grilles de ventilation et une large gamme de finitions lisses ou imitation bois permettent d’adapter la baie à tout type d’intérieur ou de façade.",
-                fiche: "pdfs/FicheProduits/FenetresPVC/smart-slide.pdf",
+                fiche: "/pdfs/FicheProduits/FenetresPVC/smart-slide.pdf",
                 prix: "Fourchette de prix à partir de..."
             },
             {
@@ -148,7 +148,7 @@ export const fenetres = {
                     "0,85Uw"
                 ],
                 infos: "Disponible en trois versions – Basic, Standard et Premium – il s’adapte aux besoins, la variante Premium étant conçue pour les bâtiments à faible consommation d’énergie et pouvant être associée à un capotage aluminium Aluskin pour une finition élégante. Les profilés sont proposés avec différents cœurs (blanc, marron, crème ou anthracite) pour une couleur harmonieuse après plaxage.",
-                fiche: "pdfs/FicheProduits/FenetresPVC/hst-85.pdf",
+                fiche: "/pdfs/FicheProduits/FenetresPVC/hst-85.pdf",
                 prix: "Fourchette de prix à partir de..."
             },
         ],
@@ -174,7 +174,7 @@ export const fenetres = {
                     "profondeur dormant 65mm",
                 ],
                 infos: "Disponible en deux versions : Ecofutural (isolation autour du vitrage) et Ecofutural i+ (isolation renforcée avec remplissage des espaces entre intercalaires).",
-                fiche: "pdfs/FicheProduits/FenetresAlu/ecofutural.pdf",
+                fiche: "/pdfs/FicheProduits/FenetresAlu/ecofutural.pdf",
                 prix: "Fourchette de prix à partir de..."
             },
            {
@@ -187,7 +187,7 @@ export const fenetres = {
                     "profondeur dormant 75mm",
                 ],
                 infos: "Disponible en versions Superial i (isolation renforcée) et Superial i+ (isolation renforcée optimale).",
-                fiche: "pdfs/FicheProduits/FenetresAlu/superial.pdf",
+                fiche: "/pdfs/FicheProduits/FenetresAlu/superial.pdf",
                 prix: "Fourchette de prix à partir de..."
             },
            {
@@ -201,7 +201,7 @@ export const fenetres = {
                     "profondeur dormant 75mm",
                 ],
                 infos: "TBD",
-                fiche: "pdfs/FicheProduits/FenetresAlu/maxlight.pdf",
+                fiche: "/pdfs/FicheProduits/FenetresAlu/maxlight.pdf",
                 prix: "Fourchette de prix à partir de..."
             },
            {
@@ -215,7 +215,7 @@ export const fenetres = {
                     "épaisseur vitrage 24 - 28 ou 32mm",
                 ],
                 infos: "TBD",
-                fiche: "pdfs/FicheProduits/FenetresAlu/modern-slide.pdf",
+                fiche: "/pdfs/FicheProduits/FenetresAlu/modern-slide.pdf",
                 prix: "Fourchette de prix à partir de..."
             },
            {
@@ -229,7 +229,7 @@ export const fenetres = {
                     "épaisseur vitrage 6 - 36mm",
                 ],
                 infos: "Disponible avec différents appuis de fenêtre et profilés d’angle pour s’adapter à chaque projet.",
-                fiche: "pdfs/FicheProduits/FenetresAlu/visoglide.pdf",
+                fiche: "/pdfs/FicheProduits/FenetresAlu/visoglide.pdf",
                 prix: "Fourchette de prix à partir de..."
             },
            {
@@ -242,7 +242,7 @@ export const fenetres = {
                     "épaisseur vitrage 14 – 52mm",
                 ],
                 infos: "TBD",
-                fiche: "pdfs/FicheProduits/FenetresAlu/ultraglide.pdf",
+                fiche: "/pdfs/FicheProduits/FenetresAlu/ultraglide.pdf",
                 prix: "Fourchette de prix à partir de..."
             },
            {
@@ -255,7 +255,7 @@ export const fenetres = {
                     "épaisseur vitrage 15 – 51mm",
                 ],
                 infos: "Disponible dans toutes les couleurs RAL.",
-                fiche: "pdfs/FicheProduits/FenetresAlu/ecofutural.pdf",
+                fiche: "/pdfs/FicheProduits/FenetresAlu/ecofutural.pdf",
                 prix: "Fourchette de prix à partir de..."
             },
            {
@@ -269,7 +269,7 @@ export const fenetres = {
                     "épaisseur du vitrage 10mm",
                 ],
                 infos: "TBD",
-                fiche: "pdfs/FicheProduits/FenetresAlu/slide-glass.pdf",
+                fiche: "/pdfs/FicheProduits/FenetresAlu/slide-glass.pdf",
                 prix: "Fourchette de prix à partir de..."
             },
            {
@@ -284,7 +284,7 @@ export const fenetres = {
                     "Uw ≥ 0,85"
                 ],
                 infos: "Pour un style encore plus épuré, les charnières peuvent être entièrement dissimulées. Avec le ferrage approprié, il est possible de réaliser des ouvrants jusqu’à 3,5 mètres de hauteur, alliant esthétique, performance et modernité.",
-                fiche: "pdfs/FicheProduits/FenetresAlu/cortizo-70-ho.pdf",
+                fiche: "/pdfs/FicheProduits/FenetresAlu/cortizo-70-ho.pdf",
                 prix: "Fourchette de prix à partir de..."
             },
            {
@@ -299,7 +299,7 @@ export const fenetres = {
                     "Uw 1,3"
                 ],
                 infos: "TBD",
-                fiche: "pdfs/FicheProduits/FenetresAlu/cor-vision.pdf",
+                fiche: "/pdfs/FicheProduits/FenetresAlu/cor-vision.pdf",
                 prix: "Fourchette de prix à partir de..."
             },
            {
@@ -315,7 +315,7 @@ export const fenetres = {
                     "Uw 1,3"
                 ],  
                 infos: "TBD",
-                fiche: "pdfs/FicheProduits/FenetresAlu/cor-vision-plus.pdf",
+                fiche: "/pdfs/FicheProduits/FenetresAlu/cor-vision-plus.pdf",
                 prix: "Fourchette de prix à partir de..."
             },
            {
@@ -328,7 +328,7 @@ export const fenetres = {
                     "Pas de caractéristiques"
                 ],
                 infos: "TBD",
-                fiche: "pdfs/FicheProduits/FenetresAlu/cor-vision-galandage.pdf",
+                fiche: "/pdfs/FicheProduits/FenetresAlu/cor-vision-galandage.pdf",
                 prix: "Fourchette de prix à partir de..."
             },
         ],
@@ -352,7 +352,7 @@ export const fenetres = {
                     "Uw 1,2"
                 ],
                 infos: "Plusieurs configurations sont possibles : profils belges ou hollandais, ouverture vers l’extérieur, version rénovation ou monobloc, des capots en aluminium présents sur la face extérieure des profilés pour s’adapter à chaque projet avec style et durabilité.",
-                fiche: "pdfs/FicheProduits/FenetresBois/naturo.pdf",
+                fiche: "/pdfs/FicheProduits/FenetresBois/naturo.pdf",
                 prix: "Fourchette de prix à partir de..."
             },
             {
@@ -366,7 +366,7 @@ export const fenetres = {
                     "Uw 0,81"
                 ],
                 infos: "Disponible en versions standard, belge, hollandaise, rénovation ou monobloc, avec option d’ouverture vers l’extérieur ou encore un capots en aluminium présents sur la face extérieure des profilés, il s'adapte à tous les styles tout en garantissant confort et économie d’énergie.",
-                fiche: "pdfs/FicheProduits/FenetresBois/naturo.pdf",
+                fiche: "/pdfs/FicheProduits/FenetresBois/naturo.pdf",
                 prix: "Fourchette de prix à partir de..."
             },
             {
@@ -380,7 +380,7 @@ export const fenetres = {
                     "Uw 0,77"
                 ],
                 infos: "Disponible en versions standard, belge, hollandaise, rénovation ou monobloc, avec option d’ouverture vers l’extérieur ou encore un capots en aluminium présents sur la face extérieure des profilés, il s'adapte à tous les styles tout en garantissant confort et économie d’énergie.",
-                fiche: "pdfs/FicheProduits/FenetresBois/naturo.pdf",
+                fiche: "/pdfs/FicheProduits/FenetresBois/naturo.pdf",
                 prix: "Fourchette de prix à partir de..."
             },
             {

@@ -1,15 +1,38 @@
 import '../styles/App.css';
-// import React from 'react';
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Header from './Header/Header';
-import Content from './Content/Content';
+// import Content from './Content/Content';
 import Footer from './Footer/Footer';
+
+import Accueil from './Content/Accueil/Accueil';
+import Formulaire from './Content/Formulaire/Formulaire';
+import Presentation from './Content/Presentation/Presentation';
+import Categorie from './Content/Produits/Categories'
+import Fenetres from './Content/Produits/Fenetres/Fenetres'
+import Portes from './Content/Produits/Portes/Portes'
+import Volets from './Content/Produits/Volets/Volets'
 
 function App() {
   return (
     <div className='flex flex-col min-h-screen'>
-      <Header />
-      <Content />
-      <Footer />
+      <Router>
+        <Header />
+
+        <Routes>
+          <Route path='/' element={<Accueil/>} />
+          <Route path='/devis/' element={<Formulaire/>}/>
+          <Route path='/nous-connaitre/' element={<Presentation/>}/>
+          <Route path='/categories/:categorieName' element={<Categorie/>}/>
+          <Route path='/categories/fenetres/:fenetreType' element={<Fenetres/>}/>
+          <Route path='/categories/portes/:portesType' element={<Portes/>}/>
+          <Route path='/categories/volets/:voletsType' element={<Volets/>}/>
+        </Routes>
+
+        {/* <Content /> */}
+
+        <Footer />
+      </Router>
     </div>
     );
 }

@@ -25,17 +25,20 @@ export const categories = {
       {
         image: FenetrePVC,
         title: "Fenêtres en PVC",
-        description: "Les fenêtres en PVC conviennent aussi bien aux maisons individuelles qu'aux immeubles collectifs."
+        description: "Les fenêtres en PVC conviennent aussi bien aux maisons individuelles qu'aux immeubles collectifs.",
+        link:"/categories/fenetres/fenetresPVC"
       },
       {
         image: FenetreAlu,
         title: "Fenêtres en aluminium",
-        description: "Durabilité, simplicité, fonctionnalité et sécurité sont parmi les nombreux avantages de la menuiserie en aluminium."
+        description: "Durabilité, simplicité, fonctionnalité et sécurité sont parmi les nombreux avantages de la menuiserie en aluminium.",
+        link:"/categories/fenetres/fenetresAlu"
       },
       {
         image: FenetreBois,
         title: "Fenêtres en Bois",
-        description: "Des profilés solides composés de trois ou quatre couches de bois, avec quatre couches de vernis pour garantir une utilisation durable."
+        description: "Des profilés solides composés de trois ou quatre couches de bois, avec quatre couches de vernis pour garantir une utilisation durable.",
+        link:"/categories/fenetres/fenetresBois"
       }
     ],
     advantage: "Isolation thermique et accoustique",
@@ -56,17 +59,20 @@ export const categories = {
       {
         image: PortesEntreePVC,
         title: "Portes d'entrée en PVC",
-        description: "Les portes en PVC se distinguent par leur esthétique et leur qualité au plus haut niveau."
+        description: "Les portes en PVC se distinguent par leur esthétique et leur qualité au plus haut niveau.",
+        link:"/categories/portes/portesPVC"
       },
       {
         image: PortesEntreeAlu,
         title: "Portes d'entrée en aluminium",
-        description: "Les portes en aluminium se caractérisent par une fonctionnalité et une durabilité exceptionnelles."
+        description: "Les portes en aluminium se caractérisent par une fonctionnalité et une durabilité exceptionnelles.",
+        link:"/categories/portes/portesAlu"
       },
       {
         image: PortesEntreeBois,
         title: "Portes d'entrée en bois",
-        description: "Les portes en bois sont fabriquées à partir des meilleurs matériaux, spécialement sélectionnés."
+        description: "Les portes en bois sont fabriquées à partir des meilleurs matériaux, spécialement sélectionnés.",
+        link:"/categories/portes/portesBois"
       },
       // {
       //   image: PortesEntreeAcier,
@@ -94,17 +100,20 @@ export const categories = {
       {
         image: VoletsRoulants,
         title: "Volets roulants",
-        description: "Principal moyen de protéger les intérieurs de l'excès de lumière et de chaleur, les volets roulants peuvent être installés à l'intérieur d'un bâtiment ou sur la façade. Un large choix d'options vous permet de choisir une solution parfaitement adaptée."
+        description: "Principal moyen de protéger les intérieurs de l'excès de lumière et de chaleur, les volets roulants peuvent être installés à l'intérieur d'un bâtiment ou sur la façade. Un large choix d'options vous permet de choisir une solution parfaitement adaptée.",
+        link:"/categories/volets/voletsRoulants"
       },
       {
         image: VoletsBattantsBois,
         title: "Volets battants en bois",
-        description: "Les volets battants en bois constituent un complément original aux fenêtres, permettant de contrôler la quantité de lumière et de chaleur entrant dans l'intérieur. Cette solution qui assure l'intimité peut transformer totalement n'importe quelle façade."
+        description: "Les volets battants en bois constituent un complément original aux fenêtres, permettant de contrôler la quantité de lumière et de chaleur entrant dans l'intérieur. Cette solution qui assure l'intimité peut transformer totalement n'importe quelle façade.",
+        link:"/categories/volets/voletsBattantsBois"
       },
       {
         image: VoletsBattantsAlu,
         title: "Volets battants en aluminium",
-        description: "Les volets extérieurs en aluminium sont un produit moderne inspiré par le style traditionnel. Ces protections de fenêtres, montées sur la façade du bâtiment, offrent une excellente fonctionnalité, permettent de contrôler la quantité de lumière et de chaleur à l'intérieur tout en garantissant l'intimité. En même temps, ils constituent un ajout remarquable à toute façade, lui conférant un caractère unique."
+        description: "Les volets extérieurs en aluminium sont un produit moderne inspiré par le style traditionnel. Ces protections de fenêtres, montées sur la façade du bâtiment, offrent une excellente fonctionnalité, permettent de contrôler la quantité de lumière et de chaleur à l'intérieur tout en garantissant l'intimité. En même temps, ils constituent un ajout remarquable à toute façade, lui conférant un caractère unique.",
+        link:"/categories/volets/voletsBattantsAlu"
       },
     ],
     advantage: "Maîtrise de la chaleur et occultation de fenêtres",

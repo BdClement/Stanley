@@ -1,15 +1,17 @@
-import { categories } from "../../../datas/categories"
-import { FaCheckCircle } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
-function Categorie({ categorieName }) {
-    // const categorieId = categoriesMap[categorieName] ?? -1;
+import { categories } from "../../../datas/categories";
+import { FaCheckCircle } from "react-icons/fa";
+import { useParams } from "react-router-dom";
+
+function Categorie() {
+    const { categorieName } = useParams();
     const categorieObject = categories[categorieName];
     
     if (!categorieObject) return <p>Categorie Introuvable {categorieName}</p>
 
     return (
         <div className="flex flex-col gap-4 lg:gap-8 xl:gap-12 min-h-[70vh] py-[5vh] xl:py-[10vh] 2xl:py[15vh] px-[5vw] xl:px-[8vw]">
-            {/* <Fenetres /> */}
             <div className='flex flex-col gap-6 md:gap-10 xl-gap-14'>
                 <h1 className=" text-center xl:pb-6 text-xl sm:text-2xl md:text-4xl lg:text-6xl xl:text-6xl 2xl:text-8xl font-bold">{categorieObject.title}</h1>
                 <div className=''>
@@ -22,7 +24,9 @@ function Categorie({ categorieName }) {
                             <div className='py-2 md:py-4 xl:py-8 px-6 md:px-8 xl:px-10 flex flex-col justify-between gap-2 md:gap-4 xl-gap-8 text-grey-contrast'>
                                 <h2 className="font-semibold uppercase">{item.title}</h2>
                                 <p className='text-justify'>{item.description}</p>
-                                <button className='py-2 xl:py-4 px-2 lg:px-4 xl:px-6 self-end border rounded-full hover:bg-brun-contrast hover:text-beige-contrast transition duration:300'>Découvrir</button>
+                                <Link to={item.link}>
+                                    <button className='py-2 xl:py-4 px-2 lg:px-4 xl:px-6 self-end border rounded-full hover:bg-brun-contrast hover:text-beige-contrast transition duration:300'>Découvrir</button>
+                                </Link>
                             </div>
                         </div>
                     )}
@@ -41,16 +45,4 @@ function Categorie({ categorieName }) {
 }
 
 export default Categorie;
-
-// - Page categories qui presentent les sous categories avec :
-        // Une photo 
-        // Une prenstation breve de l'avantage de cette sous categorie
-        // Un bouton de lien vers la page en questions
-
-// Pages Produits qui presentes les produits d'une sous categories:
-        // Titre du modele
-        // Photo du modele
-        // Phrase de presentation
-        // Caracteristiques techniques
-        // Phrase laissant entrevoir les differentes possibilites (a faire pour chaque produit ou une fois si les produits ont tous les meme possibilites sur demande)
     
