@@ -5,12 +5,12 @@ import logoValide from "../../../assets/Valide.png"
 
 function IntroFormulaire() {
     return (
-        <div className="w-full h-full flex flex-col items-center">
-            <div className="flex flex-col items-center opacity-0 animate-slide-in-right">
+        <div className="w-full h-full flex flex-col items-center opacity-0 animate-slide-in-right">
+            <div className="flex flex-col items-center">
                 <h2 className="text-center my-4 md:my-6 lg:my-8 sm:text-lg lg:text-2xl 2xl:text-4xl">Menuitek est ravi de vous accompagner dans votre projet !</h2>
                 <p className="my-2 md:my-6 lg:my-8 text-sm sm:text-base md:text-lg lg:text-xl 2xl:text-2xl">Pour cela, rien de plus simple :</p>
             </div>
-            <div className="my-2 md:my-6 lg:my-8 flex w-full h-full items-center justify-evenly opacity-0 animate-slide-in-right" style={{ animationDelay: '400ms' }}>
+            <div className="my-2 md:my-6 lg:my-8 flex w-full h-full items-center justify-evenly">
                 <div className="flex flex-col">
                     <ol className="flex flex-col gap-2 lg:gap-4 p-2 lg:p-4 border-2 border-stone-700 rounded-t-lg text-sm sm:text-base md:text-lg lg:text-xl 2xl:text-2xl">
                         <li className="flex flex-row gap-2 lg:gap-4">

@@ -5,7 +5,7 @@ import BodyFormulaire from "./BodyFormulaire"
 
 function Formulaire() {
     return (
-        <div className="flex flex-col items-center justify-center py-20">
+        <div className="flex flex-col items-center justify-center py-[5vh] xl:py-[10vh] 2xl:py[15vh] mb-[1vh] md:mb-[4vh]">
             <IntroFormulaire />
             <BodyFormulaire />
         </div>

@@ -18,7 +18,7 @@ function Devis({ setSubmissionStatus, type, setType, initialReader, setInitialRe
     
     return (
         <form onSubmit={handleSubmit(onSubmit)} noValidate className={`w-full flex flex-col items-center gap-2 sm:gap-4 lg:gap-8 text-sm sm:text-base md:text-lg lg:text-xl 2xl:text-2xl opacity-0 
-            ${initialReader ? 'animate-slide-in-right' : 'animate-fade-in'}`} style={initialReader ? { animationDelay: '800ms' } : {}} action="" method="post">
+            ${initialReader ? 'animate-slide-in-right' : 'animate-fade-in'}`} style={initialReader ? { animationDelay: '300ms' } : {}} action="" method="post">
             <ul className="w-2/3 2xl:w-2/5 flex flex-col xl:gap-2 p-2 md:p-4 lg:p-6 xl:p-12 border-t-2 border-beige-main">
                 <p className="">Vous etes un :</p>
                 <li className="flex flex-row gap-2 lg:gap-4 2xl:gap-8 items-center justify-center">

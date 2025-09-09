@@ -112,7 +112,7 @@ export const categories = {
       {
         image: VoletsBattantsAlu,
         title: "Volets battants en aluminium",
-        description: "Les volets extérieurs en aluminium sont un produit moderne inspiré par le style traditionnel. Ces protections de fenêtres, montées sur la façade du bâtiment, offrent une excellente fonctionnalité, permettent de contrôler la quantité de lumière et de chaleur à l'intérieur tout en garantissant l'intimité. En même temps, ils constituent un ajout remarquable à toute façade, lui conférant un caractère unique.",
+        description: "Les volets extérieurs en aluminium sont un produit moderne inspiré par le style traditionnel. Ces protections de fenêtres, montées sur la façade du bâtiment, offrent une excellente fonctionnalité, permettent de contrôler la quantité de lumière et de chaleur à l'intérieur tout en garantissant l'intimité.",
         link:"/categories/volets/voletsBattantsAlu"
       },
     ],

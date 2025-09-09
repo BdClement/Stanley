@@ -13,12 +13,14 @@ import Fenetres from './Content/Produits/Fenetres/Fenetres'
 import Portes from './Content/Produits/Portes/Portes'
 import Volets from './Content/Produits/Volets/Volets'
 
+import ScrollToTop from './scrollToTop';
+
 function App() {
   return (
     <div className='flex flex-col min-h-screen'>
       <Router>
+        <ScrollToTop />
         <Header />
-
         <Routes>
           <Route path='/' element={<Accueil/>} />
           <Route path='/devis/' element={<Formulaire/>}/>
@@ -28,9 +30,6 @@ function App() {
           <Route path='/categories/portes/:portesType' element={<Portes/>}/>
           <Route path='/categories/volets/:voletsType' element={<Volets/>}/>
         </Routes>
-
-        {/* <Content /> */}
-
         <Footer />
       </Router>
     </div>

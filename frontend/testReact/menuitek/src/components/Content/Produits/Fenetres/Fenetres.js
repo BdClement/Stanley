@@ -26,7 +26,7 @@ function Fenetres() {
                                 <img src={item.image} alt={item.titre} className=' object-contain rounded my-auto'></img>
                             </div>
                             <div className="w-full lg:w-2/3 py-4 md:py-6 flex flex-col gap-4 md:gap-6 xl:gap-10 px-4 text-justify bg-grey-contrast-xxl">
-                                <div className="flex flex-col gap-4 md:gap-6 xl:gap-10 pb-6 border-b-2">
+                                <div className="flex flex-1 flex-col justify-between gap-4 md:gap-6 xl:gap-10 pb-6 border-b-2">
                                     <div className="px-6">{item.presentation}</div>
                                     {item.caracteristiques && (
                                         <ul className=" px-8 italic list-disc list-inside">

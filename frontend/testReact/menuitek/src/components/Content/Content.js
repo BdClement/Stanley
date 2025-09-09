@@ -24,11 +24,9 @@
 
 
 // Contenu a faire :
-    // Liste produit : harmoniser le placement des elements
-    // Gerer le scrollToTop
     // Ameliorer UX 
+    // Faire une invitation a nous contacter sur les pages produits
     // Page Stores et moutiquaires
     // Ajouter les prix aux produits
     // Ajouter les PDF manquants
     // Faire routage du Footer
-    // Faire une navitation a nous contacter sur les pages produits
