@@ -30,3 +30,4 @@
     // Ajouter les prix aux produits
     // Ajouter les PDF manquants
     // Faire routage du Footer
+    // Ameliorer les credit dans mentions legales ??
