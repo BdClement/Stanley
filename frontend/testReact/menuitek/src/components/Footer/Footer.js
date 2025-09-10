@@ -1,6 +1,6 @@
 // import React from 'react';
 import '../../styles/Footer.css'
-import Legal from './Legal'
+import Legal from './Legal/Legal'
 import About from './About'
 
 function Footer() {

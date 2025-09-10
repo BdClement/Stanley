@@ -12,6 +12,8 @@ import Categorie from './Content/Produits/Categories'
 import Fenetres from './Content/Produits/Fenetres/Fenetres'
 import Portes from './Content/Produits/Portes/Portes'
 import Volets from './Content/Produits/Volets/Volets'
+import Mentions from './Footer/Legal/Mentions'
+import Confidentialite from './Footer/Legal/Confidentialite'
 
 import ScrollToTop from './scrollToTop';
 
@@ -25,10 +27,12 @@ function App() {
           <Route path='/' element={<Accueil/>} />
           <Route path='/devis/' element={<Formulaire/>}/>
           <Route path='/nous-connaitre/' element={<Presentation/>}/>
-          <Route path='/categories/:categorieName' element={<Categorie/>}/>
-          <Route path='/categories/fenetres/:fenetreType' element={<Fenetres/>}/>
-          <Route path='/categories/portes/:portesType' element={<Portes/>}/>
-          <Route path='/categories/volets/:voletsType' element={<Volets/>}/>
+          <Route path='/categories/:categorieName/' element={<Categorie/>}/>
+          <Route path='/categories/fenetres/:fenetreType/' element={<Fenetres/>}/>
+          <Route path='/categories/portes/:portesType/' element={<Portes/>}/>
+          <Route path='/categories/volets/:voletsType/' element={<Volets/>}/>
+          <Route path='/mentions-legales/' element={<Mentions/>} />
+          <Route path='/politique-confidentialite/' element={<Confidentialite/>} />
         </Routes>
         <Footer />
       </Router>

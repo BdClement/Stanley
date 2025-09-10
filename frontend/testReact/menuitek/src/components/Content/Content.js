@@ -30,4 +30,3 @@
     // Ajouter les prix aux produits
     // Ajouter les PDF manquants
     // Faire routage du Footer
-    // chercher Logo coherent pour Formulaire
