@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 function About() {
     return (
         <div className="flex flex-grow sm:flex-row flex-col">
@@ -5,9 +7,9 @@ function About() {
                 <div className="h-[2px] w-3/4 bg-gradient-to-r from-brun-contrast to-brun-contrast-300"></div>
                 <h3 className="text-2xl">À propos</h3>
                 <ul className=" flex flex-col flex-grow">
-                    <li className="flex-grow hover:underline hover:text-black">Qui sommes nous ?</li>
-                    <li className="flex-grow hover:underline hover:text-black">Nos valeurs</li>
-                    <li className="flex-grow hover:underline hover:text-black">FAQ</li>
+                    <Link to='/nous-connaitre#menuitek' className="flex-grow hover:underline hover:text-black">Qui sommes nous ?</Link>
+                    <Link to='/nous-connaitre#valeurs' className="flex-grow hover:underline hover:text-black">Nos valeurs</Link>
+                    <li className="flex-grow hover:underline hover:text-black">FAQ</li> 
                 </ul>
             </div>
             <div className="m-2 sm:m-6 flex flex-col flex-grow">
