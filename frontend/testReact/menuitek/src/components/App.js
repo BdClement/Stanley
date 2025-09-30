@@ -16,12 +16,14 @@ import Mentions from './Footer/Legal/Mentions'
 import Confidentialite from './Footer/Legal/Confidentialite'
 
 import ScrollToTop from './scrollToTop';
+import ScrollToHash from './scrollToHash';
 
 function App() {
   return (
     <div className='flex flex-col min-h-screen'>
       <Router>
         <ScrollToTop />
+        <ScrollToHash/>
         <Header />
         <Routes>
           <Route path='/' element={<Accueil/>} />

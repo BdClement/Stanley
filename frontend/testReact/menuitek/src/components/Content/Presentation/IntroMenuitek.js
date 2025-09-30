@@ -1,7 +1,7 @@
 function IntroMenuitek() {
     return (
-        <div id='menuitek' className="flex flex-col gap-4 lg:gap-8 xl:gap-12 px-[5vw] xl:px-[8vw] scroll-mt-[7vh] sm:scroll-mt-[4vh] lg:scroll-mt-[9vh] 2xl:scroll-mt-[7vh]">
-            <h1 className='font-semibold text-brun-contrast'>MENUITEK - L'EXCELLENCE DE LA MENUISERIE ACCESSIBLE A TOUS</h1>
+        <div id='menuitek' className="flex flex-col gap-4 lg:gap-8 xl:gap-12 px-[5vw] xl:px-[8vw]">
+            <h1 className='font-semibold text-brun-contrast uppercase'>MENUITEK - L'EXCELLENCE DE LA MENUISERIE ACCESSIBLE à TOUS</h1>
             <div className="flex flex-col gap-4 lg:gap-8 xl:gap-12 border-b border-beige-main/30 pb-[5vh] text-justify">
                 <p>Chez MENUITEK, nous sommes spécialisés dans la fourniture et la pose de fenêtres, portes et volets sur mesure, en aluminium, PVC et bois.
                     <br/>Notre mission est simple : améliorer durablement le confort, la sécurité et l’esthétique de vos espaces, tout en vous garantissant une qualité irréprochable.</p>
