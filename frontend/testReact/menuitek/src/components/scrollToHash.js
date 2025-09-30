@@ -7,7 +7,6 @@ const ScrollToHash = () => {
   useEffect(() => { 
     console.log("1");
     if (!hash) return;
-
     // attendre que le DOM soit rendu
     setTimeout(() => {
         console.log("2");
@@ -36,3 +35,4 @@ export default ScrollToHash;
 
 // La solution du setTiemout n'est pas tres propre et deterministe 
 // L'amelioration serait de s'assurer que le DOm charge tout pour calculer y et le scroll
+// Autre amelioration : Double clic sur la meme ancre ne focntionne pas (noraml car hash nest pas modifie)
