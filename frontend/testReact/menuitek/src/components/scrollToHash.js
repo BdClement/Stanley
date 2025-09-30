@@ -34,5 +34,5 @@ const ScrollToHash = () => {
 export default ScrollToHash;
 
 // La solution du setTiemout n'est pas tres propre et deterministe 
-// L'amelioration serait de s'assurer que le DOm charge tout pour calculer y et le scroll
+// L'amelioration serait de s'assurer que le DOM charge tout pour calculer y et le scroll
 // Autre amelioration : Double clic sur la meme ancre ne focntionne pas (noraml car hash nest pas modifie)
