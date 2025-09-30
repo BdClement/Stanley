@@ -6,7 +6,8 @@ import ProductsMenu from './ProductsMenu';
 
 function Navbar({ isOpen, setIsOpen }) {
     return (
-        <nav className='w-full opacity-0 animate-slide-in-down flex flex-col sm:flex-row lg:text-lg 2xl:text-xl flex-wrap sticky top-0 z-50 h-[20vh] sm:h-[3vh] lg:h-[8vh] 2xl:h-[6vh] min-h-[6vh] bg-beige-main text-grey-main shadow'>
+        <>
+        <nav className='relative w-full opacity-0 animate-slide-in-down flex flex-col sm:flex-row lg:text-lg 2xl:text-xl sm:flex-wrap sticky top-0 z-50 h-[20vh] sm:h-[3vh] lg:h-[8vh] 2xl:h-[6vh] min-h-[6vh] bg-beige-main text-grey-main shadow'>
             <ul className="flex flex-row w-full flex-1 h-full items-center justify-evenly">
                 <li className="relative group p-2">
                     <Link to='/' className='hover:text-brun-contrast'><FaHome/></Link>
@@ -34,7 +35,13 @@ function Navbar({ isOpen, setIsOpen }) {
                     <Link to='/devis/' className="px-3 py-1 sm:py-2 lg:py-2 rounded-full bg-brun-contrast text-beige-contrast hover:bg-beige-contrast hover:text-grey-main hover:border-2 hover:border-grey-contrast hover:text-grey-contrast transition duration:300">Demandez un devis</Link>
                 </li>
             </ul>
+            <div className="absolute top-full left-0 w-full sm:h-full" onMouseLeave={() => setIsOpen(false)}>
+                <ProductsMenu 
+                    isOpen={isOpen}
+                />
+            </div>
         </nav>
+        </>
     )
 }
 
