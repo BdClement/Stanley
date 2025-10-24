@@ -17,6 +17,7 @@ import Confidentialite from './Footer/Legal/Confidentialite'
 
 import ScrollToTop from './scrollToTop';
 import ScrollToHash from './scrollToHash';
+import Faq from './Footer/Faq';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
           <Route path='/' element={<Accueil/>} />
           <Route path='/devis/' element={<Formulaire/>}/>
           <Route path='/nous-connaitre/' element={<Presentation/>}/>
+          <Route path='/FAQ/' element={<Faq/>}/>
           <Route path='/categories/:categorieName/' element={<Categorie/>}/>
           <Route path='/categories/fenetres/:fenetreType/' element={<Fenetres/>}/>
           <Route path='/categories/portes/:portesType/' element={<Portes/>}/>

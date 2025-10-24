@@ -2,6 +2,7 @@ import { fenetres } from "../../../../datas/fenetres"
 import { FaCheckCircle } from "react-icons/fa";
 import { MdDownloadForOffline } from "react-icons/md";
 import { useParams , useLocation} from "react-router-dom";
+import Aluplast from '../../../../assets/Marques/Aluplast Logo.png'
 
 function Fenetres() {
     const { fenetreType } = useParams();
@@ -38,14 +39,28 @@ function Fenetres() {
                                     )}
                                     <div className=" px-6 ">{item.infos}</div>
                                 </div>
-                                <div className="flex flex-col gap-4 md:gap-6 xl:gap-10 items-end">
+                                <div className="flex flex-col md:flex-row gap-4 md:gap-6 xl:gap-10 items-center md:items-start w-full">
+                                    <div className="w-full md:w-1/2 flex justify-center md:justify-start xl:justify-center">
+                                        <img src={Aluplast} alt="AluplastLogo" className="max-w-[200px] md:max-w-[250px] xl:justify-center"></img>
+                                    </div>
+                                    <div className="w-full md:w-1/2 flex flex-col items-center md:items-end gap-4 xl:justify-center">
+                                        {item.fiche && (
+                                            <a className="p-4 w-full flex items-center justify-center gap-4 border-grey-contrast rounded-md bg-grey-contrast text-white hover:bg-grey-main transition duration:300" href={item.fiche} download>
+                                                Télécharger la fiche Produit <MdDownloadForOffline/>
+                                            </a>
+                                        )}
+                                        <div className="w-full text-end font-semibold">{item.prix}</div>
+                                    </div>
+                                </div>
+                                {/* <div className="flex flex-col gap-4 md:gap-6 xl:gap-10 items-end">
+                                    <img src={Aluplast} alt="AluplastLogo"></img>
                                     {item.fiche && (
                                         <a className="p-4 w-full lg:w-1/2 flex items-center justify-center gap-4 border-grey-contrast rounded-md bg-grey-contrast text-white hover:bg-grey-main transition duration:300" href={item.fiche} download>
                                             Télécharger la fiche Produit <MdDownloadForOffline/>
                                         </a>
                                     )}
                                     <div className="w-full lg:w-1/2 text-end font-semibold">{item.prix}</div>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     )}

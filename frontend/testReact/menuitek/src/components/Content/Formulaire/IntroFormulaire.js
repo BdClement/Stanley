@@ -3,7 +3,7 @@ import { IoDocumentText } from "react-icons/io5";
 import { BiSearchAlt } from "react-icons/bi";
 // import logoValide from "../../../assets/Valide.png"
 // import logoMedaille from "../../../assets/medaille.png"
-import logoRGE from "../../../assets/RGE.png"
+// import logoRGE from "../../../assets/RGE.png"
 import logoQuality from "../../../assets/Quality.png"
 import logoGreen from "../../../assets/green.png"
 
@@ -35,9 +35,9 @@ function IntroFormulaire() {
                         <div className="w-20 h-20 md:w-28 md:h-28 lg:w-32 lg:h-32 xl:w-40 xl:h-40 flex items-center justify-center bg-grey-main rounded">
                             <img src={logoQuality} alt="Logo Quality" className="max-h-full max-w-full object-contain scale-75" />
                         </div>
-                        <div className="w-20 h-20 md:w-28 md:h-28 lg:w-32 lg:h-32 xl:w-40 xl:h-40 flex items-center justify-center bg-grey-main rounded">
+                        {/* <div className="w-20 h-20 md:w-28 md:h-28 lg:w-32 lg:h-32 xl:w-40 xl:h-40 flex items-center justify-center bg-grey-main rounded">
                             <img src={logoRGE} alt="Logo Green" className="max-h-full max-w-full object-contain scale-75" />
-                        </div>
+                        </div> */}
                         <div className="w-20 h-20 md:w-28 md:h-28 lg:w-32 lg:h-32 xl:w-40 xl:h-40 flex items-center justify-center bg-grey-main rounded">
                             <img src={logoGreen} alt="Logo Green" className="max-h-full max-w-full object-contain scale-50" />
                         </div>
