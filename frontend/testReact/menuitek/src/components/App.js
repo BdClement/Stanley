@@ -46,24 +46,14 @@ function App() {
 
 export default App;
 
-    // <div className="bg-gray-100 min-h-screen flex items-center justify-center">
-    //     <h1 className="text-3xl font-bold text-blue-600">Hello Tailwind!</h1>
-    // </div>  
 
-// <div className="App">
-//   <header className="App-header">
-//     <img src={logo} className="App-logo" alt="logo" />
-//     <p>
-//       Edit <code>src/App.js</code> and save to reload.
-//     </p>
-//     <a
-//       className="App-link"
-//       href="https://reactjs.org"
-//       target="_blank"
-//       rel="noopener noreferrer"
-//     >
-//       Learn React
-//     </a>
-//   </header>
-// </div>
+// A Faire : 
+    // Mise a jour produit a faire partout (ecriture rouge a inserer)
+    // Fenetre manquante Image / PDF DONE => Pb PDF pas propre ecriture sur ecriture. Image OK
+    // PDF portes update
+    // Nouveau logo
+    // logo founisseur (que fenetre ? )
 
+    // J'ai pas ideal 5000 / Ideal Neo / Easy slide / HST 85 ca s'affiche pas 
+    // Pas sur de la qualite Enovoye par mail depuis Iphone 
+    // renomme

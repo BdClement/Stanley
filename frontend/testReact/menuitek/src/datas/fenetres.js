@@ -20,6 +20,7 @@ import CorVisionGalandage from '../assets/Fenetres/FenetresAlu/CorVisionGalandag
 import CorVisionPlus from '../assets/Fenetres/FenetresAlu/CorVisionPlus.png'
 import Ecofutural from '../assets/Fenetres/FenetresAlu/Ecofutural.png'
 import MaxLight from '../assets/Fenetres/FenetresAlu/MaxLight.png'
+import MaxLightMonorail from '../assets/Fenetres/FenetresAlu/UltraglideMaxLight Monorail.png'
 import ModernSlide from '../assets/Fenetres/FenetresAlu/ModernSlide.png'
 import SlideGlass from '../assets/Fenetres/FenetresAlu/SlideGlass.png'
 import Superial from '../assets/Fenetres/FenetresAlu/Superial.png'
@@ -247,7 +248,7 @@ export const fenetres = {
             },
            {
                 titre: "Aliplast Ultraglide MaxLight Monorail",
-                image: Naturo68,
+                image: MaxLightMonorail,
                 // eslint-disable-next-line no-multi-str
                 presentation: "Le système Ultraglide MAX Light Monorail est un coulissant haut de gamme à rupture de pont thermique, idéal pour les grandes surfaces vitrées. Ses profilés fins maximisent l’apport de lumière et offrent une esthétique moderne et élégante. Avec une excellente isolation thermique et acoustique, il s’adapte aussi bien aux bâtiments résidentiels qu’aux projets publics.",
                 caracteristiques: [
@@ -255,7 +256,7 @@ export const fenetres = {
                     "épaisseur vitrage 15 – 51mm",
                 ],
                 infos: "Disponible dans toutes les couleurs RAL.",
-                fiche: "/pdfs/FicheProduits/FenetresAlu/ecofutural.pdf",
+                fiche: "/pdfs/FicheProduits/FenetresAlu/maxlight-monorail.pdf",
                 prix: "Fourchette de prix à partir de..."
             },
            {

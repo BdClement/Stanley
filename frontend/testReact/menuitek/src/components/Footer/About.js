@@ -17,18 +17,45 @@ function About() {
                 <div className="h-[2px] w-3/4 bg-gradient-to-r from-brun-contrast to-brun-contrast-300"></div>
                 <h3 className="text-2xl">Réseaux</h3>
                 <ul className="flex flex-row flex-grow items-center justify-evenly gap-6">
-                    <li><i class="fab fa-instagram text-3xl hover:text-[#E1306C] transition duration-200 ease-in-out"></i></li>
+                    <li>
+                        <a
+                            href="https://www.instagram.com/menuitek/" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                        >
+                            <i class="fab fa-instagram text-3xl hover:text-[#E1306C] transition duration-200 ease-in-out"></i>
+
+                        </a>
+                    </li>
                     <li>
                         <a 
-                          href="https://www.linkedin.com/company/menuitek-la-mesuiserie-accesible-%C3%A0-tous/" 
-                          target="_blank" 
-                          rel="noopener noreferrer"
+                            href="https://www.linkedin.com/company/menuitek-la-mesuiserie-accesible-%C3%A0-tous/" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
                         >
                             <i class="fab fa-linkedin text-3xl hover:text-[#0077B5] transition duration-200 ease-in-out"></i>
                         </a>
                     </li>
-                    <li><i class="fab fa-facebook text-3xl hover:text-[#1877F2] transition duration-200 ease-in-out"></i></li>
-                    <li><i class="fab fa-tiktok text-3xl hover:text-[#EE1D52] transition duration-200 ease-in-out"></i></li>
+                    <li>
+                        <a
+                            href="https://www.facebook.com/profile.php?id=61582189509233" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                        >
+
+                            <i class="fab fa-facebook text-3xl hover:text-[#1877F2] transition duration-200 ease-in-out"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            href="https://www.tiktok.com/@menuitek?_r=1&_t=ZN-9180yjmr4oo" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                        >
+
+                            <i class="fab fa-tiktok text-3xl hover:text-[#EE1D52] transition duration-200 ease-in-out"></i>
+                        </a>
+                    </li>
                 </ul>
             </div>
             <div className="m-2 sm:m-6 flex flex-col flex-grow">

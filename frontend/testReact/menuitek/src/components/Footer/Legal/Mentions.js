@@ -8,10 +8,10 @@ function Mentions() {
                 <h3 className='font-semibold text-brun-contrast uppercase'>1 - Éditeur du site</h3>
                 <ul className="list-inside p-4">
                     <li><strong>Nom de la société :</strong> Menuitek</li>
-                    <li><strong>Forme juridique :</strong> TBD</li>
-                    <li><strong>Capital social :</strong> TBD €</li>
+                    <li><strong>Forme juridique :</strong> Société par actions simplifiée</li>
+                    <li><strong>Capital social :</strong> 1 000 €</li>
                     <li><strong>Siège social :</strong> 9, Rue Anatole de la Forge, Paris, Île-de-France 75017, France</li>
-                    <li><strong>RCS :</strong> TBD</li>
+                    <li><strong>RCS :</strong> Paris B 941925265</li>
                     <li><strong>Numéro de TVA intracommunautaire :</strong> [à compléter, ex : FR12 123456789 OU non applicable]</li>
                     <li><strong>Responsable de la publication :</strong> THOREL Stanley, fondateur de Menuitek</li>
                     <li><strong>Email :</strong> EMAIL</li>
@@ -44,7 +44,7 @@ function Mentions() {
                 </ul>
                 <p>Les droits d’auteur relatifs à ces éléments restent la propriété de leurs auteurs respectifs.</p>
                 <p>Si vous êtes l’auteurd’un visuel publié ici sans crédit explicite et que vous souhaitez qu’il soit ajouté ou retiré, merci de nous contacter.</p>
-                <p className="text-brun-contrast font-bold uppercase">Rechercher tout les logos/images pour crediter le createur ?</p>
+                {/* <p className="text-brun-contrast font-bold uppercase">Rechercher tout les logos/images pour crediter le createur ?</p> */}
             </div>
 
             

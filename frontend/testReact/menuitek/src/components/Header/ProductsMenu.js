@@ -71,11 +71,11 @@ function ProductsMenu({ isOpen }) {
                     </li>
                 </ul>
             </div>
-            <div className='flex flex-col gap-2 2xl:gap-6'>
+            {/* <div className='flex flex-col gap-2 2xl:gap-6'>
                 <div className='relative group self-start'>
-                    {/* Routage a FAIRE */}
+                    Routage a FAIRE
                     <p className='text-brun-contrast font-semibold'>Stores et moustiquaires</p>
-                    {/* <span className="absolute bottom-[0.3rem] sm:bottom-0 left-1/2 transform -translate-x-1/2 sm:h-[2px] w-0 bg-brun-contrast transition-all duration-300 group-hover:w-full"></span> */}
+                    <span className="absolute bottom-[0.3rem] sm:bottom-0 left-1/2 transform -translate-x-1/2 sm:h-[2px] w-0 bg-brun-contrast transition-all duration-300 group-hover:w-full"></span>
                 </div>
                 <ul className='flex flex-col gap-2 2xl:gap-4 border-t border-beige-contrast md:border-none py-1'>
                     <li className="relative group self-start">
@@ -83,7 +83,7 @@ function ProductsMenu({ isOpen }) {
                         <span className="absolute bottom-[0.3rem] sm:bottom-0 left-1/2 transform -translate-x-1/2 sm:h-[2px] w-0 bg-brun-contrast transition-all duration-300 group-hover:w-full"></span>
                     </li>
                 </ul>
-            </div>
+            </div> */}
         </div>
     )
 }
