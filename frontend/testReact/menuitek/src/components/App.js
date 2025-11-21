@@ -45,7 +45,3 @@ function App() {
 }
 
 export default App;
-
-// A Faire : 
-  // - New Logo
-  // Essayer de faire page d'accueil
