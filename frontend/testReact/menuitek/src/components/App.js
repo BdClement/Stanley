@@ -46,14 +46,6 @@ function App() {
 
 export default App;
 
-
 // A Faire : 
-    // Mise a jour produit a faire partout (ecriture rouge a inserer)
-    // Fenetre manquante Image / PDF DONE => Pb PDF pas propre ecriture sur ecriture. Image OK
-    // PDF portes update
-    // Nouveau logo
-    // logo founisseur (que fenetre ? )
-
-    // J'ai pas ideal 5000 / Ideal Neo / Easy slide / HST 85 ca s'affiche pas 
-    // Pas sur de la qualite Enovoye par mail depuis Iphone 
-    // renomme
+  // - New Logo
+  // Essayer de faire page d'accueil

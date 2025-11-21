@@ -2,7 +2,7 @@ import { fenetres } from "../../../../datas/fenetres"
 import { FaCheckCircle } from "react-icons/fa";
 import { MdDownloadForOffline } from "react-icons/md";
 import { useParams , useLocation} from "react-router-dom";
-import Aluplast from '../../../../assets/Marques/Aluplast Logo.png'
+// import Aluplast from '../../../../assets/Marques/AluplastLogo.png'
 
 function Fenetres() {
     const { fenetreType } = useParams();
@@ -24,7 +24,7 @@ function Fenetres() {
                     {fenetresContentType.items.map((item, index) => 
                         <div key={index} className="flex flex-col lg:flex-row gap-2 md:gap-4 xl-gap-8 bg-white rounded text-grey-contrast">
                             <div className="w-full lg:w-1/3 py-4 md:py-6 flex flex-col items-center">
-                                <h2 className="font-semibold uppercase">{item.titre}</h2>
+                                <h2 className="font-semibold uppercase text-center">{item.titre}</h2>
                                 <div className="w-full h-[250px] md:h-[300px] xl:h-[350px] flex items-center justify-center">
                                     {/* <img src={item.image} alt={item.titre} className=' object-contain rounded my-auto'></img> */}
                                     <img src={item.image} alt={item.titre} className='max-h-full max-w-full object-contain'></img>
@@ -43,16 +43,20 @@ function Fenetres() {
                                     <div className=" px-6 ">{item.infos}</div>
                                 </div>
                                 <div className="flex flex-col md:flex-row gap-4 md:gap-6 xl:gap-10 items-center md:items-start w-full">
-                                    <div className="w-full md:w-1/2 flex justify-center md:justify-start xl:justify-center">
-                                        <img src={Aluplast} alt="AluplastLogo" className="max-w-[200px] md:max-w-[250px] xl:justify-center"></img>
-                                    </div>
+                                    {/* {item.logo && ( */}
+                                        <div className="w-full md:w-1/2 flex justify-center md:justify-start xl:justify-center">
+                                            {item.logo && (
+                                                <img src={item.logo} alt="Logo de la marque" className="max-w-[200px] md:max-w-[250px]"></img>
+                                            )}
+                                        </div>
+                                    {/* )} */}
                                     <div className="w-full md:w-1/2 flex flex-col items-center md:items-end gap-4 xl:justify-center">
+                                        <div className="w-full text-end font-semibold">{item.prix}</div>
                                         {item.fiche && (
                                             <a className="p-4 w-full flex items-center justify-center gap-4 border-grey-contrast rounded-md bg-grey-contrast text-white hover:bg-grey-main transition duration:300" href={item.fiche} download>
                                                 Télécharger la fiche Produit <MdDownloadForOffline/>
                                             </a>
                                         )}
-                                        <div className="w-full text-end font-semibold">{item.prix}</div>
                                     </div>
                                 </div>
                                 {/* <div className="flex flex-col gap-4 md:gap-6 xl:gap-10 items-end">

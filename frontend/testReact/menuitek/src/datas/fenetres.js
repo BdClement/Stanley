@@ -26,8 +26,10 @@ import SlideGlass from '../assets/Fenetres/FenetresAlu/SlideGlass.png'
 import Superial from '../assets/Fenetres/FenetresAlu/Superial.png'
 import UltraGlide from '../assets/Fenetres/FenetresAlu/UltraGlide.png'
 import VisoGlide from '../assets/Fenetres/FenetresAlu/VisoGlide.png'
-// import Cortizo70HO from '../assets/Fenetres/FenetresAlu/Cortizo70HO.png'
 
+import Aluplast from '../assets/Marques/AluplastLogo.png'
+import Aliplast from '../assets/Marques/AliplastLogo.png'
+import Cortizo from '../assets/Marques/cortizo-removebg-preview.png'
 
 export const fenetres = {
     fenetresPVC: {
@@ -44,10 +46,13 @@ export const fenetres = {
                     "5 chambres",
                     "2 joints d’étanchéité",
                     "70mm de profondeur",
-                    "1Uw"
+                    "1Uw pour Ug = 0,7"
                 ],
-                infos: "Également disponible en version rénovation, monobloc et capotage aluminium.",
+                // eslint-disable-next-line no-multi-str
+                infos: "Également disponible en version rénovation (ailes de rénovation 20,40 ou 65), monobloc et capotage aluminium.\
+                Différentes options et accessoires sont également disponibles (grilles de ventilation, poignées, croisillons, moustiquaires…)",
                 fiche: "/pdfs/FicheProduits/FenetresPVC/ideal-4000.pdf",
+                logo: Aluplast,
                 prix: "Fourchette de prix à partir de..."
             },
             {
@@ -58,10 +63,13 @@ export const fenetres = {
                     "5 chambres",
                     "3 joints d’étanchéité",
                     "70mm de profondeur",
-                    "0,94Uw"
+                    "0,94Uw pour Ug = 0,7"
                 ],
-                infos: "Également disponible dans une version avec un cadre plus fin qui permettra d’éclairer facilement toutes les pièces.",
+                // eslint-disable-next-line no-multi-str
+                infos: "Egalement disponible en version rénovation (ailes de rénovation 20,40 ou 65)  et capotage aluminium.\
+                Différentes options et accessoires sont également disponibles (grilles de ventilation, poignées, croisillons, moustiquaires…)",
                 fiche: "/pdfs/FicheProduits/FenetresPVC/ideal-5000.pdf",
+                logo: Aluplast,
                 prix: "Fourchette de prix à partir de..."
             },
             {
@@ -72,10 +80,11 @@ export const fenetres = {
                     "6 chambres",
                     "3 joints d’étanchéité",
                     "85mm de profondeur",
-                    "0,74Uw"
+                    "0,74Uw pour Ug = 0,74"
                 ], 
-                infos: "Informations complémentaires (ce produit est disponible en 4 variantes etc.)",
+                infos: "Disponible avec capotage aluminium. Différentes options et accessoires sont également disponibles (grilles de ventilation, poignées, croisillons, moustiquaires…)",
                 fiche: "/pdfs/FicheProduits/FenetresPVC/ideal-8000.pdf",
+                logo: Aluplast,
                 prix: "Fourchette de prix à partir de..."
             },
             {
@@ -87,10 +96,11 @@ export const fenetres = {
                 caracteristiques: [
                     "5-6 chambres",
                     "2 joints d’étanchéité",
-                    "0,8Uw"
+                    "0,8Uw pour Ug = 0,5"
                 ], 
-                infos: "Disponible en rénovation,  monobloc et ouvrant caché",
+                infos: "Disponible en rénovation et monobloc. Différentes options et accessoires sont également disponibles (grilles de ventilation, poignées, croisillons, moustiquaires…)",
                 fiche: "/pdfs/FicheProduits/FenetresPVC/ideal-neo.pdf",
+                logo: Aluplast,
                 prix: "Fourchette de prix à partir de..."
             },
             {
@@ -102,10 +112,13 @@ export const fenetres = {
                 caracteristiques: [
                     "2 rails",
                     "60mm de profondeur",
-                    "1,5Uw"
+                    "1,5Uw pour Ug = 1,0"
                 ],
-                infos: "Informations complémentaires (ce produit est disponible en 4 variantes etc.)",
+                // eslint-disable-next-line no-multi-str
+                infos: "Une large gamme de finitions lisses ou imitation bois permet d’adapter la baie à tout type d’intérieur ou de façade.\
+                Différentes options et accessoires sont également disponibles (grilles de ventilation, poignées, croisillons, moustiquaires…)",
                 fiche: "/pdfs/FicheProduits/FenetresPVC/easy-slide.pdf",
+                logo: Aluplast,
                 prix: "Fourchette de prix à partir de..."
             },
             {
@@ -117,10 +130,13 @@ export const fenetres = {
                 caracteristiques: [
                     "2 ou 3 rails",
                     "170mm de profondeur",
-                    "1,4Uw"
+                    "1,4Uw pour Ug = 0,9"
                 ],
-                infos: "Informations complémentaires (ce produit est disponible en 4 variantes etc.)",
+                // eslint-disable-next-line no-multi-str
+                infos: "Une large gamme de finitions lisses ou imitation bois permet d’adapter la baie à tout type d’intérieur ou de façade.\
+                Différentes options et accessoires sont également disponibles (grilles de ventilation, poignées, croisillons, moustiquaires…)",
                 fiche: "/pdfs/FicheProduits/FenetresPVC/multi-slide.pdf",
+                logo: Aluplast,
                 prix: "Fourchette de prix à partir de..."
             },
             {
@@ -131,10 +147,13 @@ export const fenetres = {
                 caracteristiques: [
                     "2 rails",
                     "140mm de profondeur",
-                    "0,92Uw"
+                    "0,92Uw pour Ug = 0,6"
                 ],
-                infos: "Des options comme les grilles de ventilation et une large gamme de finitions lisses ou imitation bois permettent d’adapter la baie à tout type d’intérieur ou de façade.",
+                // eslint-disable-next-line no-multi-str
+                infos: "Une large gamme de finitions lisses ou imitation bois permet d’adapter la baie à tout type d’intérieur ou de façade.\
+                Différentes options et accessoires sont également disponibles (grilles de ventilation, poignées, croisillons, moustiquaires…)",
                 fiche: "/pdfs/FicheProduits/FenetresPVC/smart-slide.pdf",
+                logo: Aluplast,
                 prix: "Fourchette de prix à partir de..."
             },
             {
@@ -142,14 +161,18 @@ export const fenetres = {
                 image: HST85,
                 // eslint-disable-next-line no-multi-str
                 presentation: "Le système HST 85 est une baie levante-coulissante à hautes performances thermiques, idéale pour les grandes surfaces vitrées tout en offrant une excellente isolation. \
+                Il s’adapte aux besoins, étant conçue pour les bâtiments à faible consommation d’énergie et pouvant être associée à un capotage aluminium Aluskin pour une finition élégante. Les profilés sont proposés avec différents cœurs (blanc, marron, crème ou anthracite) pour une couleur harmonieuse après plaxage. \
                 Le système permet de réaliser des baies jusqu’à 6,7 m de largeur, avec des vantaux allant jusqu’à 3 x 2,5 m.",
                 caracteristiques: [
                     "2 rails",
                     "19mm de profondeur",
-                    "0,85Uw"
+                    "0,85Uw pour Ug = 0,5"
                 ],
-                infos: "Disponible en trois versions – Basic, Standard et Premium – il s’adapte aux besoins, la variante Premium étant conçue pour les bâtiments à faible consommation d’énergie et pouvant être associée à un capotage aluminium Aluskin pour une finition élégante. Les profilés sont proposés avec différents cœurs (blanc, marron, crème ou anthracite) pour une couleur harmonieuse après plaxage.",
+                // eslint-disable-next-line no-multi-str
+                infos: "Disponible avec capotage aluminium.\
+                Différentes options et accessoires sont également disponibles (grilles de ventilation, poignées, croisillons, moustiquaires…)",
                 fiche: "/pdfs/FicheProduits/FenetresPVC/hst-85.pdf",
+                logo: Aluplast,
                 prix: "Fourchette de prix à partir de..."
             },
         ],
@@ -173,9 +196,11 @@ export const fenetres = {
                     "3 chambres",
                     "épaisseur vitrage 14 - 61mm",
                     "profondeur dormant 65mm",
+                    "Uw 1,1 pour Ug = 0,6"
                 ],
-                infos: "Disponible en deux versions : Ecofutural (isolation autour du vitrage) et Ecofutural i+ (isolation renforcée avec remplissage des espaces entre intercalaires).",
+                infos: "Disponible en deux versions : Ecofutural (isolation autour du vitrage) et Ecofutural i+ (isolation renforcée avec remplissage des espaces entre intercalaires)",
                 fiche: "/pdfs/FicheProduits/FenetresAlu/ecofutural.pdf",
+                logo: Aliplast,
                 prix: "Fourchette de prix à partir de..."
             },
            {
@@ -184,11 +209,15 @@ export const fenetres = {
                 // eslint-disable-next-line no-multi-str
                 presentation: "Polyvalent, il permet de réaliser fenêtres, vitrines extérieures, oscillo-battantes, à soufflet, oscillo-coulissantes, ainsi que portes ouvrant vers l’intérieur. Compatible avec les façades vitrées. Offre d’excellentes performances thermiques grâce à des inserts spécifiques placés autour du vitrage et entre les intercalaires. Utilisable en résidentiel comme en bâtiment public.",
                 caracteristiques: [
+                    "3 chambres",
                     "épaisseur vitrage 14 - 61mm",
                     "profondeur dormant 75mm",
+                    "2 joints",
+                    "Uw 0,9 pour Ug = 0,5"
                 ],
-                infos: "Disponible en versions Superial i (isolation renforcée) et Superial i+ (isolation renforcée optimale).",
+                infos: "Disponible en versions Superial i (isolation renforcée) et Superial i+ (isolation renforcée optimale)",
                 fiche: "/pdfs/FicheProduits/FenetresAlu/superial.pdf",
+                logo: Aliplast,
                 prix: "Fourchette de prix à partir de..."
             },
            {
@@ -197,12 +226,13 @@ export const fenetres = {
                 // eslint-disable-next-line no-multi-str
                 presentation: "Synonyme de modernité, ce système donne à la structure un caractère industriel et moderne, tout cela grâce à la visibilité minimale de la largeur du profilé. Robuste, esthétique et performant, MaxLight allie durabilité et design pour s’adapter à tous les styles architecturaux.",
                 caracteristiques: [
-                    "3 chambres",
                     "épaisseur vitrage 59 - 68mm",
                     "profondeur dormant 75mm",
+                    "Uw 0,85 pour Ug = 0,5"
                 ],
-                infos: "TBD",
+                infos: "Disponible en version Steel, design et invisible",
                 fiche: "/pdfs/FicheProduits/FenetresAlu/maxlight.pdf",
+                logo: Aliplast,
                 prix: "Fourchette de prix à partir de..."
             },
            {
@@ -214,9 +244,11 @@ export const fenetres = {
                     "profondeur dormant 73 - 196 (monobloc)",
                     "2 - 3 ou 4 rails",
                     "épaisseur vitrage 24 - 28 ou 32mm",
+                    "Uw 1,7 pour Ug = 1,1"
                 ],
-                infos: "TBD",
+                infos: "Disponible avec l’option galandage et monobloc",
                 fiche: "/pdfs/FicheProduits/FenetresAlu/modern-slide.pdf",
+                logo: Aliplast,
                 prix: "Fourchette de prix à partir de..."
             },
            {
@@ -228,9 +260,11 @@ export const fenetres = {
                     "profondeur dormant (standard / spécial / monorail) 117,7 - 125,4 - 141,6",
                     "2 ou 3 rails",
                     "épaisseur vitrage 6 - 36mm",
+                    "Uw 1,7 pour Ug = 1,1"
                 ],
-                infos: "Disponible avec différents appuis de fenêtre et profilés d’angle pour s’adapter à chaque projet.",
+                infos: "Disponible avec différents appuis de fenêtre et profilés d’angle pour s’adapter à chaque projet",
                 fiche: "/pdfs/FicheProduits/FenetresAlu/visoglide.pdf",
+                logo: Aliplast,
                 prix: "Fourchette de prix à partir de..."
             },
            {
@@ -241,9 +275,11 @@ export const fenetres = {
                 caracteristiques: [
                     "profondeur du dormant 153 – 239mm",
                     "épaisseur vitrage 14 – 52mm",
+                    "Uw 1,3 pour Ug = 0,6"
                 ],
                 infos: "TBD",
                 fiche: "/pdfs/FicheProduits/FenetresAlu/ultraglide.pdf",
+                logo: Aliplast,
                 prix: "Fourchette de prix à partir de..."
             },
            {
@@ -254,9 +290,11 @@ export const fenetres = {
                 caracteristiques: [
                     "profondeur du dormant 176mm",
                     "épaisseur vitrage 15 – 51mm",
+                    "Uw 0,8 pour Ug = 0,5"
                 ],
-                infos: "Disponible dans toutes les couleurs RAL.",
+                infos: "Disponible dans toutes les couleurs RAL",
                 fiche: "/pdfs/FicheProduits/FenetresAlu/maxlight-monorail.pdf",
+                logo: Aliplast,
                 prix: "Fourchette de prix à partir de..."
             },
            {
@@ -271,6 +309,7 @@ export const fenetres = {
                 ],
                 infos: "TBD",
                 fiche: "/pdfs/FicheProduits/FenetresAlu/slide-glass.pdf",
+                logo: Aliplast,
                 prix: "Fourchette de prix à partir de..."
             },
            {
@@ -286,6 +325,7 @@ export const fenetres = {
                 ],
                 infos: "Pour un style encore plus épuré, les charnières peuvent être entièrement dissimulées. Avec le ferrage approprié, il est possible de réaliser des ouvrants jusqu’à 3,5 mètres de hauteur, alliant esthétique, performance et modernité.",
                 fiche: "/pdfs/FicheProduits/FenetresAlu/cortizo-70-ho.pdf",
+                logo: Cortizo,
                 prix: "Fourchette de prix à partir de..."
             },
            {
@@ -296,11 +336,12 @@ export const fenetres = {
                 Particularité notable : l’assemblage à 90° des ouvrants se fait sans poteau d’angle, renforçant la continuité visuelle. En version simple rail, le rail peut être dissimulé dans la zone fixe. Grâce à ses cadres renforcés, le COR Vision accueille des ouvrants jusqu’à 320 kg, tout en offrant de bonnes performances thermiques avec un Uw de 1,3 W/m²K.",
                 caracteristiques: [
                     "épaisseur dormant 116 - 182mm",
-                    "epaisseur vitrage 36 - 54mm",
+                    "épaisseur vitrage 36 - 54mm",
                     "Uw 1,3"
                 ],
                 infos: "TBD",
                 fiche: "/pdfs/FicheProduits/FenetresAlu/cor-vision.pdf",
+                logo: Cortizo,
                 prix: "Fourchette de prix à partir de..."
             },
            {
@@ -311,12 +352,13 @@ export const fenetres = {
                 Ses lignes fines et élégantes, associées à un vitrage performant, permettent d’atteindre un Uw exceptionnel de 0,9 W/m²K. \
                 Le cadre peut être totalement dissimulé sur tout le périmètre, ne laissant visible qu’un battement central de 25 mm. Compatible avec des vitrages jusqu’à 54 mm d’épaisseur, le système optimise isolation thermique et acoustique. Chaque vantail peut mesurer jusqu’à 4 000 mm de haut, avec un poids maximal de 700 kg (400 kg en ouverture manuelle).",
                 caracteristiques: [
-                    "épaisseur dormant 116 - 182mm",
-                    "epaisseur vitrage 36 - 54mm",
-                    "Uw 1,3"
+                    "épaisseur dormant 180 mm - 278 mm",
+                    "épaisseur vitrage 26 - 30 mm",
+                    "Uw 0,9"
                 ],  
                 infos: "TBD",
                 fiche: "/pdfs/FicheProduits/FenetresAlu/cor-vision-plus.pdf",
+                logo: Cortizo,
                 prix: "Fourchette de prix à partir de..."
             },
            {
@@ -326,10 +368,12 @@ export const fenetres = {
                 presentation: "Ouverture totale et espace libéré. Fini les portes encombrantes : le COR Vision Galandage permet de faire disparaître complètement un, deux ou trois vantaux dans les cloisons, libérant l’espace et offrant une ouverture sans aucun obstacle. Les cadres représentent moins de 10 % de la structure et peuvent être encastrés pour un rendu minimaliste et élégant.\
                 Grâce à son rail inox renforcé, le système accepte des vantaux plus grands et plus lourds, tout en assurant une bonne isolation thermique et acoustique avec des vitrages jusqu’à 30 mm d’épaisseur. Facile à installer, il se décline dans plusieurs options pour s’adapter à tous les styles, alliant espace, confort et design contemporain.",
                 caracteristiques: [
-                    "Pas de caractéristiques"
+                    "épaisseur dormant 115,8 - 181,8 mm",
+                    "épaisseur vitrage 24 mm",
                 ],
                 infos: "TBD",
                 fiche: "/pdfs/FicheProduits/FenetresAlu/cor-vision-galandage.pdf",
+                logo: Cortizo,
                 prix: "Fourchette de prix à partir de..."
             },
         ],
@@ -350,10 +394,11 @@ export const fenetres = {
                 caracteristiques: [
                     "profondeur 68mm",
                     "2 joints",
-                    "Uw 1,2"
+                    "Uw 1,2 pour Ug = 1,0"
                 ],
                 infos: "Plusieurs configurations sont possibles : profils belges ou hollandais, ouverture vers l’extérieur, version rénovation ou monobloc, des capots en aluminium présents sur la face extérieure des profilés pour s’adapter à chaque projet avec style et durabilité.",
                 fiche: "/pdfs/FicheProduits/FenetresBois/naturo.pdf",
+                logo: null,
                 prix: "Fourchette de prix à partir de..."
             },
             {
@@ -364,10 +409,11 @@ export const fenetres = {
                 caracteristiques: [
                     "profondeur 80mm",
                     "2 joints",
-                    "Uw 0,81"
+                    "Uw 0,81 pour Ug = 0,5"
                 ],
                 infos: "Disponible en versions standard, belge, hollandaise, rénovation ou monobloc, avec option d’ouverture vers l’extérieur ou encore un capots en aluminium présents sur la face extérieure des profilés, il s'adapte à tous les styles tout en garantissant confort et économie d’énergie.",
                 fiche: "/pdfs/FicheProduits/FenetresBois/naturo.pdf",
+                logo: null,
                 prix: "Fourchette de prix à partir de..."
             },
             {
@@ -378,10 +424,11 @@ export const fenetres = {
                 caracteristiques: [
                     "profondeur 92mm",
                     "2 joints",
-                    "Uw 0,77"
+                    "Uw 0,77 pour Ug = 0,5"
                 ],
                 infos: "Disponible en versions standard, belge, hollandaise, rénovation ou monobloc, avec option d’ouverture vers l’extérieur ou encore un capots en aluminium présents sur la face extérieure des profilés, il s'adapte à tous les styles tout en garantissant confort et économie d’énergie.",
                 fiche: "/pdfs/FicheProduits/FenetresBois/naturo.pdf",
+                logo: null,
                 prix: "Fourchette de prix à partir de..."
             },
             {
@@ -392,10 +439,12 @@ export const fenetres = {
                 caracteristiques: [
                     "profondeur 164mm",
                     "1-2 rails",
-                    "hauteur construction 2,8"
+                    "hauteur construction 2,8",
+                    "dimension maximale de l'ouvrant 3300 x 2716 mm"
                 ],
                 infos: "TBD",
                 fiche: null,
+                logo: null,
                 prix: "Fourchette de prix à partir de..."
             },
             {
@@ -406,10 +455,12 @@ export const fenetres = {
                 caracteristiques: [
                     "profondeur 188mm",
                     "1-2 rails",
-                    "hauteur construction 2,8"
+                    "hauteur construction 2,8",
+                    "dimension maximale de l'ouvrant 3300 mm"
                 ],
                 infos: "TBD",
                 fiche: null,
+                logo: null,
                 prix: "Fourchette de prix à partir de..."
             }
         ],

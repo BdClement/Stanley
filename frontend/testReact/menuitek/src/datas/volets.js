@@ -1,5 +1,7 @@
 // import des images
 import SK45 from '../assets/Volets/VoletsRoulants/SK45.png'
+import ExperetXT from '../assets/Volets/VoletsRoulants/ExpertXT.png'
+// import VRsousenduit from '../assets/Volets/VoletsRoulants/VRsous-enduit.png'
 import VoletsBattantsBois from '../assets/Volets/VoletsBattantsBois/VoletsBattantsBois.png'
 import VoletsBattantsAluminium from '../assets/Volets/VoletsBattantsAlu/VoletsBattantsAluminium.png'
 
@@ -21,10 +23,41 @@ export const volets = {
                     "guides en aluminium",
                     "largeur minimale du caisson 400mm",
                 ],
-                infos: "Disponible en version économique SK45 Railing.",
+                infos: "Disponible en version économique SK45 Railing",
                 fiche: "/pdfs/FicheProduits/VoletsRoulants/sk45.pdf",
                 prix: "Fourchette de prix à partir de..."
             },
+           {
+                titre: "Volet Expert XT",
+                image: ExperetXT,
+                // A Adapter
+                // eslint-disable-next-line no-multi-str
+                presentation: "Le volet Expert XT se distingue par sa polyvalence et sa simplicité d’installation. Grâce à ses adaptateurs dédiés, il s’adapte facilement à différents types de fenêtres. L’entretien est rapide grâce à des supports de disques faciles à démonter.\
+                Ce système peut également être équipé d’une moustiquaire intégrée et de renforts en acier pour une stabilité optimale et une meilleure protection du foyer.",
+                caracteristiques: [
+                    "type de tablier : aluminium rempli de mousse de polyuréthane ou de PVC",
+                    "profondeur maximale du cadre de la fenêtre pour une révision par le bas 80 mm",
+                ],
+                infos: "Disponible en deux nuances de blanc",
+                fiche: "/pdfs/FicheProduits/VoletsRoulants/ExpertXT.pdf",
+                prix: "Fourchette de prix à partir de..."
+            },
+        // EN ATTENTE
+        //    {
+        //         titre: "Volet roulant sous enduit",
+        //         image: VRsousenduit,
+        //         // eslint-disable-next-line no-multi-str
+        //         presentation: "Le volet roulant SK45 se distingue par son caisson coupé à 45°, au design moderne et élégant. Polyvalent, il peut être installé aussi bien en façade que dans le dormant de la fenêtre. \
+        //         Avec sa nouvelle serrure inspirée du modèle RAFF-i, il allie esthétique, fiabilité et praticité, faisant du SK45 une solution idéale pour tous types de bâtiments.",
+        //         caracteristiques: [
+        //             "type de tablier : aluminium rempli de mousse de polyuréthane ou de PVC",
+        //             "guides en aluminium",
+        //             "largeur minimale du caisson 400mm",
+        //         ],
+        //         infos: "Disponible en version économique SK45 Railing.",
+        //         fiche: "/pdfs/FicheProduits/VoletsRoulants/sk45.pdf",
+        //         prix: "Fourchette de prix à partir de..."
+        //     },
         ],
         avantage: "Confort et sécurité",
         // eslint-disable-next-line no-multi-str

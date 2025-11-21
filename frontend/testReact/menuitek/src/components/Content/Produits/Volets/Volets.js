@@ -23,7 +23,7 @@ function Volets() {
                     {voletsContentType.items.map((item, index) => 
                         <div key={index} className="flex flex-col lg:flex-row gap-2 md:gap-4 xl-gap-8 bg-white rounded text-grey-contrast">
                             <div className="w-full lg:w-1/3 py-4 md:py-6 flex flex-col items-center">
-                                <h2 className="font-semibold uppercase">{item.titre}</h2>
+                                <h2 className="font-semibold uppercase text-center">{item.titre}</h2>
                                 <div className="w-full h-[250px] md:h-[300px] xl:h-[350px] flex items-center justify-center">
                                     {/* <img src={item.image} alt={item.titre} className=' object-contain rounded my-auto'></img> */}
                                     <img src={item.image} alt={item.titre} className='max-h-full max-w-full object-contain'></img>
