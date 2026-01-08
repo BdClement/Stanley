@@ -34,7 +34,7 @@ export const portes = {
                 ],
                 infos: "Les panneaux EkoLine sont disponibles en version sans capotage, avec un capotage INOX et avec un capotage noir. 144 panneaux disponibles.",
                 fiche: "path du pdf decoupé",
-                prix: "Fourchette de prix à partir de...",
+                prix: "Chaque projet étant unique, le prix est établi sur devis",
             },
             {
                 titre: "Panneaux ClassicLine",
@@ -46,7 +46,7 @@ export const portes = {
                 ],
                 infos: "21 panneaux disponibles.",
                 fiche: "path du pdf decoupé",
-                prix: "Fourchette de prix à partir de...",
+                prix: "Chaque projet étant unique, le prix est établi sur devis",
             },
             {
                 titre: "Panneaux EkoVitre",
@@ -59,7 +59,7 @@ export const portes = {
                 ],
                 infos: "15 panneaux disponibles.",
                 fiche: "path du pdf decoupé",
-                prix: "Fourchette de prix à partir de...",
+                prix: "Chaque projet étant unique, le prix est établi sur devis",
             },
             {
                 titre: "Panneaux emboutis EkoGreen",
@@ -74,7 +74,7 @@ export const portes = {
                 ],
                 infos: "51 panneaux disponibles.",
                 fiche: "path du pdf decoupé",
-                prix: "Fourchette de prix à partir de...",
+                prix: "Chaque projet étant unique, le prix est établi sur devis",
             },
             {
                 titre: "Portes modèles en PVC",
@@ -86,7 +86,7 @@ export const portes = {
                 ],
                 infos: "40 versions disponibles. Disponible dans les systèmes Ideal 4000 et Ideal 7000.",
                 fiche: "path du pdf decoupé",
-                prix: "Fourchette de prix à partir de...",
+                prix: "Chaque projet étant unique, le prix est établi sur devis",
             },
             {
                 titre: "Panneaux Affleurants",
@@ -101,7 +101,7 @@ export const portes = {
                 ],
                 infos: "38 panneaux disponibles.",
                 fiche: "path du pdf decoupé",
-                prix: "Fourchette de prix à partir de...",
+                prix: "Chaque projet étant unique, le prix est établi sur devis",
             },
         ],
         avantage: "Performance et durabilité",
@@ -126,7 +126,7 @@ export const portes = {
                 ],
                 infos: "39 panneaux disponibles.",
                 fiche: "path du pdf decoupé",
-                prix: "Fourchette de prix à partir de...",
+                prix: "Chaque projet étant unique, le prix est établi sur devis",
             },
             {
                 titre: "Panneaux aluminium Despiro Retro Line",
@@ -139,7 +139,7 @@ export const portes = {
                 ],
                 infos: "9 panneaux disponibles.",
                 fiche: "path du pdf decoupé",
-                prix: "Fourchette de prix à partir de...",
+                prix: "Chaque projet étant unique, le prix est établi sur devis",
             },
             {
                 titre: "Panneaux Pivot Line",
@@ -155,7 +155,7 @@ export const portes = {
                 ],
                 infos: "10 panneaux disponibles.",
                 fiche: "path du pdf decoupé",
-                prix: "Fourchette de prix à partir de...",
+                prix: "Chaque projet étant unique, le prix est établi sur devis",
             },
             {
                 titre: "Panneaux AluLine",
@@ -168,7 +168,7 @@ export const portes = {
                 ],
                 infos: "Les panneaux AluLine sont disponibles en version avec un capotage INOX et avec un capotage noir. 139 panneaux disponibles.",
                 fiche: "path du pdf decoupé",
-                prix: "Fourchette de prix à partir de...",
+                prix: "Chaque projet étant unique, le prix est établi sur devis",
             },
             {
                 titre: "Panneaux EkoVitre",
@@ -181,7 +181,7 @@ export const portes = {
                 ],
                 infos: "15 panneaux disponibles.",
                 fiche: "path du pdf decoupé",
-                prix: "Fourchette de prix à partir de...",
+                prix: "Chaque projet étant unique, le prix est établi sur devis",
             },
         ],
         avantage: "Design et robustesse",
@@ -206,7 +206,7 @@ export const portes = {
                 ],
                 infos: "Les panneaux WoodLine sont disponibles en version sans capotage, avec un capotage INOX et avec un capotage noir. Disponible en plusieurs couleurs de bois. 139 panneaux disponibles.",
                 fiche: "path du pdf decoupé",
-                prix: "Fourchette de prix à partir de...",
+                prix: "Chaque projet étant unique, le prix est établi sur devis",
             },
             {
                 titre: "Panneaux EkoVitre",
@@ -220,7 +220,7 @@ export const portes = {
                 ],
                 infos: "Disponible en plusieurs couleurs de bois. 15 panneaux disponibles.",
                 fiche: "path du pdf decoupé",
-                prix: "Fourchette de prix à partir de...",
+                prix: "Chaque projet étant unique, le prix est établi sur devis",
             },
             {
                 titre: "Panneaux Fraisés",
@@ -233,7 +233,7 @@ export const portes = {
                 ],
                 infos: "Disponible en plusieurs couleurs de bois. 12 panneaux disponibles.",
                 fiche: "path du pdf decoupé",
-                prix: "Fourchette de prix à partir de...",
+                prix: "Chaque projet étant unique, le prix est établi sur devis",
             },
         ],
         avantage: "Authenticité et durabilité",

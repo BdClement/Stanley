@@ -53,7 +53,7 @@ export const fenetres = {
                 Différentes options et accessoires sont également disponibles (grilles de ventilation, poignées, croisillons, moustiquaires…)",
                 fiche: "/pdfs/FicheProduits/FenetresPVC/ideal-4000.pdf",
                 logo: Aluplast,
-                prix: "Fourchette de prix à partir de..."
+                prix: "Chaque projet étant unique, le prix est établi sur devis"
             },
             {
                 titre: "Aluplast Ideal 5000",
@@ -70,7 +70,7 @@ export const fenetres = {
                 Différentes options et accessoires sont également disponibles (grilles de ventilation, poignées, croisillons, moustiquaires…)",
                 fiche: "/pdfs/FicheProduits/FenetresPVC/ideal-5000.pdf",
                 logo: Aluplast,
-                prix: "Fourchette de prix à partir de..."
+                prix: "Chaque projet étant unique, le prix est établi sur devis"
             },
             {
                 titre: "Aluplast Ideal 8000",
@@ -85,7 +85,7 @@ export const fenetres = {
                 infos: "Disponible avec capotage aluminium. Différentes options et accessoires sont également disponibles (grilles de ventilation, poignées, croisillons, moustiquaires…)",
                 fiche: "/pdfs/FicheProduits/FenetresPVC/ideal-8000.pdf",
                 logo: Aluplast,
-                prix: "Fourchette de prix à partir de..."
+                prix: "Chaque projet étant unique, le prix est établi sur devis"
             },
             {
                 titre: "Aluplast Ideal Neo",
@@ -101,7 +101,7 @@ export const fenetres = {
                 infos: "Disponible en rénovation et monobloc. Différentes options et accessoires sont également disponibles (grilles de ventilation, poignées, croisillons, moustiquaires…)",
                 fiche: "/pdfs/FicheProduits/FenetresPVC/ideal-neo.pdf",
                 logo: Aluplast,
-                prix: "Fourchette de prix à partir de..."
+                prix: "Chaque projet étant unique, le prix est établi sur devis"
             },
             {
                 titre: "Aluplast Easy slide",
@@ -119,7 +119,7 @@ export const fenetres = {
                 Différentes options et accessoires sont également disponibles (grilles de ventilation, poignées, croisillons, moustiquaires…)",
                 fiche: "/pdfs/FicheProduits/FenetresPVC/easy-slide.pdf",
                 logo: Aluplast,
-                prix: "Fourchette de prix à partir de..."
+                prix: "Chaque projet étant unique, le prix est établi sur devis"
             },
             {
                 titre: "Aluplast Multi slide",
@@ -137,7 +137,7 @@ export const fenetres = {
                 Différentes options et accessoires sont également disponibles (grilles de ventilation, poignées, croisillons, moustiquaires…)",
                 fiche: "/pdfs/FicheProduits/FenetresPVC/multi-slide.pdf",
                 logo: Aluplast,
-                prix: "Fourchette de prix à partir de..."
+                prix: "Chaque projet étant unique, le prix est établi sur devis"
             },
             {
                 titre: "Aluplast Smart slide",
@@ -154,7 +154,7 @@ export const fenetres = {
                 Différentes options et accessoires sont également disponibles (grilles de ventilation, poignées, croisillons, moustiquaires…)",
                 fiche: "/pdfs/FicheProduits/FenetresPVC/smart-slide.pdf",
                 logo: Aluplast,
-                prix: "Fourchette de prix à partir de..."
+                prix: "Chaque projet étant unique, le prix est établi sur devis"
             },
             {
                 titre: "Aluplast HST 85",
@@ -173,7 +173,7 @@ export const fenetres = {
                 Différentes options et accessoires sont également disponibles (grilles de ventilation, poignées, croisillons, moustiquaires…)",
                 fiche: "/pdfs/FicheProduits/FenetresPVC/hst-85.pdf",
                 logo: Aluplast,
-                prix: "Fourchette de prix à partir de..."
+                prix: "Chaque projet étant unique, le prix est établi sur devis"
             },
         ],
         avantage: "Performance et durabilité",
@@ -201,7 +201,7 @@ export const fenetres = {
                 infos: "Disponible en deux versions : Ecofutural (isolation autour du vitrage) et Ecofutural i+ (isolation renforcée avec remplissage des espaces entre intercalaires)",
                 fiche: "/pdfs/FicheProduits/FenetresAlu/ecofutural.pdf",
                 logo: Aliplast,
-                prix: "Fourchette de prix à partir de..."
+                prix: "Chaque projet étant unique, le prix est établi sur devis"
             },
            {
                 titre: "Aliplast Superial",
@@ -218,7 +218,7 @@ export const fenetres = {
                 infos: "Disponible en versions Superial i (isolation renforcée) et Superial i+ (isolation renforcée optimale)",
                 fiche: "/pdfs/FicheProduits/FenetresAlu/superial.pdf",
                 logo: Aliplast,
-                prix: "Fourchette de prix à partir de..."
+                prix: "Chaque projet étant unique, le prix est établi sur devis"
             },
            {
                 titre: "Aliplast Maxlight",
@@ -233,7 +233,7 @@ export const fenetres = {
                 infos: "Disponible en version Steel, design et invisible",
                 fiche: "/pdfs/FicheProduits/FenetresAlu/maxlight.pdf",
                 logo: Aliplast,
-                prix: "Fourchette de prix à partir de..."
+                prix: "Chaque projet étant unique, le prix est établi sur devis"
             },
            {
                 titre: "Aliplast ModernSlide",
@@ -249,7 +249,7 @@ export const fenetres = {
                 infos: "Disponible avec l’option galandage et monobloc",
                 fiche: "/pdfs/FicheProduits/FenetresAlu/modern-slide.pdf",
                 logo: Aliplast,
-                prix: "Fourchette de prix à partir de..."
+                prix: "Chaque projet étant unique, le prix est établi sur devis"
             },
            {
                 titre: "Aliplast Visoglide",
@@ -265,7 +265,7 @@ export const fenetres = {
                 infos: "Disponible avec différents appuis de fenêtre et profilés d’angle pour s’adapter à chaque projet",
                 fiche: "/pdfs/FicheProduits/FenetresAlu/visoglide.pdf",
                 logo: Aliplast,
-                prix: "Fourchette de prix à partir de..."
+                prix: "Chaque projet étant unique, le prix est établi sur devis"
             },
            {
                 titre: "Aliplast Ultraglide",
@@ -280,7 +280,7 @@ export const fenetres = {
                 infos: "TBD",
                 fiche: "/pdfs/FicheProduits/FenetresAlu/ultraglide.pdf",
                 logo: Aliplast,
-                prix: "Fourchette de prix à partir de..."
+                prix: "Chaque projet étant unique, le prix est établi sur devis"
             },
            {
                 titre: "Aliplast Ultraglide MaxLight Monorail",
@@ -295,7 +295,7 @@ export const fenetres = {
                 infos: "Disponible dans toutes les couleurs RAL",
                 fiche: "/pdfs/FicheProduits/FenetresAlu/maxlight-monorail.pdf",
                 logo: Aliplast,
-                prix: "Fourchette de prix à partir de..."
+                prix: "Chaque projet étant unique, le prix est établi sur devis"
             },
            {
                 titre: "Aliplast Slide Glass",
@@ -310,7 +310,7 @@ export const fenetres = {
                 infos: "TBD",
                 fiche: "/pdfs/FicheProduits/FenetresAlu/slide-glass.pdf",
                 logo: Aliplast,
-                prix: "Fourchette de prix à partir de..."
+                prix: "Chaque projet étant unique, le prix est établi sur devis"
             },
            {
                 titre: "Cortizo 70 HO",
@@ -326,7 +326,7 @@ export const fenetres = {
                 infos: "Pour un style encore plus épuré, les charnières peuvent être entièrement dissimulées. Avec le ferrage approprié, il est possible de réaliser des ouvrants jusqu’à 3,5 mètres de hauteur, alliant esthétique, performance et modernité.",
                 fiche: "/pdfs/FicheProduits/FenetresAlu/cortizo-70-ho.pdf",
                 logo: Cortizo,
-                prix: "Fourchette de prix à partir de..."
+                prix: "Chaque projet étant unique, le prix est établi sur devis"
             },
            {
                 titre: "Cor Vision",
@@ -342,7 +342,7 @@ export const fenetres = {
                 infos: "TBD",
                 fiche: "/pdfs/FicheProduits/FenetresAlu/cor-vision.pdf",
                 logo: Cortizo,
-                prix: "Fourchette de prix à partir de..."
+                prix: "Chaque projet étant unique, le prix est établi sur devis"
             },
            {
                 titre: "Cor Vision Plus",
@@ -359,7 +359,7 @@ export const fenetres = {
                 infos: "TBD",
                 fiche: "/pdfs/FicheProduits/FenetresAlu/cor-vision-plus.pdf",
                 logo: Cortizo,
-                prix: "Fourchette de prix à partir de..."
+                prix: "Chaque projet étant unique, le prix est établi sur devis"
             },
            {
                 titre: "Cor Vision Galandage",
@@ -374,7 +374,7 @@ export const fenetres = {
                 infos: "TBD",
                 fiche: "/pdfs/FicheProduits/FenetresAlu/cor-vision-galandage.pdf",
                 logo: Cortizo,
-                prix: "Fourchette de prix à partir de..."
+                prix: "Chaque projet étant unique, le prix est établi sur devis"
             },
         ],
         avantage: "Fiabilité, esthétisme et durabilité",
@@ -399,7 +399,7 @@ export const fenetres = {
                 infos: "Plusieurs configurations sont possibles : profils belges ou hollandais, ouverture vers l’extérieur, version rénovation ou monobloc, des capots en aluminium présents sur la face extérieure des profilés pour s’adapter à chaque projet avec style et durabilité.",
                 fiche: "/pdfs/FicheProduits/FenetresBois/naturo.pdf",
                 logo: null,
-                prix: "Fourchette de prix à partir de..."
+                prix: "Chaque projet étant unique, le prix est établi sur devis"
             },
             {
                 titre: "Naturo 80",
@@ -414,7 +414,7 @@ export const fenetres = {
                 infos: "Disponible en versions standard, belge, hollandaise, rénovation ou monobloc, avec option d’ouverture vers l’extérieur ou encore un capots en aluminium présents sur la face extérieure des profilés, il s'adapte à tous les styles tout en garantissant confort et économie d’énergie.",
                 fiche: "/pdfs/FicheProduits/FenetresBois/naturo.pdf",
                 logo: null,
-                prix: "Fourchette de prix à partir de..."
+                prix: "Chaque projet étant unique, le prix est établi sur devis"
             },
             {
                 titre: "Naturo 92",
@@ -429,7 +429,7 @@ export const fenetres = {
                 infos: "Disponible en versions standard, belge, hollandaise, rénovation ou monobloc, avec option d’ouverture vers l’extérieur ou encore un capots en aluminium présents sur la face extérieure des profilés, il s'adapte à tous les styles tout en garantissant confort et économie d’énergie.",
                 fiche: "/pdfs/FicheProduits/FenetresBois/naturo.pdf",
                 logo: null,
-                prix: "Fourchette de prix à partir de..."
+                prix: "Chaque projet étant unique, le prix est établi sur devis"
             },
             {
                 titre: "Naturo 68 HST",
@@ -445,7 +445,7 @@ export const fenetres = {
                 infos: "TBD",
                 fiche: null,
                 logo: null,
-                prix: "Fourchette de prix à partir de..."
+                prix: "Chaque projet étant unique, le prix est établi sur devis"
             },
             {
                 titre: "Naturo 80 HST",
@@ -461,7 +461,7 @@ export const fenetres = {
                 infos: "TBD",
                 fiche: null,
                 logo: null,
-                prix: "Fourchette de prix à partir de..."
+                prix: "Chaque projet étant unique, le prix est établi sur devis"
             }
         ],
         avantage: "Fiabilité, authenticité et durabilité",

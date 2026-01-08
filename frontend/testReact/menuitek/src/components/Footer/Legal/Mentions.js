@@ -12,9 +12,9 @@ function Mentions() {
                     <li><strong>Capital social :</strong> 1 000 €</li>
                     <li><strong>Siège social :</strong> 9, Rue Anatole de la Forge, Paris, Île-de-France 75017, France</li>
                     <li><strong>RCS :</strong> Paris B 941925265</li>
-                    <li><strong>Numéro de TVA intracommunautaire :</strong> [à compléter, ex : FR12 123456789 OU non applicable]</li>
+                    <li><strong>Numéro de TVA intracommunautaire :</strong> FR34941925265</li>
                     <li><strong>Responsable de la publication :</strong> THOREL Stanley, fondateur de Menuitek</li>
-                    <li><strong>Email :</strong> EMAIL</li>
+                    <li><strong>Email :</strong> <a href="mailto:contact@menuitek.com">contact@menuitek.com</a></li>
                     <li><strong>Téléphone :</strong> 01 40 55 46 08</li>
                 </ul>
             </div>

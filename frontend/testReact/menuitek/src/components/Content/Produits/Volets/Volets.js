@@ -42,13 +42,13 @@ function Volets() {
                                     )}
                                     <div className=" px-6 ">{item.infos}</div>
                                 </div>
-                                <div className="flex flex-col gap-4 md:gap-6 xl:gap-10 items-end">
+                                <div className="flex flex-col gap-4 md:gap-6 xl:gp-10 items-end">
+                                    <div className="w-full lg:w-1/2 text-end font-semibold">{item.prix}</div>
                                     {item.fiche && (
                                         <a className="p-4 w-full lg:w-1/2 flex items-center justify-center gap-4 border-grey-contrast rounded-md bg-grey-contrast text-white hover:bg-grey-main transition duration:300" href={item.fiche} download>
-                                            Télécharger la fiche Produit <MdDownloadForOffline/>
+                                            {item.isSingleProduct ? 'Télécharger la fiche Produit' : 'Télécharger le catalogue produits'} <MdDownloadForOffline/>
                                         </a>
                                     )}
-                                    <div className="w-full lg:w-1/2 text-end font-semibold">{item.prix}</div>
                                 </div>
                             </div>
                         </div>

@@ -52,7 +52,7 @@ function Confidentialite() {
                 <ul className="list-inside p-4">
                     <li>Menuitek</li>
                     <li>9, Rue Anatole de la Forge, Paris, Île-de-France 75017, FR</li>
-                    <li>email a mettre</li>
+                    <li><a href="mailto:contact@menuitek.com">contact@menuitek.com</a></li>
                     <li>01 40 55 46 08</li>
                 </ul>
             </div>
@@ -62,7 +62,7 @@ function Confidentialite() {
             </div>
             <div>
                 <h3 className='font-semibold text-brun-contrast uppercase'>Contact</h3>
-                <p>Pour toute question relative à la protection de vos données personnelles, vous pouvez nous contacter à l’adresse suivante : [adresse e-mail de contact RGPD]</p>
+                <p>Pour toute question relative à la protection de vos données personnelles, vous pouvez nous contacter à l’adresse suivante : <a href="mailto:contact@menuitek.com">contact@menuitek.com</a></p>
             </div>
         </div>
     )
