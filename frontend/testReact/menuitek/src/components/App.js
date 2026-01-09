@@ -46,11 +46,17 @@ function App() {
 
 export default App;
 
-// Cut le catalogue des volet avec Apercu de mac
-// Du coup pour les portes je mets le catalogue pour chaque produit ?
-// Faire une invitation a nous contacter sur les pages produits (Prix sur devis => liens)
-// Probleme PDF MaxLight Monorail
+// Idees ameliorations :
+  // Faire une invitation a nous contacter sur les pages produits (Prix sur devis => liens) ?
+  // PDFs
+  // Incoherence parfois meme chose dites de maniere differentes avec beaucoup de mot pour dire pas grand chose !
+
+// Gestion des PDFs:
+  // Probleme avec PDF MaxLight Monorail
+  // Cut le catalogues des volets roulants avec Apercu de mac
+  // Cut des pdf des nouveaux produits Accordeon et Panorama
 
 // A faire en presentiel: 
   // Couleur
-  // Nous connaitre
+  // Nous connaitre + page acceuil
+  // Ajouter “fenêtres ouvrant à la française” et “Coulissants”

@@ -18,6 +18,14 @@ function Volets() {
                     <p className="p-6 md:p-10 xl:p-16 text-justify border-y border-brun-contrast/60">
                         {voletsContentType.intro}
                     </p>
+                    {voletsContentType.fiche && (
+                        <>
+                            <p className="p-6 md:p-10 xl:p-16 text-justify">Pour plus d'informations sur l'un de ne produits de la section "{voletsContentType.titre}", veuillez télécharger le catalogue ci-dessous ou contactez-nous directement.</p>
+                            <a className="p-4 w-full lg:w-1/2 mx-auto flex items-center justify-center gap-4 border-grey-contrast rounded-md bg-grey-contrast hover:bg-beige-main hover:text-grey-main transition duration:300" href={voletsContentType.fiche} download>
+                                Télécharger le catalogue {voletsContentType.titre}<MdDownloadForOffline/>
+                            </a>
+                        </>
+                    )}
                 </div>
                 <div className='flex flex-col gap-[10vh] xl:gap-[14vh] 2xl:gap-[16vh] py-10 xl:py-20'>
                     {voletsContentType.items.map((item, index) => 

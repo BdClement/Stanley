@@ -6,6 +6,7 @@ import IdealNeo from '../assets/Fenetres/FenetresPVC/IdealNeo.webp'
 import EasySlide from '../assets/Fenetres/FenetresPVC/EasySlide.png'
 import MultiSlide from '../assets/Fenetres/FenetresPVC/MultiSlide.png'
 import SmartSlide from '../assets/Fenetres/FenetresPVC/SmartSlide.png'
+import Accordeon from '../assets/Fenetres/FenetresPVC/AluplastAccordeon.png'
 import HST85 from '../assets/Fenetres/FenetresPVC/HST85.png'
 
 import Naturo68 from '../assets/Fenetres/FenetresBois/Naturo68.png'
@@ -22,6 +23,7 @@ import Ecofutural from '../assets/Fenetres/FenetresAlu/Ecofutural.png'
 import MaxLight from '../assets/Fenetres/FenetresAlu/MaxLight.png'
 import MaxLightMonorail from '../assets/Fenetres/FenetresAlu/UltraglideMaxLight Monorail.png'
 import ModernSlide from '../assets/Fenetres/FenetresAlu/ModernSlide.png'
+import Panorama from '../assets/Fenetres/FenetresAlu/PanoramaAliplast.png'
 import SlideGlass from '../assets/Fenetres/FenetresAlu/SlideGlass.png'
 import Superial from '../assets/Fenetres/FenetresAlu/Superial.png'
 import UltraGlide from '../assets/Fenetres/FenetresAlu/UltraGlide.png'
@@ -50,7 +52,7 @@ export const fenetres = {
                 ],
                 // eslint-disable-next-line no-multi-str
                 infos: "Également disponible en version rénovation (ailes de rénovation 20,40 ou 65), monobloc et capotage aluminium.\
-                Différentes options et accessoires sont également disponibles (grilles de ventilation, poignées, croisillons, moustiquaires…)",
+                Différentes options et accessoires sont également disponibles (grilles de ventilation, poignées, croisillons, moustiquaires…).",
                 fiche: "/pdfs/FicheProduits/FenetresPVC/ideal-4000.pdf",
                 logo: Aluplast,
                 prix: "Chaque projet étant unique, le prix est établi sur devis"
@@ -67,7 +69,7 @@ export const fenetres = {
                 ],
                 // eslint-disable-next-line no-multi-str
                 infos: "Egalement disponible en version rénovation (ailes de rénovation 20,40 ou 65)  et capotage aluminium.\
-                Différentes options et accessoires sont également disponibles (grilles de ventilation, poignées, croisillons, moustiquaires…)",
+                Différentes options et accessoires sont également disponibles (grilles de ventilation, poignées, croisillons, moustiquaires…).",
                 fiche: "/pdfs/FicheProduits/FenetresPVC/ideal-5000.pdf",
                 logo: Aluplast,
                 prix: "Chaque projet étant unique, le prix est établi sur devis"
@@ -82,7 +84,7 @@ export const fenetres = {
                     "85mm de profondeur",
                     "0,74Uw pour Ug = 0,74"
                 ], 
-                infos: "Disponible avec capotage aluminium. Différentes options et accessoires sont également disponibles (grilles de ventilation, poignées, croisillons, moustiquaires…)",
+                infos: "Disponible avec capotage aluminium. Différentes options et accessoires sont également disponibles (grilles de ventilation, poignées, croisillons, moustiquaires…).",
                 fiche: "/pdfs/FicheProduits/FenetresPVC/ideal-8000.pdf",
                 logo: Aluplast,
                 prix: "Chaque projet étant unique, le prix est établi sur devis"
@@ -98,7 +100,7 @@ export const fenetres = {
                     "2 joints d’étanchéité",
                     "0,8Uw pour Ug = 0,5"
                 ], 
-                infos: "Disponible en rénovation et monobloc. Différentes options et accessoires sont également disponibles (grilles de ventilation, poignées, croisillons, moustiquaires…)",
+                infos: "Disponible en rénovation et monobloc. Différentes options et accessoires sont également disponibles (grilles de ventilation, poignées, croisillons, moustiquaires…).",
                 fiche: "/pdfs/FicheProduits/FenetresPVC/ideal-neo.pdf",
                 logo: Aluplast,
                 prix: "Chaque projet étant unique, le prix est établi sur devis"
@@ -116,7 +118,7 @@ export const fenetres = {
                 ],
                 // eslint-disable-next-line no-multi-str
                 infos: "Une large gamme de finitions lisses ou imitation bois permet d’adapter la baie à tout type d’intérieur ou de façade.\
-                Différentes options et accessoires sont également disponibles (grilles de ventilation, poignées, croisillons, moustiquaires…)",
+                Différentes options et accessoires sont également disponibles (grilles de ventilation, poignées, croisillons, moustiquaires…).",
                 fiche: "/pdfs/FicheProduits/FenetresPVC/easy-slide.pdf",
                 logo: Aluplast,
                 prix: "Chaque projet étant unique, le prix est établi sur devis"
@@ -134,7 +136,7 @@ export const fenetres = {
                 ],
                 // eslint-disable-next-line no-multi-str
                 infos: "Une large gamme de finitions lisses ou imitation bois permet d’adapter la baie à tout type d’intérieur ou de façade.\
-                Différentes options et accessoires sont également disponibles (grilles de ventilation, poignées, croisillons, moustiquaires…)",
+                Différentes options et accessoires sont également disponibles (grilles de ventilation, poignées, croisillons, moustiquaires…).",
                 fiche: "/pdfs/FicheProduits/FenetresPVC/multi-slide.pdf",
                 logo: Aluplast,
                 prix: "Chaque projet étant unique, le prix est établi sur devis"
@@ -151,8 +153,25 @@ export const fenetres = {
                 ],
                 // eslint-disable-next-line no-multi-str
                 infos: "Une large gamme de finitions lisses ou imitation bois permet d’adapter la baie à tout type d’intérieur ou de façade.\
-                Différentes options et accessoires sont également disponibles (grilles de ventilation, poignées, croisillons, moustiquaires…)",
+                Différentes options et accessoires sont également disponibles (grilles de ventilation, poignées, croisillons, moustiquaires…).",
                 fiche: "/pdfs/FicheProduits/FenetresPVC/smart-slide.pdf",
+                logo: Aluplast,
+                prix: "Chaque projet étant unique, le prix est établi sur devis"
+            },
+            {
+                titre: "Aluplast Accordéon ",
+                image: Accordeon,
+                // eslint-disable-next-line no-multi-str
+                presentation: "Le système accordéon Aluplast crée une ouverture généreuse vers l’extérieur et relie harmonieusement l’intérieur à l’extérieur.\
+                Conçus sur la base du système Ideal 4000, les modules garantissent stabilité, isolation et durabilité",
+                caracteristiques: [
+                    "de 3 à 6 vantaux",
+                    "jusqu’à 5300 mm de longueur",
+                ],
+                // eslint-disable-next-line no-multi-str
+                infos: "Disponible dans une palette de couleurs et de finitions.\
+                Différentes options et accessoires sont également disponibles (grilles de ventilation, poignées, croisillons…).",
+                fiche: "fiche a ajouter",
                 logo: Aluplast,
                 prix: "Chaque projet étant unique, le prix est établi sur devis"
             },
@@ -170,7 +189,7 @@ export const fenetres = {
                 ],
                 // eslint-disable-next-line no-multi-str
                 infos: "Disponible avec capotage aluminium.\
-                Différentes options et accessoires sont également disponibles (grilles de ventilation, poignées, croisillons, moustiquaires…)",
+                Différentes options et accessoires sont également disponibles (grilles de ventilation, poignées, croisillons, moustiquaires…).",
                 fiche: "/pdfs/FicheProduits/FenetresPVC/hst-85.pdf",
                 logo: Aluplast,
                 prix: "Chaque projet étant unique, le prix est établi sur devis"
@@ -198,7 +217,7 @@ export const fenetres = {
                     "profondeur dormant 65mm",
                     "Uw 1,1 pour Ug = 0,6"
                 ],
-                infos: "Disponible en deux versions : Ecofutural (isolation autour du vitrage) et Ecofutural i+ (isolation renforcée avec remplissage des espaces entre intercalaires)",
+                infos: "Disponible en deux versions : Ecofutural (isolation autour du vitrage) et Ecofutural i+ (isolation renforcée avec remplissage des espaces entre intercalaires).",
                 fiche: "/pdfs/FicheProduits/FenetresAlu/ecofutural.pdf",
                 logo: Aliplast,
                 prix: "Chaque projet étant unique, le prix est établi sur devis"
@@ -215,7 +234,7 @@ export const fenetres = {
                     "2 joints",
                     "Uw 0,9 pour Ug = 0,5"
                 ],
-                infos: "Disponible en versions Superial i (isolation renforcée) et Superial i+ (isolation renforcée optimale)",
+                infos: "Disponible en versions Superial i (isolation renforcée) et Superial i+ (isolation renforcée optimale).",
                 fiche: "/pdfs/FicheProduits/FenetresAlu/superial.pdf",
                 logo: Aliplast,
                 prix: "Chaque projet étant unique, le prix est établi sur devis"
@@ -230,7 +249,7 @@ export const fenetres = {
                     "profondeur dormant 75mm",
                     "Uw 0,85 pour Ug = 0,5"
                 ],
-                infos: "Disponible en version Steel, design et invisible",
+                infos: "Disponible en version Steel, design et invisible.",
                 fiche: "/pdfs/FicheProduits/FenetresAlu/maxlight.pdf",
                 logo: Aliplast,
                 prix: "Chaque projet étant unique, le prix est établi sur devis"
@@ -246,8 +265,24 @@ export const fenetres = {
                     "épaisseur vitrage 24 - 28 ou 32mm",
                     "Uw 1,7 pour Ug = 1,1"
                 ],
-                infos: "Disponible avec l’option galandage et monobloc",
+                infos: "Disponible avec l’option galandage et monobloc.",
                 fiche: "/pdfs/FicheProduits/FenetresAlu/modern-slide.pdf",
+                logo: Aliplast,
+                prix: "Chaque projet étant unique, le prix est établi sur devis"
+            },
+            {
+                titre: "Aliplast Panorama",
+                image: Panorama,
+                // eslint-disable-next-line no-multi-str
+                presentation: "Le système Panorama permet la réalisation de baies vitrées de 2 à 8 vantaux se repliant latéralement sans meneau central, offrant ainsi un espace dégagé et un design moderne.\
+                Grâce à ses rouleaux en acier et à ses ferrures spécifiques, la manœuvre est fluide et légère. Il assure une excellente étanchéité grâce à ses joints EPDM et brosses haute qualité.",
+                caracteristiques: [
+                    "épaisseur vitrage 16 à 50 mm",
+                    "profondeur dormant 74,5mm",
+                    "Uw 1,2 pour Ug = 0,6"
+                ],
+                infos: "Disponible avec un seuil encastré ou prolongé. Laquage disponible dans les teintes du nuancier RAL ou dans la couleur de votre choix sur indication du code couleur.",
+                fiche: "/pdfs/FicheProduits/FenetresAlu/superial.pdf",
                 logo: Aliplast,
                 prix: "Chaque projet étant unique, le prix est établi sur devis"
             },
@@ -277,7 +312,7 @@ export const fenetres = {
                     "épaisseur vitrage 14 – 52mm",
                     "Uw 1,3 pour Ug = 0,6"
                 ],
-                infos: "TBD",
+                infos: "Disponible dans une version à isolation thermique renforcée.",
                 fiche: "/pdfs/FicheProduits/FenetresAlu/ultraglide.pdf",
                 logo: Aliplast,
                 prix: "Chaque projet étant unique, le prix est établi sur devis"
@@ -292,7 +327,7 @@ export const fenetres = {
                     "épaisseur vitrage 15 – 51mm",
                     "Uw 0,8 pour Ug = 0,5"
                 ],
-                infos: "Disponible dans toutes les couleurs RAL",
+                infos: "Disponible dans toutes les couleurs RAL.",
                 fiche: "/pdfs/FicheProduits/FenetresAlu/maxlight-monorail.pdf",
                 logo: Aliplast,
                 prix: "Chaque projet étant unique, le prix est établi sur devis"
@@ -304,10 +339,11 @@ export const fenetres = {
                 presentation: "Slide Glass est un système coulissant intérieur au design minimaliste, idéal pour laisser entrer un maximum de lumière naturelle. Conçu avec du verre trempé de 10 mm et des profilés fins, il assure sécurité et élégance. \
                 Utilisable aussi bien dans les intérieurs modernes que pour des pergolas, il permet de créer des parois vitrées fixes ou modulables, et même de diviser de grands espaces (comme des bureaux) en zones indépendantes grâce à ses configurations en labyrinthe.",
                 caracteristiques: [
-                    "Profondeur du dormant 153 – 239mm",
+                    "profondeur du dormant 153 – 239mm",
+                    'épaisseur du dormant  71,1 - 115,5mm',
                     "épaisseur du vitrage 10mm",
                 ],
-                infos: "TBD",
+                infos: "Selon les besoins du projet, l’assemblage entre les éléments peut être réalisé sans profilé, pour une continuité visuelle maximale, ou à l’aide d’un profilé à brosse très fin, garantissant une jonction discrète et soignée.",
                 fiche: "/pdfs/FicheProduits/FenetresAlu/slide-glass.pdf",
                 logo: Aliplast,
                 prix: "Chaque projet étant unique, le prix est établi sur devis"
@@ -339,7 +375,7 @@ export const fenetres = {
                     "épaisseur vitrage 36 - 54mm",
                     "Uw 1,3"
                 ],
-                infos: "TBD",
+                infos: "",
                 fiche: "/pdfs/FicheProduits/FenetresAlu/cor-vision.pdf",
                 logo: Cortizo,
                 prix: "Chaque projet étant unique, le prix est établi sur devis"
@@ -356,7 +392,7 @@ export const fenetres = {
                     "épaisseur vitrage 26 - 30 mm",
                     "Uw 0,9"
                 ],  
-                infos: "TBD",
+                infos: "Finition vernie disponible dans l’ensemble de la palette RAL , ainsi que sur demande à partir d’un code de poudre spécifique.",
                 fiche: "/pdfs/FicheProduits/FenetresAlu/cor-vision-plus.pdf",
                 logo: Cortizo,
                 prix: "Chaque projet étant unique, le prix est établi sur devis"
@@ -371,7 +407,7 @@ export const fenetres = {
                     "épaisseur dormant 115,8 - 181,8 mm",
                     "épaisseur vitrage 24 mm",
                 ],
-                infos: "TBD",
+                infos: "Laquage disponible dans les teintes du nuancier RAL ou dans la couleur de votre choix sur indication du code couleur.",
                 fiche: "/pdfs/FicheProduits/FenetresAlu/cor-vision-galandage.pdf",
                 logo: Cortizo,
                 prix: "Chaque projet étant unique, le prix est établi sur devis"
@@ -439,10 +475,9 @@ export const fenetres = {
                 caracteristiques: [
                     "profondeur 164mm",
                     "1-2 rails",
-                    "hauteur construction 2,8",
                     "dimension maximale de l'ouvrant 3300 x 2716 mm"
                 ],
-                infos: "TBD",
+                infos: "Disponible avec différents types de finitions du bois : couleurs de la palette de lasures, couleurs de la palette RAL, vernis transparent, imprégnation transparente, bois brut.",
                 fiche: null,
                 logo: null,
                 prix: "Chaque projet étant unique, le prix est établi sur devis"
@@ -455,10 +490,9 @@ export const fenetres = {
                 caracteristiques: [
                     "profondeur 188mm",
                     "1-2 rails",
-                    "hauteur construction 2,8",
                     "dimension maximale de l'ouvrant 3300 mm"
                 ],
-                infos: "TBD",
+                infos: "Disponible avec différents types de finitions du bois : couleurs de la palette de lasures, couleurs de la palette RAL, vernis transparent, imprégnation transparente, bois brut.",
                 fiche: null,
                 logo: null,
                 prix: "Chaque projet étant unique, le prix est établi sur devis"

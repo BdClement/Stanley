@@ -11,6 +11,7 @@ export const volets = {
         // eslint-disable-next-line no-multi-str
         intro: "Principal moyen de protéger les intérieurs de l'excès de lumière et de chaleur, les volets roulants peuvent être installés à l'intérieur d'un bâtiment ou sur la façade. \
         Les volets roulants offrent une solution moderne, pratique et sécurisée pour équiper vos fenêtres et baies vitrées. Discrets et esthétiques, ils s’intègrent harmonieusement à tous les styles d’habitations, en construction neuve comme en rénovation.",
+        fiche: "/pdfs/FicheProduits/VoletsRoulants/ExpertXT.pdf",
         items: [
         {
             titre: "Volet Roulants",
@@ -23,7 +24,7 @@ export const volets = {
                  "Lames résistantes et durables"
             ],
             infos: "Disponible sur mesure et dans un large choix de finitions et de coloris. Découvrez l’ensemble de nos modèles et options disponibles sur le catalogue.",
-            fiche: "/pdfs/FicheProduits/VoletsRoulants/ExpertXT.pdf",
+            fiche: null,
             isSingleProduct: false,// Field uniquement sur les volets (a etendre ?)
             prix: "Chaque projet étant unique, le prix est établi sur devis"
         },

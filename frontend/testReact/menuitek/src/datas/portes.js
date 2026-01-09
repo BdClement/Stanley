@@ -22,6 +22,7 @@ export const portes = {
         // eslint-disable-next-line no-multi-str
         intro: "Les portes en PVC se distinguent par leur esthétique et leur qualité au plus haut niveau. Elles constituent une solution moderne et accessible pour sécuriser et embellir tous types d’habitations. \
         Reconnues pour leur robustesse et leur résistance aux intempéries, elles allient confort, isolation et design. Grâce à une fabrication soignée et des matériaux de qualité, elles garantissent une excellente tenue dans le temps, tout en nécessitant très peu d’entretien.",
+        fiche: "path du pdf decoupé",// catalogue
         items: [
             {
                 titre: "Panneaux EkoLine",
@@ -33,7 +34,7 @@ export const portes = {
                     "panneaux en HPL ou en tôle d'aluminium"
                 ],
                 infos: "Les panneaux EkoLine sont disponibles en version sans capotage, avec un capotage INOX et avec un capotage noir. 144 panneaux disponibles.",
-                fiche: "path du pdf decoupé",
+                fiche: null,
                 prix: "Chaque projet étant unique, le prix est établi sur devis",
             },
             {
@@ -45,7 +46,7 @@ export const portes = {
                     "panneaux de 36 à 44 mm d’épaisseur"
                 ],
                 infos: "21 panneaux disponibles.",
-                fiche: "path du pdf decoupé",
+                fiche: null,
                 prix: "Chaque projet étant unique, le prix est établi sur devis",
             },
             {
@@ -58,7 +59,7 @@ export const portes = {
                     "largeur maximale du panneau 950 mm",
                 ],
                 infos: "15 panneaux disponibles.",
-                fiche: "path du pdf decoupé",
+                fiche: null,
                 prix: "Chaque projet étant unique, le prix est établi sur devis",
             },
             {
@@ -73,7 +74,7 @@ export const portes = {
                     "dimensions minimales 560 x 1770 mm",
                 ],
                 infos: "51 panneaux disponibles.",
-                fiche: "path du pdf decoupé",
+                fiche: null,
                 prix: "Chaque projet étant unique, le prix est établi sur devis",
             },
             {
@@ -85,7 +86,7 @@ export const portes = {
                     "Pas de caractéristiques",
                 ],
                 infos: "40 versions disponibles. Disponible dans les systèmes Ideal 4000 et Ideal 7000.",
-                fiche: "path du pdf decoupé",
+                fiche: null,
                 prix: "Chaque projet étant unique, le prix est établi sur devis",
             },
             {
@@ -100,7 +101,7 @@ export const portes = {
                     "largeur du panneau de 500 à 990 mm",
                 ],
                 infos: "38 panneaux disponibles.",
-                fiche: "path du pdf decoupé",
+                fiche: null,
                 prix: "Chaque projet étant unique, le prix est établi sur devis",
             },
         ],
@@ -114,6 +115,7 @@ export const portes = {
         // eslint-disable-next-line no-multi-str
         intro: "Les portes en aluminium se caractérisent par une fonctionnalité , une élégance et une durabilité exceptionnelles. Matériau haut de gamme, \
         l’aluminium permet des conceptions fines et épurées tout en garantissant une solidité remarquable face aux chocs et aux intempéries. Grâce à leurs excellentes performances thermiques et acoustiques, ces portes allient confort, sécurité et esthétisme.",
+        fiche: "path du pdf decoupé",// catalogue
         items: [
             {
                 titre: "Panneaux aluminium Despiro",
@@ -125,7 +127,7 @@ export const portes = {
                     "2 types de joints du bas"
                 ],
                 infos: "39 panneaux disponibles.",
-                fiche: "path du pdf decoupé",
+                fiche: null,
                 prix: "Chaque projet étant unique, le prix est établi sur devis",
             },
             {
@@ -138,7 +140,7 @@ export const portes = {
                     "2 types de joints du bas"
                 ],
                 infos: "9 panneaux disponibles.",
-                fiche: "path du pdf decoupé",
+                fiche: null,
                 prix: "Chaque projet étant unique, le prix est établi sur devis",
             },
             {
@@ -154,7 +156,7 @@ export const portes = {
                     "éclairage LED blanc (blanc chaud ou froid)"
                 ],
                 infos: "10 panneaux disponibles.",
-                fiche: "path du pdf decoupé",
+                fiche: null,
                 prix: "Chaque projet étant unique, le prix est établi sur devis",
             },
             {
@@ -167,7 +169,7 @@ export const portes = {
                     "acier inoxydable affleurant la surface du panneau"
                 ],
                 infos: "Les panneaux AluLine sont disponibles en version avec un capotage INOX et avec un capotage noir. 139 panneaux disponibles.",
-                fiche: "path du pdf decoupé",
+                fiche: null,
                 prix: "Chaque projet étant unique, le prix est établi sur devis",
             },
             {
@@ -180,7 +182,7 @@ export const portes = {
                     "largeur maximale du panneau 950 mm",
                 ],
                 infos: "15 panneaux disponibles.",
-                fiche: "path du pdf decoupé",
+                fiche: null,
                 prix: "Chaque projet étant unique, le prix est établi sur devis",
             },
         ],
@@ -194,6 +196,7 @@ export const portes = {
         // eslint-disable-next-line no-multi-str
         intro: "Les portes en bois sont fabriquées à partir des meilleurs matériaux, spécialement sélectionnés. Elles incarnent l’élégance intemporelle et le charme naturel d’un matériau noble. \
         Chaleureuses et authentiques, elles s’intègrent aussi bien dans les architectures traditionnelles que contemporaines. Grâce à leurs excellentes capacités d’isolation thermique et acoustique, elles allient confort, esthétique et performance.",
+        fiche: "path du pdf decoupé",// catalogue
         items: [
             {
                 titre: "Panneaux WoodLine",
@@ -205,7 +208,7 @@ export const portes = {
                     "nous collaborons avec des fournisseurs qui détiennent la certification FSC",
                 ],
                 infos: "Les panneaux WoodLine sont disponibles en version sans capotage, avec un capotage INOX et avec un capotage noir. Disponible en plusieurs couleurs de bois. 139 panneaux disponibles.",
-                fiche: "path du pdf decoupé",
+                fiche: null,
                 prix: "Chaque projet étant unique, le prix est établi sur devis",
             },
             {
@@ -219,7 +222,7 @@ export const portes = {
                     "nous collaborons avec des fournisseurs qui détiennent la certification FSC",
                 ],
                 infos: "Disponible en plusieurs couleurs de bois. 15 panneaux disponibles.",
-                fiche: "path du pdf decoupé",
+                fiche: null,
                 prix: "Chaque projet étant unique, le prix est établi sur devis",
             },
             {
@@ -232,7 +235,7 @@ export const portes = {
                     "nous collaborons avec des fournisseurs qui détiennent la certification FSC",
                 ],
                 infos: "Disponible en plusieurs couleurs de bois. 12 panneaux disponibles.",
-                fiche: "path du pdf decoupé",
+                fiche: null,
                 prix: "Chaque projet étant unique, le prix est établi sur devis",
             },
         ],
