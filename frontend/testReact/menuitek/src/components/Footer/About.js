@@ -2,8 +2,8 @@ import { Link } from 'react-router-dom';
 
 function About() {
     return (
-        <div className="flex flex-grow sm:flex-row flex-col">
-            <div className="m-2 sm:m-6 flex flex-col flex-grow gap-2">
+        <div className="flex flex-grow sm:flex-row flex-col py-2 2xl:p-4">
+            <div className="m-2 sm:m-6 py-2 flex flex-col flex-grow gap-2">
                 <div className="h-[2px] w-3/4 bg-gradient-to-r from-brun-contrast to-brun-contrast-300"></div>
                 <h3 className="text-2xl">À propos</h3>
                 <ul className=" flex flex-col flex-grow">
@@ -13,7 +13,7 @@ function About() {
                     {/* <li className="flex-grow hover:underline hover:text-black">FAQ</li>  */}
                 </ul>
             </div>
-            <div className="m-2 sm:m-6 flex flex-col flex-grow">
+            <div className="m-2 sm:m-6 py-2 flex flex-col flex-grow">
                 <div className="h-[2px] w-3/4 bg-gradient-to-r from-brun-contrast to-brun-contrast-300"></div>
                 <h3 className="text-2xl">Réseaux</h3>
                 <ul className="flex flex-row flex-grow items-center justify-evenly gap-6">
@@ -58,7 +58,7 @@ function About() {
                     </li>
                 </ul>
             </div>
-            <div className="m-2 sm:m-6 flex flex-col flex-grow">
+            <div className="m-2 sm:m-6 py-2 flex flex-col flex-grow">
                 <div className="h-[2px] w-3/4 bg-gradient-to-r from-brun-contrast to-brun-contrast-300"></div>
                 <h3 className="text-2xl">Nous trouver</h3>
                 <ul>

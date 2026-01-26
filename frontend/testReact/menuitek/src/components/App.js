@@ -60,3 +60,4 @@ export default App;
   // Couleur
   // Nous connaitre + page acceuil
   // Ajouter “fenêtres ouvrant à la française” et “Coulissants”
+  // Voir comment gerer les PDF Catalogue porte

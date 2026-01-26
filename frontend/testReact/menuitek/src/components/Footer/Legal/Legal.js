@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 
 function Legal() {
     return (
-        <div className="p-1 flex flex-grow items-center justify-center border-t-2 border-t-brun-contrast/90">
+        <div className="p-1 py-2 flex flex-grow items-center justify-center border-t-2 border-t-brun-contrast/90">
             <ul className="flex flex-row gap-4 2xl:gap-8">
                 <li>MenuiteK © 2025</li>
                 <li>•</li>
