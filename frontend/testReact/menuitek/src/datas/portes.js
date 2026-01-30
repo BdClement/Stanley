@@ -22,7 +22,7 @@ export const portes = {
         // eslint-disable-next-line no-multi-str
         intro: "Les portes en PVC se distinguent par leur esthétique et leur qualité au plus haut niveau. Elles constituent une solution moderne et accessible pour sécuriser et embellir tous types d’habitations. \
         Reconnues pour leur robustesse et leur résistance aux intempéries, elles allient confort, isolation et design. Grâce à une fabrication soignée et des matériaux de qualité, elles garantissent une excellente tenue dans le temps, tout en nécessitant très peu d’entretien.",
-        fiche: "path du pdf decoupé",// catalogue
+        fiche: "/pdfs/FicheProduits/Portes/PortesPVC/Catalogue_Menuitek_Porte_PVC.pdf",// catalogue
         items: [
             {
                 titre: "Panneaux EkoLine",
@@ -115,7 +115,7 @@ export const portes = {
         // eslint-disable-next-line no-multi-str
         intro: "Les portes en aluminium se caractérisent par une fonctionnalité , une élégance et une durabilité exceptionnelles. Matériau haut de gamme, \
         l’aluminium permet des conceptions fines et épurées tout en garantissant une solidité remarquable face aux chocs et aux intempéries. Grâce à leurs excellentes performances thermiques et acoustiques, ces portes allient confort, sécurité et esthétisme.",
-        fiche: "path du pdf decoupé",// catalogue
+        fiche: "/pdfs/FicheProduits/Portes/PortesAlu/Catalogue_Menuitek_Porte_Alu.pdf",// catalogue
         items: [
             {
                 titre: "Panneaux aluminium Despiro",
@@ -196,7 +196,7 @@ export const portes = {
         // eslint-disable-next-line no-multi-str
         intro: "Les portes en bois sont fabriquées à partir des meilleurs matériaux, spécialement sélectionnés. Elles incarnent l’élégance intemporelle et le charme naturel d’un matériau noble. \
         Chaleureuses et authentiques, elles s’intègrent aussi bien dans les architectures traditionnelles que contemporaines. Grâce à leurs excellentes capacités d’isolation thermique et acoustique, elles allient confort, esthétique et performance.",
-        fiche: "path du pdf decoupé",// catalogue
+        fiche: "/pdfs/FicheProduits/Portes/PortesBois/Catalogue_Menuitek_Porte_bois.pdf",// catalogue
         items: [
             {
                 titre: "Panneaux WoodLine",

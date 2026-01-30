@@ -6,12 +6,14 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'beige-main': '#e6ccb2',
-        'beige-contrast': '#f3e9dcff',
-        'grey-main': '#212529',
+        'beige-main': '#8B735B',// texte brun
+        // 'beige-main': '#6A5543',
+        'brun-dark': '#513d2bff',
+        'beige-contrast': '#F3EFEA',// beige plus clair pour contrast
+        'grey-main': '#e6ccb2',// Fond beige
         'grey-contrast': '#495057',
-        'grey-contrast-xxl': '#d7dce6ff',
-        'brun-contrast': '#9d6b53',
+        'grey-contrast-xxl': '#F3EFEA',
+        'brun-contrast': '#A38760',// Brun plus clair
       },
       fontFamily: {
         comforta: ['Comfortaa', 'Roboto', 'Sergoe UI']
@@ -51,3 +53,10 @@ module.exports = {
   plugins: [],
 }
 // 3 Couleurs : Fond1/Fond2 (legers contraste) / text / Accent(hover, boutons)
+
+      // 'beige-main': '#e6ccb2',
+        // 'beige-contrast': '#f3e9dcff',
+        // 'grey-main': '#212529',
+        // 'grey-contrast': '#495057',
+        // 'grey-contrast-xxl': '#d7dce6ff',
+        // 'brun-contrast': '#9d6b53',

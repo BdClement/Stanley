@@ -43,7 +43,7 @@ export const fenetres = {
             {
                 titre: "Aluplast Ideal 4000",
                 image: Ideal4000,
-                presentation: "Il s’agit d’un système polyvalent qui convient parfaitement à l’architecture moderne des habitations individuelles et collectives ainsi qu’à la rénovation.",
+                presentation: "Il s’agit d’un système ouvrant à la française et polyvalent qui convient parfaitement à l’architecture moderne des habitations individuelles et collectives ainsi qu’à la rénovation.",
                 caracteristiques: [
                     "5 chambres",
                     "2 joints d’étanchéité",
@@ -60,7 +60,7 @@ export const fenetres = {
             {
                 titre: "Aluplast Ideal 5000",
                 image: Ideal5000,
-                presentation: "Des fenêtres alliant un design moderne à de très bonnes performances. Système à triple étanchéité.",
+                presentation: "Des fenêtres ouvrant à la française alliant un design moderne à de très bonnes performances. Système à triple étanchéité.",
                 caracteristiques: [
                     "5 chambres",
                     "3 joints d’étanchéité",
@@ -77,7 +77,7 @@ export const fenetres = {
             {
                 titre: "Aluplast Ideal 8000",
                 image: Ideal8000,
-                presentation: "Les fenêtres de dernière génération. En les choisissant, vous optez pour la chaleur, le silence et l’esthétique. Les fenêtres basées sur le système Ideal 8000 assurent l’isolation thermique et acoustique au plus haut niveau. Recommandées pour les maisons passives.",
+                presentation: "Les fenêtres de dernière génération. En les choisissant, vous optez pour la chaleur, le silence et l’esthétique. Les fenêtres ouvrant à la française basées sur le système Ideal 8000 assurent l’isolation thermique et acoustique au plus haut niveau. Recommandées pour les maisons passives.",
                 caracteristiques: [
                     "6 chambres",
                     "3 joints d’étanchéité",
@@ -93,7 +93,7 @@ export const fenetres = {
                 titre: "Aluplast Ideal Neo",
                 image: IdealNeo,
                 // eslint-disable-next-line no-multi-str
-                presentation: "Ideal Neo est un système de fenêtres au design moderne avec des profilés affinés, parfait pour la construction neuve comme pour la rénovation. Grâce à la technologie innovante Bonding Inside, le vitrage est collé en permanence au cadre, ce qui améliore la stabilité,\
+                presentation: "Ideal Neo est un système de fenêtres ouvrant à la française au design moderne avec des profilés affinés, parfait pour la construction neuve comme pour la rénovation. Grâce à la technologie innovante Bonding Inside, le vitrage est collé en permanence au cadre, ce qui améliore la stabilité,\
                  les performances thermiques et la durabilité. Une solution élégante et fiable, conçue pour durer dans le temps.",
                 caracteristiques: [
                     "5-6 chambres",
@@ -162,7 +162,7 @@ export const fenetres = {
                 titre: "Aluplast Accordéon ",
                 image: Accordeon,
                 // eslint-disable-next-line no-multi-str
-                presentation: "Le système accordéon Aluplast crée une ouverture généreuse vers l’extérieur et relie harmonieusement l’intérieur à l’extérieur.\
+                presentation: "Le système accordéon Aluplast crée une ouverture coulissante généreuse vers l’extérieur et relie harmonieusement l’intérieur à l’extérieur.\
                 Conçus sur la base du système Ideal 4000, les modules garantissent stabilité, isolation et durabilité",
                 caracteristiques: [
                     "de 3 à 6 vantaux",
@@ -243,7 +243,7 @@ export const fenetres = {
                 titre: "Aliplast Maxlight",
                 image: MaxLight,
                 // eslint-disable-next-line no-multi-str
-                presentation: "Synonyme de modernité, ce système donne à la structure un caractère industriel et moderne, tout cela grâce à la visibilité minimale de la largeur du profilé. Robuste, esthétique et performant, MaxLight allie durabilité et design pour s’adapter à tous les styles architecturaux.",
+                presentation: "Synonyme de modernité, ce système ouvrant à la française donne à la structure un caractère industriel et moderne, tout cela grâce à la visibilité minimale de la largeur du profilé. Robuste, esthétique et performant, MaxLight allie durabilité et design pour s’adapter à tous les styles architecturaux.",
                 caracteristiques: [
                     "épaisseur vitrage 59 - 68mm",
                     "profondeur dormant 75mm",
@@ -258,7 +258,7 @@ export const fenetres = {
                 titre: "Aliplast ModernSlide",
                 image: ModernSlide,
                 // eslint-disable-next-line no-multi-str
-                presentation: "Le système Modernslide allie performance thermique et design moderne. Grâce à ses rails multiples et sa capacité à intégrer de grands vantaux, il offre luminosité et élégance à vos espaces. Avec l’option galandage, les vantaux disparaissent dans le mur, libérant totalement l’ouverture et créant une transition fluide entre intérieur et extérieur.",
+                presentation: "Le système coulissant Modernslide allie performance thermique et design moderne. Grâce à ses rails multiples et sa capacité à intégrer de grands vantaux, il offre luminosité et élégance à vos espaces. Avec l’option galandage, les vantaux disparaissent dans le mur, libérant totalement l’ouverture et créant une transition fluide entre intérieur et extérieur.",
                 caracteristiques: [
                     "profondeur dormant 73 - 196 (monobloc)",
                     "2 - 3 ou 4 rails",
@@ -274,7 +274,7 @@ export const fenetres = {
                 titre: "Aliplast Panorama",
                 image: Panorama,
                 // eslint-disable-next-line no-multi-str
-                presentation: "Le système Panorama permet la réalisation de baies vitrées de 2 à 8 vantaux se repliant latéralement sans meneau central, offrant ainsi un espace dégagé et un design moderne.\
+                presentation: "Le système coulissant Panorama permet la réalisation de baies vitrées de 2 à 8 vantaux se repliant latéralement sans meneau central, offrant ainsi un espace dégagé et un design moderne.\
                 Grâce à ses rouleaux en acier et à ses ferrures spécifiques, la manœuvre est fluide et légère. Il assure une excellente étanchéité grâce à ses joints EPDM et brosses haute qualité.",
                 caracteristiques: [
                     "épaisseur vitrage 16 à 50 mm",
@@ -328,7 +328,7 @@ export const fenetres = {
                     "Uw 0,8 pour Ug = 0,5"
                 ],
                 infos: "Disponible dans toutes les couleurs RAL.",
-                fiche: "/pdfs/FicheProduits/FenetresAlu/maxlight-monorail.pdf",
+                fiche: "/pdfs/FicheProduits/FenetresAlu/MaxLightMonorail.pdf",
                 logo: Aliplast,
                 prix: "Chaque projet étant unique, le prix est établi sur devis"
             },

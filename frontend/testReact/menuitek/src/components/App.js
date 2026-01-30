@@ -52,12 +52,22 @@ export default App;
   // Incoherence parfois meme chose dites de maniere differentes avec beaucoup de mot pour dire pas grand chose !
 
 // Gestion des PDFs:
-  // Probleme avec PDF MaxLight Monorail
-  // Cut le catalogues des volets roulants avec Apercu de mac
-  // Cut des pdf des nouveaux produits Accordeon et Panorama
+  // Checker tout les PDF
 
 // A faire en presentiel: 
-  // Couleur
-  // Nous connaitre + page acceuil
+// Couleur (Stan en reflexion)
+
+// restant :
+// PDF Accordeon enlever la date et ajouter
+// PDF panorama enlever la date et ajouter
+// Faire une page d'attente pour Inspirations
+
+
+// DONE
+  // Enlever phrase page d'accueil
+  // Enlever temporairement Store et moustiquaire de la page d'accueil (remplacé par Pergolas soon)
+  // Probleme avec PDF MaxLight Monorail
+  // Taille text page d'acceuil
   // Ajouter “fenêtres ouvrant à la française” et “Coulissants”
-  // Voir comment gerer les PDF Catalogue porte
+  // Voir comment gerer les PDF Catalogue porte 
+  // Cut le catalogues des volets roulants avec Apercu de mac
