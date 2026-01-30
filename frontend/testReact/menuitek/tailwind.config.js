@@ -6,9 +6,9 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'beige-main': '#8B735B',// texte brun
+        'beige-main': '#6A5543',// texte brun
         // 'beige-main': '#6A5543',
-        'brun-dark': '#513d2bff',
+        'brun-dark': '#513d2bff',//
         'beige-contrast': '#F3EFEA',// beige plus clair pour contrast
         'grey-main': '#e6ccb2',// Fond beige
         'grey-contrast': '#495057',

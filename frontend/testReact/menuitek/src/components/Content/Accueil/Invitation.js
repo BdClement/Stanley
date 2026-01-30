@@ -5,7 +5,7 @@ import maisonDesign from '../../../assets/MaisonDesignModele.jpg'
 
 function Invitation() {
     return (
-        <div className=' flex flex-col gap-4 lg:gap-8 xl:gap-12 py-[5vh] xl:py-[10vh] 2xl:py[15vh] px-[5vw] xl:px-[8vw] bg-gradient-to-t from-grey-main to-grey-contrast/30'>
+        <div className=' flex flex-col gap-4 lg:gap-8 xl:gap-12 py-[5vh] xl:py-[10vh] 2xl:py[15vh] px-[5vw] xl:px-[8vw] bg-gradient-to-t from-grey-main to-brun-contrast/30'>
             <p className='font-semibold text-brun-dark'>COMPTEZ SUR NOUS</p>
             <div className='flex flex-col md:flex-row items-center relative'>
                 <img src={maisonDesign} alt='Modèle de maison design traingulaire' className='w-[60%] md:w-[50%] h-auto object-cover rounded-t-lg md:rounded'></img>
