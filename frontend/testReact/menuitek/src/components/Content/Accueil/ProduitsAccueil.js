@@ -16,19 +16,19 @@ function ProduitsAccueil() {
             <p>Que ce soit pour des projets neufs ou en rénovation, nos solutions peuvent être sur mesure et personnalisable.</p>
             <ul className='flex flex-wrap min-h-[35vh] justify-evenly gap-6 py-6 lg:py-12 xl:py-20 border-t border-beige-main/70'>
                 <Link to='/categories/fenetres/' className='flex flex-col justify-evenly w-full sm:w-[48%] lg:w-[22%] h-[18vh] md:h-[24vh] lg:h-[35vh] xl:h-[55vh] 2xl:h-[60vh] p-4 rounded-md bg-cover bg-center hover:scale-105 transition duration-300' style={{ backgroundImage: `url(${window})`}}>
-                    <div className='flex flex-col justify-evenly w-[80%] lg:w-[100%] h-[100%] md:h-[90%] xl:h-[60%] bg-white/30 backdrop-blur-sm text-black rounded-md p-2'>
+                    <div className='flex flex-col justify-evenly w-[80%] lg:w-[100%] h-[100%] md:h-[90%] xl:h-[60%] bg-white/30 backdrop-blur-md text-brun-dark rounded-md p-2'>
                         <h3 className='text-lg lg:text-xl xl:text-2xl font-semibold mb-1'>Fenêtres</h3>
                         <p>Esthétiques, isolantes et durables</p>
                     </div>
                 </Link>
                 <Link to='/categories/portes/' className='flex flex-col justify-evenly relative w-full sm:w-[48%] lg:w-[22%] h-[18vh] md:h-[24vh] lg:h-[35vh] xl:h-[55vh] 2xl:h-[60vh] p-4 rounded-md bg-cover bg-center hover:scale-105 transition duration-300' style={{ backgroundImage: `url(${porte})`}}>
-                    <div className='flex flex-col justify-evenly w-[80%] lg:w-[100%] h-[100%] md:h-[90%] xl:h-[60%] bg-white/30 backdrop-blur-sm text-black rounded-md p-2'>
+                    <div className='flex flex-col justify-evenly w-[80%] lg:w-[100%] h-[100%] md:h-[90%] xl:h-[60%] bg-white/30 backdrop-blur-md text-brun-dark rounded-md p-2'>
                         <h3 className='text-lg lg:text-xl xl:text-2xl font-semibold mb-1'>Portes intérieures et extérieures</h3>
                         <p>Sécurité et design réunis</p>
                     </div>
                 </Link>
                 <Link to='/categories/volets/' className='flex flex-col justify-evenly w-full sm:w-[48%] lg:w-[22%] h-[18vh] md:h-[24vh] lg:h-[35vh] xl:h-[55vh] 2xl:h-[60vh] p-4 rounded-md bg-cover hover:scale-105 transition duration-300' style={{ backgroundImage: `url(${volets})`}}>
-                    <div className='flex flex-col justify-evenly w-[80%] lg:w-[100%] h-[100%] md:h-[90%] xl:h-[60%] bg-white/30 backdrop-blur-sm text-black rounded-md p-2'>
+                    <div className='flex flex-col justify-evenly w-[80%] lg:w-[100%] h-[100%] md:h-[90%] xl:h-[60%] bg-white/30 backdrop-blur-md text-brun-dark rounded-md p-2'>
                         <h3 className='text-lg lg:text-xl xl:text-2xl font-semibold mb-1'>Volets</h3>
                         <p>Robustes et élégants</p>
                     </div>
