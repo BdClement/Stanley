@@ -7,7 +7,7 @@ import ProductsMenu from './ProductsMenu';
 function Navbar({ isOpen, setIsOpen }) {
     return (
         <>
-        <nav className='relative w-full opacity-0 animate-slide-in-down flex flex-col sm:flex-row lg:text-lg 2xl:text-xl sm:flex-wrap sticky top-0 z-50 h-[20vh] sm:h-[3vh] lg:h-[8vh] 2xl:h-[6vh] min-h-[6vh] bg-beige-main text-grey-main shadow'>
+        <nav className='relative w-full opacity-0 animate-slide-in-down flex flex-col sm:flex-row lg:text-lg 2xl:text-xl sm:flex-wrap sticky top-0 z-50 h-[20vh] sm:h-[3vh] lg:h-[8vh] 2xl:h-[6vh] min-h-[6vh] bg-brun-main text-beige shadow'>
             <ul className="flex flex-row w-full flex-1 h-full items-center justify-evenly">
                 <li className="relative group p-2">
                     <Link to='/' className='hover:text-brun-dark'><FaHome/></Link>
@@ -32,7 +32,7 @@ function Navbar({ isOpen, setIsOpen }) {
             </ul>
             <ul className="flex flex-row w-full flex-1 h-full items-center justify-center">
                 <li className="relative group p-2">
-                    <Link to='/devis/' className="px-3 py-1 sm:py-2 lg:py-2 rounded-full bg-grey-main text-brun-dark hover:bg-brun-dark hover:text-grey-main transition duration:300">Demandez un devis</Link>
+                    <Link to='/devis/' className="px-3 py-1 sm:py-2 lg:py-2 rounded-full bg-brun-contrast text-brun-dark hover:bg-brun-dark hover:text-beige transition duration:300">Demandez un devis</Link>
                 </li>
             </ul>
             <div className="absolute top-full left-0 w-full sm:h-full" onMouseLeave={() => setIsOpen(false)}>

@@ -16,7 +16,7 @@ function IntroFormulaire() {
             </div>
             <div className="my-2 md:my-6 lg:my-8 flex w-full h-full items-center justify-evenly">
                 <div className="flex flex-col">
-                    <ol className="flex flex-col gap-2 lg:gap-4 p-2 lg:p-4 border-2 border-stone-700 rounded-t-lg text-sm sm:text-base md:text-lg lg:text-xl 2xl:text-2xl">
+                    <ol className="flex flex-col gap-2 lg:gap-4 p-2 lg:p-4 border-2 border-brun-contrast/80 rounded-t-lg text-sm sm:text-base md:text-lg lg:text-xl 2xl:text-2xl">
                         <li className="flex flex-row gap-2 lg:gap-4">
                             <IoDocumentText size={24}/>
                             <p>Remplissez le formulaire pour nous exposer votre projet</p>
@@ -32,13 +32,13 @@ function IntroFormulaire() {
                         </li>
                     </ol>
                     <div className="flex flex-row justify-center items-center gap-4 lg:gap-10">
-                        <div className="w-20 h-20 md:w-28 md:h-28 lg:w-32 lg:h-32 xl:w-40 xl:h-40 flex items-center justify-center bg-grey-main rounded">
+                        <div className="w-20 h-20 md:w-28 md:h-28 lg:w-32 lg:h-32 xl:w-40 xl:h-40 flex items-center justify-center rounded">
                             <img src={logoQuality} alt="Logo Quality" className="max-h-full max-w-full object-contain scale-75" />
                         </div>
                         {/* <div className="w-20 h-20 md:w-28 md:h-28 lg:w-32 lg:h-32 xl:w-40 xl:h-40 flex items-center justify-center bg-grey-main rounded">
                             <img src={logoRGE} alt="Logo Green" className="max-h-full max-w-full object-contain scale-75" />
                         </div> */}
-                        <div className="w-20 h-20 md:w-28 md:h-28 lg:w-32 lg:h-32 xl:w-40 xl:h-40 flex items-center justify-center bg-grey-main rounded">
+                        <div className="w-20 h-20 md:w-28 md:h-28 lg:w-32 lg:h-32 xl:w-40 xl:h-40 flex items-center justify-center rounded">
                             <img src={logoGreen} alt="Logo Green" className="max-h-full max-w-full object-contain scale-50" />
                         </div>
                     </div>

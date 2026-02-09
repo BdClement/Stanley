@@ -5,17 +5,17 @@ function About() {
         <div className="flex flex-grow sm:flex-row flex-col py-2 2xl:p-4">
             <div className="m-2 sm:m-6 py-2 flex flex-col flex-grow gap-2">
                 <div className="h-[2px] w-3/4 bg-gradient-to-r from-brun-contrast to-brun-contrast-300"></div>
-                <h3 className="text-2xl">À propos</h3>
+                <h3 className="text-2xl text-brun-contrast">À propos</h3>
                 <ul className=" flex flex-col flex-grow">
-                    <Link to='/nous-connaitre#menuitek' className="flex-grow hover:underline hover:text-black">Qui sommes nous ?</Link>
-                    <Link to='/nous-connaitre#valeurs' className="flex-grow hover:underline hover:text-black">Nos valeurs</Link>
-                    <Link to='/Faq/' className="flex-grow hover:underline hover:text-black">FAQ</Link>
+                    <Link to='/nous-connaitre#menuitek' className="flex-grow hover:underline hover:text-brun-dark">Qui sommes nous ?</Link>
+                    <Link to='/nous-connaitre#valeurs' className="flex-grow hover:underline hover:text-brun-dark">Nos valeurs</Link>
+                    <Link to='/Faq/' className="flex-grow hover:underline hover:text-brun-dark">FAQ</Link>
                     {/* <li className="flex-grow hover:underline hover:text-black">FAQ</li>  */}
                 </ul>
             </div>
             <div className="m-2 sm:m-6 py-2 flex flex-col flex-grow">
                 <div className="h-[2px] w-3/4 bg-gradient-to-r from-brun-contrast to-brun-contrast-300"></div>
-                <h3 className="text-2xl">Réseaux</h3>
+                <h3 className="text-2xl text-brun-contrast">Réseaux</h3>
                 <ul className="flex flex-row flex-grow items-center justify-evenly gap-6">
                     <li>
                         <a
@@ -60,7 +60,7 @@ function About() {
             </div>
             <div className="m-2 sm:m-6 py-2 flex flex-col flex-grow">
                 <div className="h-[2px] w-3/4 bg-gradient-to-r from-brun-contrast to-brun-contrast-300"></div>
-                <h3 className="text-2xl">Nous trouver</h3>
+                <h3 className="text-2xl text-brun-contrast">Nous trouver</h3>
                 <ul>
                     {/* On va mettre un truc du style livraison dans toute la France et pose dans toute l’ile de france */}
                     <li>Livraison dans toute la France | Pose dans toute l'Île-de-France</li>

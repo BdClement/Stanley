@@ -16,13 +16,13 @@ function Portes() {
             <div className='flex flex-col gap-6 md:gap-10 xl-gap-14'>
                 <h1 className=" text-center xl:pb-6 text-xl sm:text-2xl md:text-4xl lg:text-6xl xl:text-6xl 2xl:text-8xl font-bold">{portesContentType.titre}</h1>
                 <div className=''>
-                    <p className="p-6 md:p-10 xl:p-16 text-justify border-y border-brun-contrast/60">
+                    <p className="p-6 md:p-10 xl:p-16 text-justify border-y border-brun-contrast/50">
                         {portesContentType.intro}
                     </p>
                     {portesContentType.fiche && (
                         <>
                             <p className="p-6 md:p-10 xl:p-16 text-justify">Pour plus d'informations sur l'un de ne produits de la section "{portesContentType.titre}", veuillez télécharger le catalogue ci-dessous ou contactez-nous directement.</p>
-                            <a className="p-4 w-full lg:w-1/2 mx-auto flex items-center justify-center gap-4 border-grey-contrast rounded-md bg-grey-contrast hover:bg-beige-main hover:text-grey-main transition duration:300" href={portesContentType.fiche} download>
+                            <a className="p-4 w-full lg:w-1/2 mx-auto flex items-center justify-center gap-4 rounded-md bg-brun-contrast text-brun-dark hover:bg-brun-main hover:text-beige transition duration:300" href={portesContentType.fiche} download>
                                 Télécharger le catalogue {portesContentType.titre}<MdDownloadForOffline/>
                             </a>
                         </>
@@ -30,7 +30,7 @@ function Portes() {
                 </div>
                 <div className='flex flex-col gap-[10vh] xl:gap-[14vh] 2xl:gap-[16vh] py-10 xl:py-20'>
                     {portesContentType.items.map((item, index) => 
-                        <div key={index} className="flex flex-col lg:flex-row gap-2 md:gap-4 xl-gap-8 bg-white rounded text-grey-contrast">
+                        <div key={index} className="flex flex-col lg:flex-row gap-2 md:gap-4 xl-gap-8 bg-white rounded text-brun-dark/80">
                             <div className="w-full lg:w-1/3 py-4 md:py-6 flex flex-col items-center">
                                 <h2 className="font-semibold uppercase text-center">{item.titre}</h2>
                                 <div className="w-full h-[250px] md:h-[300px] xl:h-[350px] flex items-center justify-center">
@@ -38,8 +38,8 @@ function Portes() {
                                     <img src={item.image} alt={item.titre} className='max-h-full max-w-full object-contain'></img>
                                 </div>
                             </div>
-                            <div className="w-full lg:w-2/3 py-4 md:py-6 flex flex-col gap-4 md:gap-6 xl:gap-10 px-4 text-justify bg-grey-contrast-xxl">
-                                <div className="flex flex-1 flex-col justify-between gap-4 md:gap-6 xl:gap-10 pb-6 border-b-2   max-h-[300px] md:max-h-[350px] xl:max-h-[400px] overflow-auto pr-2">
+                            <div className="w-full lg:w-2/3 py-4 md:py-6 flex flex-col gap-4 md:gap-6 xl:gap-10 px-4 text-justify bg-brun-contrast/10">
+                                <div className="flex flex-1 flex-col justify-between gap-4 md:gap-6 xl:gap-10 pb-6 border-b-2 border-brun-contrast/50 max-h-[300px] md:max-h-[350px] xl:max-h-[400px] overflow-auto pr-2">
                                     <div className="px-6">{item.presentation}</div>
                                     {item.caracteristiques && (
                                         <ul className=" px-8 italic list-disc list-inside">
@@ -51,9 +51,9 @@ function Portes() {
                                     <div className=" px-6 ">{item.infos}</div>
                                 </div>
                                 <div className="flex flex-col gap-4 md:gap-6 xl:gap-10 items-end">
-                                    <div className="w-full lg:w-1/2 text-end font-semibold">{item.prix}</div>
+                                    <div className="w-full lg:w-1/2 text-end font-semibold text-brun-contrast">{item.prix}</div>
                                     {item.fiche && (
-                                        <a className="p-4 w-full lg:w-1/2 flex items-center justify-center gap-4 border-grey-contrast rounded-md bg-grey-contrast text-white hover:bg-grey-main transition duration:300" href={item.fiche} download>
+                                        <a className="p-4 w-full lg:w-1/2 flex items-center justify-center gap-4 rounded-md bg-brun-contrast text-white hover:bg-brun-main transition duration:300" href={item.fiche} download>
                                             Télécharger la fiche Produit <MdDownloadForOffline/>
                                         </a>
                                     )}
@@ -62,10 +62,10 @@ function Portes() {
                         </div>
                     )}
                 </div>
-                <div className="p-6 md:p-10 xl:p-16 border-t border-brun-contrast/60">
-                    <div className="flex gap-2 md:gap-4 xl-gap-8 items-center text-brun-contrast justify-center">
-                        <FaCheckCircle/>
-                        <h3 className="font-semibold text-brun-contrast uppercase">{portesContentType.avantage}</h3>
+                <div className="p-6 md:p-10 xl:p-16 border-t border-brun-contrast/50">
+                    <div className="flex gap-2 md:gap-4 xl-gap-8 items-center text-brun-main justify-center">
+                        <FaCheckCircle className="text-brun-contrast"/>
+                        <h3 className="font-semibold uppercase">{portesContentType.avantage}</h3>
                     </div>
                     <p className="pt-6 md:pt-10 xl:pt-16 text-justify ">
                         {portesContentType.conclusion}

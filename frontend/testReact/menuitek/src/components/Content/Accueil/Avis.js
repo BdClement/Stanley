@@ -47,17 +47,17 @@ function Avis() {
 
     return (
         <div className='flex flex-col gap-4 lg:gap-8 xl:gap-12 py-[5vh] xl:py-[10vh] 2xl:py[15vh] px-[5vw] xl:px-[8vw] overflow-x-hidden min-h-[24rem] sm:min-h-[28rem] lg:min-h-[32rem]'>
-            <p className='font-semibold text-brun-dark'>AVIS</p>
+            <p className='font-bold text-brun-main'>AVIS</p>
             <div key={index} className={'flex flex-col py-[2vh] xl:py-[6vh] 2xl:py[10vh] items-center opacity-0 ' + (animationRight ? 'animate-slide-in-right' : 'animate-slide-in-left')}>
-                <BiSolidQuoteAltRight className='text-brun-dark size-16 md:size-24 lg:size-28 xl:size-36'/>
+                <BiSolidQuoteAltRight className='text-brun-contrast size-16 md:size-24 lg:size-28 xl:size-36'/>
                 <div className="flex flex-row gap-10">
-                    <button onClick={goToPrevious} className="">
+                    <button onClick={goToPrevious} className="text-brun-contrast">
                         <FaAngleLeft />
                     </button>
                     <div className="flex flex-col items-center">
                         <p className='italic font-light text-center text-lg sm:text-xl md:text-2xl lg:text-4xl xl:text-6xl 5xl:text-6xl'>{testimonials[index].text}</p>
-                        <p className='font-light pt-2 lg:pt-6 2xl:pt-10'>{testimonials[index].author}</p>
-                        <div className='flex flex-row'>
+                        <p className='font-light pt-2 lg:pt-6 2xl:pt-10 text-brun-contrast'>{testimonials[index].author}</p>
+                        <div className='flex flex-row text-brun-contrast'>
                             {
                                 Array.from({length: 5}).map((_, i) => {
                                     const fullStars = Math.floor(testimonials[index].rating);
@@ -70,7 +70,7 @@ function Avis() {
                             }
                         </div>
                     </div>
-                    <button onClick={goToNext} className="">
+                    <button onClick={goToNext} className="text-brun-contrast">
                         <FaAngleRight />
                     </button>
                 </div>
