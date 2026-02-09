@@ -83,7 +83,7 @@ function Devis({ setSubmissionStatus, type, setType, initialReader, setInitialRe
                 </li>
             </ul>
             <div className="flex items-center justify-center">
-                <button  className="p-2 md:p-4 bg-brun-contrast rounded-full hover:bg-beige-main hover:text-grey-main transition ease-in-out duration:300" type="submit">Soumettez votre projet</button>
+                <button  className="p-2 md:p-4 bg-brun-contrast rounded-full hover:bg-brun-main hover:text-beige transition ease-in-out duration:300" type="submit">Soumettez votre projet</button>
             </div>
         </form>
     )

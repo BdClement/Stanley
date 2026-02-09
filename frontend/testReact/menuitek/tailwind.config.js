@@ -6,15 +6,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        // A retirer plus tard
-        'beige-main': '#634933ff',// texte brun
-        // 'beige-main': '#6A5543',
-        'grey-main': '#e6ccb2',// Fond beige
-        'grey-contrast': '#495057',
-        'grey-contrast-xxl': '#F3EFEA',
-        // New colors
-        'brun-main': '#634933ff',// brun principal
-        'brun-dark': '#2a1b0dff',// brun très foncé 
+        'brun-main': '#634933ff',// Brun principal
+        'brun-dark': '#2a1b0dff',// Brun très foncé 
         'brun-contrast': '#A38760',// Brun plus clair
         'beige': '#e6ccb2',// Fond beige clair
         'beige-contrast': '#F3EFEA',// beige plus clair pour contrast
@@ -56,11 +49,3 @@ module.exports = {
   },
   plugins: [],
 }
-// 3 Couleurs : Fond1/Fond2 (legers contraste) / text / Accent(hover, boutons)
-
-      // 'beige-main': '#e6ccb2',
-        // 'beige-contrast': '#f3e9dcff',
-        // 'grey-main': '#212529',
-        // 'grey-contrast': '#495057',
-        // 'grey-contrast-xxl': '#d7dce6ff',
-        // 'brun-contrast': '#9d6b53',

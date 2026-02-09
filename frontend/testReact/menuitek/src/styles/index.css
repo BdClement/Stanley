@@ -10,9 +10,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  @apply bg-grey-main;
-  @apply text-beige-main;
-  /* @apply font-comforta; */
+  @apply bg-beige;
+  @apply text-brun-main;
 }
 
 code {

@@ -21,6 +21,3 @@ function Legal() {
 }
 
 export default Legal;
-
-//Ancien effet de souligement 
-//relative after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-full after:h-[1.5px] after:opacity-0 after:bg-grey-main hover:after:opacity-1 hover:after:animate-fade-in
