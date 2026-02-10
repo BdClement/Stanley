@@ -171,7 +171,7 @@ export const fenetres = {
                 // eslint-disable-next-line no-multi-str
                 infos: "Disponible dans une palette de couleurs et de finitions.\
                 Différentes options et accessoires sont également disponibles (grilles de ventilation, poignées, croisillons…).",
-                fiche: "fiche a ajouter",
+                fiche: "/pdfs/FicheProduits/FenetresPVC/Accordeon.pdf",
                 logo: Aluplast,
                 prix: "Chaque projet étant unique, le prix est établi sur devis"
             },
@@ -282,7 +282,7 @@ export const fenetres = {
                     "Uw 1,2 pour Ug = 0,6"
                 ],
                 infos: "Disponible avec un seuil encastré ou prolongé. Laquage disponible dans les teintes du nuancier RAL ou dans la couleur de votre choix sur indication du code couleur.",
-                fiche: "/pdfs/FicheProduits/FenetresAlu/superial.pdf",
+                fiche: "/pdfs/FicheProduits/FenetresAlu/Panorama.pdf",
                 logo: Aliplast,
                 prix: "Chaque projet étant unique, le prix est établi sur devis"
             },

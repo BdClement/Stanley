@@ -83,7 +83,7 @@ export const portes = {
                 // eslint-disable-next-line no-multi-str
                 presentation: "Cette solution économique allie de bonnes performances thermiques à un design attrayant. Elle offre un excellent rapport qualité-prix, un large choix de modèles et une esthétique parfaitement assortie aux fenêtres PVC. Idéale si vous recherchez un produit efficace et abordable, tout en conservant une parfaite harmonie entre fenêtres et portes.",
                 caracteristiques: [
-                    "Pas de caractéristiques",
+                    
                 ],
                 infos: "40 versions disponibles. Disponible dans les systèmes Ideal 4000 et Ideal 7000.",
                 fiche: null,
