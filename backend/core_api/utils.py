@@ -23,6 +23,6 @@ def send_email(data_received):
 
 def get_client(data):
     if data.get("company_name"):
-        return data.get("company_name")
+        return data.get("company_name") + " (professionnel)"
     else:
         return data.get("first_name") + " " + data.get("last_name")

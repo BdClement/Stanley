@@ -1,3 +1,4 @@
+import re
 from rest_framework import serializers
 from phonenumber_field.serializerfields import PhoneNumberField
 
@@ -13,15 +14,28 @@ class QuoteRequestSerializer(serializers.Serializer):
 
     # Validation
     def validate(self, data):
-        first = data.get("first_name", "").strip()
-        last = data.get("last_name", "").strip()
-        company = data.get("company_name", "").strip()
+        for field in ["first_name", "last_name", "company_name"]:
+            if data.get(field):
+                data[field] = data[field].strip()
+        
+        first = data.get("first_name", None)
+        last = data.get("last_name", None)
+        company = data.get("company_name", None)
 
-        # A faire dans UX/UI faire un choix et obtenir des fields correpsondant
         if not company and not (first and last):
             raise serializers.ValidationError("You must inform a complete name (last name + first name), or a company name.")
         return data
     
+    def validate_first_name(self, value):
+        if re.search(r"\d", value):
+            raise serializers.ValidationError("The fisrt name must not contains number")
+        return value
+    
+    def validate_last_name(self, value):
+        if re.search(r"\d", value):
+            raise serializers.ValidationError("The last name must not contains number")
+        return value
+    
 # validation a ajouter:
-    # Pas de nombre pour last_name,first_name
+    # pass
     

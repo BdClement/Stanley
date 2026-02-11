@@ -1,6 +1,6 @@
 from django.urls import reverse
 from rest_framework.test import APITestCase
-from .serializer import QuoteRequestSerializer
+from ..serializer import QuoteRequestSerializer
 
 class TestQuoteRequestSerializer(APITestCase):
 
@@ -26,7 +26,7 @@ class TestQuoteRequestSerializer(APITestCase):
         company_data = self.valid_data.copy()
         company_data.pop("last_name", "first_name")
         company_data["company_name"] = "Menuitek"
-        serializer = QuoteRequestSerializer(data=self.valid_data)
+        serializer = QuoteRequestSerializer(data=company_data)
         self.assertEqual(serializer.is_valid(), True)
 
     

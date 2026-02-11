@@ -4,16 +4,41 @@ import { getEmailValidation, getNameValidation, getNumberValidation } from "./va
 function Devis({ setSubmissionStatus, type, setType, initialReader, setInitialReader }) {
     const {register, handleSubmit, formState: { errors },} = useForm();
 
-    const onSubmit = (data) => {
+    const onSubmit = async (data) => {
         console.log('Formulaire soumis', data);
+        setInitialReader(false);
+        const payload = {
+            last_name: type === 'particulier' ? data.name : null,
+            first_name: type === 'particulier' ? data.first_name : null,
+            company_name: type === 'pro' ? data.company : null,
+            email_address: data.email,
+            phone_number: data.tel,
+            quote_request: data.project,
+        }
         try {
-            setInitialReader(false);
             //Appel API a faire
+            console.log('Avant appel API')
+            const response = await fetch('http://127.0.0.1:8000/api/quote_request/', 
+                {
+                    method: 'POST',
+                    headers: {
+                        "Content-Type": 'application/json',
+                    },
+                    body: JSON.stringify(payload),
+                });
+                if (!response.ok) {
+                    const errorData = await response.json();
+                    console.error("Erreur backend :", errorData);
+                    throw new Error("Erreur API");
+                }
+            console.log('Formulaire envoyé au backend : ', response);
             setSubmissionStatus('success');
             // setSubmissionStatus('error');
         } catch (error) {
+            console.log("Erreur soumission devis :", error);
             setSubmissionStatus('error');
         }
+        console.log('Sortie de onSumbit formulaire')
     };
     
     return (
@@ -31,7 +56,7 @@ function Devis({ setSubmissionStatus, type, setType, initialReader, setInitialRe
                 <>
                     <li className="flex flex-col lg:gap-2 2xl:gap-4">
                         <label htmlFor="name">Nom :</label>
-                        <input required type="text" id="name" name="user_name" className={`bg-beige-contrast text-beige rounded focus:bg-white ${errors.name ? 'border border-red-500' : 'border border-stone-300'}`}
+                        <input required type="text" id="name" name="user_name" className={`bg-beige-contrast rounded focus:bg-white ${errors.name ? 'border border-red-500' : 'border border-stone-300'}`}
                             {...register("name", getNameValidation())}></input>
                         {errors.name && (
                             <span className="text-red-500 text-sm">{errors.name.message}</span>
@@ -39,7 +64,7 @@ function Devis({ setSubmissionStatus, type, setType, initialReader, setInitialRe
                     </li>
                     <li className="flex flex-col lg:gap-2 2xl:gap-4">
                         <label htmlFor="first_name">Prénom :</label>
-                        <input required type="text" id="first_name" name="user_name" className={`bg-beige-contrast text-beige rounded focus:bg-white ${errors.first_name ? 'border border-red-500' : 'border border-stone-300'}`}
+                        <input required type="text" id="first_name" name="user_name" className={`bg-beige-contrast rounded focus:bg-white ${errors.first_name ? 'border border-red-500' : 'border border-stone-300'}`}
                             {...register("first_name", getNameValidation())}></input>
                         {errors.first_name && (
                             <span className="text-red-500 text-sm">{errors.first_name.message}</span>
@@ -50,7 +75,7 @@ function Devis({ setSubmissionStatus, type, setType, initialReader, setInitialRe
                 { type === 'pro' && (
                     <li className="flex flex-col lg:gap-2 2xl:gap-4">
                         <label htmlFor="company">Societe :</label>
-                        <input required type="text" id="company" name="user_society" className={`bg-beige-contrast text-beige rounded focus:bg-white ${errors.company ? 'border border-red-500' : 'border border-stone-300'}`}
+                        <input required type="text" id="company" name="user_society" className={`bg-beige-contrast rounded focus:bg-white ${errors.company ? 'border border-red-500' : 'border border-stone-300'}`}
                             {...register("company", { required: "Le nom de la société est requis." })}></input>
                         {errors.company && (
                             <span className="text-red-500 text-sm">{errors.company.message}</span>
@@ -59,7 +84,7 @@ function Devis({ setSubmissionStatus, type, setType, initialReader, setInitialRe
                 )}
                 <li className="flex flex-col lg:gap-2 2xl:gap-4">
                     <label htmlFor="tel"> Numero de téléphone :</label>
-                    <input required type="tel" id="tel" name="tel" className={`bg-beige-contrast text-beige rounded focus:bg-white ${errors.tel ? 'border border-red-500' : 'border border-stone-300'}`}
+                    <input required type="tel" id="tel" name="tel" className={`bg-beige-contrast rounded focus:bg-white ${errors.tel ? 'border border-red-500' : 'border border-stone-300'}`}
                         {...register("tel", getNumberValidation())}></input>
                     {errors.tel && (
                         <span className="text-red-500 text-sm">{errors.tel.message}</span>
@@ -67,7 +92,7 @@ function Devis({ setSubmissionStatus, type, setType, initialReader, setInitialRe
                 </li>
                 <li className="flex flex-col lg:gap-2 2xl:gap-4">
                     <label htmlFor="email">E-mail :</label>
-                    <input required type="email" id="email" name="email" className={`bg-beige-contrast text-beige rounded focus:bg-white ${errors.email ? 'border border-red-500' : 'border border-stone-300'}`}
+                    <input required type="email" id="email" name="email" className={`bg-beige-contrast rounded focus:bg-white ${errors.email ? 'border border-red-500' : 'border border-stone-300'}`}
                         {...register("email", getEmailValidation())}></input>
                     {errors.email && (
                         <span className="text-red-500 text-sm">{errors.email.message}</span>
@@ -75,7 +100,7 @@ function Devis({ setSubmissionStatus, type, setType, initialReader, setInitialRe
                 </li>
                 <li className="flex flex-col lg:gap-2 2xl:gap-4">
                     <label htmlFor="project">Décrivez-nous vos besoins ou vos envies :</label>
-                    <textarea required id="project" name="user_project" cols="50" rows="10" className={`bg-beige-contrast text-beige rounded focus:bg-white ${errors.project ? 'border border-red-500' : 'border border-stone-300'}`}
+                    <textarea required id="project" name="user_project" cols="50" rows="10" className={`bg-beige-contrast rounded focus:bg-white ${errors.project ? 'border border-red-500' : 'border border-stone-300'}`}
                         {...register("project", { required: "Ce champs est requis." })}></textarea>
                     {errors.project && (
                         <span className="text-red-500 text-sm">{errors.project.message}</span>

@@ -8,7 +8,7 @@ function Inspirtations() {
               <div className="h-2 w-2 md:h-3 md:w-3 2xl:h-4 2xl:w-4 rounded-full bg-brun-main/80 animate-bounce" />
             </div>
 
-            <p className="text-center text-lg md:text-xl">On dirait que votre pages <strong>Inspirations</strong> est en cours de construction</p>
+            <p className="text-center text-lg md:text-xl">On dirait que votre page <strong>Inspirations</strong> est en cours de construction</p>
         </div>
     )
 }

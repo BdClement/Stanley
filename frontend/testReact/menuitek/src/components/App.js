@@ -58,8 +58,10 @@ export default App;
 // A faire en presentiel: 
 
 // restant :
-// PDF Accordeon enlever la date et ajouter
-// PDF panorama enlever la date et ajouter
+// Caractéristique nécessaire pour ""
+// Ajouter une limite de requete de formulaire pour ne pas spam d'email
+// créer un domain de mail sur Mailgun pour la prod
+// Sotcker la donnée mail avant de l'envoyer (si l'envoi echoue perte de donnée actuellement)
 
 // Post Validation site :
   // -Brancher back-end
@@ -76,3 +78,4 @@ export default App;
   // Cut le catalogues des volets roulants avec Apercu de mac
   // Faire une page d'attente pour Inspirations
   // Couleur (Stan en reflexion)
+  // PDF Accordeon/Panorama enlever la date et ajouter
